@@ -5,17 +5,17 @@ mainSections:
 
 # titleSeparator: '|' # Title separator. Default to -.
 
-description: An extreme fast, responsive and feature-rich blog theme for Hugo
-keywords: Hugo, Bootstrap, Blog Theme
+description: My tech blog
+keywords: Tech, Tech toturials, Python
 # images:
 #   - site-feature-image.jpg
 
 # metaRobots: noindex, nofollow # Default value for Meta Tag robots
 # metaRobots:  # disable Meta Tag robots
 
-# logo: images/logo.png # Logo image. Default to images/logo.webp.
+logo: images/avatar.png # Logo image. Default to images/logo.webp.
 # logo: false # Disable Logo
-brand: HBS
+brand: MaybeParsa
 
 palette: purple # Default palette. Optional. You'll need to clear the browser cache after modifying this.
 # Available palettes. Default to ALL. Empty array means disable.
@@ -248,7 +248,7 @@ contact:
     # siteKey: ""
 
 repo:
-  url: https://github.com/razonyang/hugo-theme-bootstrap-skeleton
+  url: https://github.com/parsamrrelax
   branch: main
   # subPath: exampleSite
   # dateFormat: 02/01/2006, 15:04:05 PM
@@ -257,8 +257,7 @@ topAppBar:
   # See https://hbs.razonyang.com/v1/en/docs/widgets/social-links/.
   social:
     github: razonyang/hugo-theme-bootstrap
-    patreon: razonyang
-    paypal: razonyang
+
 
 #docs:
   # nav:
