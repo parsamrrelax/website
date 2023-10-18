@@ -6,7 +6,7 @@ mainSections:
 # titleSeparator: '|' # Title separator. Default to -.
 
 description: My tech blog
-keywords: Tech, Tech toturials, Python
+keywords: Tech, Tech toturials, Python, Flutter, Flask, Rust, Hugo, Wordpress
 # images:
 #   - site-feature-image.jpg
 
@@ -203,12 +203,6 @@ search:
   # indexName: ""
   # debug: true
 
-reward:
-  alipay: images/reward/alipay.png
-  wechat: images/reward/wechat.png
-  #paypal: images/reward/paypal.png
-  #patreon: images/reward/patreon.png
-  #liberapay: images/reward/liberapay.png
 
 #share:
   #addThis:  # AddThis pubid.
