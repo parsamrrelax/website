@@ -16026,6 +16026,16 @@ table {
   background: var(--hbs-scrollbar-corner-bg);
 }
 
+@font-face {
+  font-family: "Work Sans";
+  src: url("/fonts/WorkSans-VariableFont_wght.ttf") format("truetype");
+}
+
+body {
+  font-family: Work Sans, sans-serif;
+  font-weight: 400;
+}
+
 /*!purgecss end ignore*/
 .accordion {
   --hbs-accordion-active-color: var(--hbs-primary);
