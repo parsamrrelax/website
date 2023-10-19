@@ -17,7 +17,7 @@ logo: images/avatar.png # Logo image. Default to images/logo.webp.
 # logo: false # Disable Logo
 brand: MaybeParsa
 
-palette: purple # Default palette. Optional. You'll need to clear the browser cache after modifying this.
+palette: yellow # Default palette. Optional. You'll need to clear the browser cache after modifying this.
 # Available palettes. Default to ALL. Empty array means disable.
 # palettes:
 #  - blue
@@ -52,7 +52,7 @@ googleAdsense:
 # socialShare: false # disable social network sharing
 # searchBar: false # disable search-bar
 
-# poweredBy: false # Whether to show powered by.
+poweredBy: false # Whether to show powered by.
 
 # readingTime: false # Whether to display the reading time.
 # postDate: false # Whether to display the post date in the post meta section.
@@ -125,6 +125,7 @@ archive:
   # dateFormat: 01-02 # Archive date format. Default to Jan 2.
 
 analytics:
+  googleAnalytics = "G-C37YK844BP"
   # baidu:  # Baidu Analytics
 
 # Site verification
