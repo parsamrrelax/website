@@ -14,7 +14,7 @@ paginate: 10
 enableRobotsTXT: true
 enableEmoji: true
 pygmentsUseClasses: true
-# googleAnalytics: UA-123-45
+googleAnalytics: G-C37YK844BP
 # disqusShortname: yourdiscussshortname
 
 blackfriday:
