@@ -38,6 +38,7 @@
       "select",
       "small",
       "span",
+      "strong",
       "textarea",
       "title",
       "ul"
@@ -51,7 +52,6 @@
       "accordion-item",
       "action",
       "action-copy-url",
-      "action-copyright",
       "action-go-back",
       "action-icon",
       "action-reload-page",
@@ -165,7 +165,6 @@
       "fa-chevron-circle-down",
       "fa-chevron-down",
       "fa-columns",
-      "fa-copyright",
       "fa-ellipsis-h",
       "fa-envelope",
       "fa-exclamation-triangle",
@@ -319,6 +318,8 @@
       "post-meta",
       "post-nav",
       "post-navs",
+      "post-next",
+      "post-next-icon",
       "post-panel",
       "post-panel-wrapper",
       "post-prev",
@@ -482,6 +483,8 @@
       "profile-header",
       "recent-posts",
       "recent-posts-tab",
+      "reddit",
+      "revanced-apks-for-youtube-reddit-and-xtwitter",
       "revanced-apps",
       "searchForm",
       "searchResults",
@@ -505,7 +508,9 @@
       "templateNoResults",
       "templateResult",
       "templateStat",
-      "which-apps-are-supported"
+      "which-apps-are-supported",
+      "xtwitter",
+      "youtube"
     ]
   }
 }
