@@ -24,6 +24,8 @@ images: []
 
 # Revanced Apks for Youtube, Reddit and X(Twitter)
 
+I have explained what Revanced apps are in [this](https://maybeparsa.top/posts/revanced/) post. For better understanding first checkout that post.
+
 ## Reddit
 
 Download link : [github](https://github.com/parsamrrelax/revancedapks/releases/download/Reddit/reddit-revanced_v2023.41.1.apk)
