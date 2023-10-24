@@ -16,6 +16,8 @@ tags:
   - Revanced
   - Android
 images: []
+keywords: 
+  - Revanced
 ---
 
 # Revanced Apps
