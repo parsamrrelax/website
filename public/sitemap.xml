@@ -2,52 +2,112 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://hbs-skeleton.netlify.app/tags/android/</loc>
+    <loc>/tags/android/</loc>
+    <lastmod>2023-12-19T11:49:41+03:30</lastmod>
+  </url><url>
+    <loc>/categories/apks/</loc>
+    <lastmod>2023-12-19T11:49:41+03:30</lastmod>
+  </url><url>
+    <loc>/categories/</loc>
+    <lastmod>2023-12-19T11:49:41+03:30</lastmod>
+  </url><url>
+    <loc>/</loc>
+    <lastmod>2023-12-19T11:49:41+03:30</lastmod>
+  </url><url>
+    <loc>/posts/</loc>
+    <lastmod>2023-12-19T11:49:41+03:30</lastmod>
+  </url><url>
+    <loc>/tags/reddit/</loc>
+    <lastmod>2023-12-19T11:49:41+03:30</lastmod>
+  </url><url>
+    <loc>/tags/revanced/</loc>
+    <lastmod>2023-12-19T11:49:41+03:30</lastmod>
+  </url><url>
+    <loc>/categories/revanced/</loc>
+    <lastmod>2023-12-19T11:49:41+03:30</lastmod>
+  </url><url>
+    <loc>/posts/revancedfiles1/</loc>
+    <lastmod>2023-12-19T11:49:41+03:30</lastmod>
+  </url><url>
+    <loc>/tags/</loc>
+    <lastmod>2023-12-19T11:49:41+03:30</lastmod>
+  </url><url>
+    <loc>/tags/xtwitter/</loc>
+    <lastmod>2023-12-19T11:49:41+03:30</lastmod>
+  </url><url>
+    <loc>/tags/youtube/</loc>
+    <lastmod>2023-12-19T11:49:41+03:30</lastmod>
+  </url><url>
+    <loc>/posts/videoeditingproblem2/</loc>
+    <lastmod>2023-10-31T22:44:26+03:30</lastmod>
+  </url><url>
+    <loc>/tags/mac/</loc>
+    <lastmod>2023-10-31T22:44:26+03:30</lastmod>
+  </url><url>
+    <loc>/categories/mac/</loc>
+    <lastmod>2023-10-31T22:44:26+03:30</lastmod>
+  </url><url>
+    <loc>/tags/problems/</loc>
+    <lastmod>2023-10-31T22:44:26+03:30</lastmod>
+  </url><url>
+    <loc>/categories/problems/</loc>
+    <lastmod>2023-10-31T22:44:26+03:30</lastmod>
+  </url><url>
+    <loc>/tags/video-editors/</loc>
+    <lastmod>2023-10-31T22:44:26+03:30</lastmod>
+  </url><url>
+    <loc>/categories/video-editors/</loc>
+    <lastmod>2023-10-31T22:44:26+03:30</lastmod>
+  </url><url>
+    <loc>/tags/windows/</loc>
+    <lastmod>2023-10-31T22:44:26+03:30</lastmod>
+  </url><url>
+    <loc>/categories/windows/</loc>
+    <lastmod>2023-10-31T22:44:26+03:30</lastmod>
+  </url><url>
+    <loc>/posts/videoeditingproblem/</loc>
+    <lastmod>2023-10-31T20:49:09+03:30</lastmod>
+  </url><url>
+    <loc>/posts/revancedytmusic/</loc>
+    <lastmod>2023-10-24T15:05:25+03:30</lastmod>
+  </url><url>
+    <loc>/tags/mod/</loc>
+    <lastmod>2023-10-23T20:28:30+03:30</lastmod>
+  </url><url>
+    <loc>/tags/spotify/</loc>
+    <lastmod>2023-10-23T20:28:30+03:30</lastmod>
+  </url><url>
+    <loc>/posts/spotify/</loc>
+    <lastmod>2023-10-23T20:28:30+03:30</lastmod>
+  </url><url>
+    <loc>/posts/revancedfiles/</loc>
+    <lastmod>2023-10-21T18:25:10+03:30</lastmod>
+  </url><url>
+    <loc>/posts/revanced/</loc>
     <lastmod>2023-10-19T12:24:39+03:30</lastmod>
   </url><url>
-    <loc>https://hbs-skeleton.netlify.app/categories/</loc>
-    <lastmod>2023-10-19T12:24:39+03:30</lastmod>
+    <loc>/docs/</loc>
   </url><url>
-    <loc>https://hbs-skeleton.netlify.app/</loc>
-    <lastmod>2023-10-19T12:24:39+03:30</lastmod>
+    <loc>/news/</loc>
   </url><url>
-    <loc>https://hbs-skeleton.netlify.app/posts/</loc>
-    <lastmod>2023-10-19T12:24:39+03:30</lastmod>
+    <loc>/archives/2022/</loc>
   </url><url>
-    <loc>https://hbs-skeleton.netlify.app/tags/revanced/</loc>
-    <lastmod>2023-10-19T12:24:39+03:30</lastmod>
+    <loc>/about/</loc>
   </url><url>
-    <loc>https://hbs-skeleton.netlify.app/categories/revanced/</loc>
-    <lastmod>2023-10-19T12:24:39+03:30</lastmod>
+    <loc>/archives/</loc>
   </url><url>
-    <loc>https://hbs-skeleton.netlify.app/posts/revanced/</loc>
-    <lastmod>2023-10-19T12:24:39+03:30</lastmod>
+    <loc>/authors/</loc>
   </url><url>
-    <loc>https://hbs-skeleton.netlify.app/tags/</loc>
-    <lastmod>2023-10-19T12:24:39+03:30</lastmod>
+    <loc>/blog/</loc>
   </url><url>
-    <loc>https://hbs-skeleton.netlify.app/docs/</loc>
+    <loc>/contact/</loc>
   </url><url>
-    <loc>https://hbs-skeleton.netlify.app/news/</loc>
+    <loc>/offline/</loc>
   </url><url>
-    <loc>https://hbs-skeleton.netlify.app/archives/2022/</loc>
+    <loc>/authors/maybeparsa/</loc>
   </url><url>
-    <loc>https://hbs-skeleton.netlify.app/about/</loc>
+    <loc>/search/</loc>
   </url><url>
-    <loc>https://hbs-skeleton.netlify.app/archives/</loc>
-  </url><url>
-    <loc>https://hbs-skeleton.netlify.app/authors/</loc>
-  </url><url>
-    <loc>https://hbs-skeleton.netlify.app/blog/</loc>
-  </url><url>
-    <loc>https://hbs-skeleton.netlify.app/contact/</loc>
-  </url><url>
-    <loc>https://hbs-skeleton.netlify.app/offline/</loc>
-  </url><url>
-    <loc>https://hbs-skeleton.netlify.app/authors/maybeparsa/</loc>
-  </url><url>
-    <loc>https://hbs-skeleton.netlify.app/search/</loc>
-  </url><url>
-    <loc>https://hbs-skeleton.netlify.app/series/</loc>
+    <loc>/series/</loc>
   </url>
 </urlset>

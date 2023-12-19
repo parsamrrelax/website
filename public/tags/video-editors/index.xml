@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Video Editors on Maybeparsa | Tech Content</title>
+    <link>/tags/video-editors/</link>
+    <description>Recent content in Video Editors on Maybeparsa | Tech Content</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>
+</copyright>
+    <lastBuildDate>Tue, 31 Oct 2023 22:44:26 +0330</lastBuildDate><atom:link href="/tags/video-editors/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CFast cards not working in Windows</title>
+      <link>/posts/videoeditingproblem2/</link>
+      <pubDate>Tue, 31 Oct 2023 22:44:26 +0330</pubDate>
+      
+      <guid>/posts/videoeditingproblem2/</guid>
+      <description><![CDATA[CF cards only working on MacOS If you&rsquo;re a video editor working with footage from Alexa Minis or Alexa LFs, you have probably heard this sentence before. CF cards only work on Mac. This is simply not true and we&rsquo;ll go through what is the problem here.
+Connection Ports These CF drives are extremely fast drives and therefore require require fast ports to be connected to. Arri suggest using Thunderbolt 3 at least for CFast 2.]]></description><enclosure url="/posts/videoeditingproblem2/featured.jpg" length="132708" type="image/jpeg" />
+    </item>
+    
+    <item>
+      <title>Video edtiors problems with footages on external hard drives</title>
+      <link>/posts/videoeditingproblem/</link>
+      <pubDate>Tue, 31 Oct 2023 20:49:09 +0330</pubDate>
+      
+      <guid>/posts/videoeditingproblem/</guid>
+      <description><![CDATA[External drives are not recogonized either on Windows or MacOS To better understand why this problem happens we must first understand some basic terms.
+File systems: File systems are methods that data is stored and retrieved on operating systems. Now this is not a clear explanation if you&rsquo;re not familiar with computing and not tech savvy in general. So let&rsquo;s explain it better. Basically every operating system (Windows, MacOS, Linux, &hellip;) chooses a variety of file systems to support.]]></description><enclosure url="/posts/videoeditingproblem/featured.jpg" length="120162" type="image/jpeg" />
+    </item>
+    
+  </channel>
+</rss>
+

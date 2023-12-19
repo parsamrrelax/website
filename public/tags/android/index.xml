@@ -1,20 +1,64 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Android on maybeparsa</title>
-    <link>https://hbs-skeleton.netlify.app/tags/android/</link>
-    <description>Recent content in Android on maybeparsa</description>
+    <title>Android on Maybeparsa | Tech Content</title>
+    <link>/tags/android/</link>
+    <description>Recent content in Android on Maybeparsa | Tech Content</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <copyright>Copyright © 2023-2023 Parsa. All Rights Reserved
+    <copyright>
 </copyright>
-    <lastBuildDate>Thu, 19 Oct 2023 12:24:39 +0330</lastBuildDate><atom:link href="https://hbs-skeleton.netlify.app/tags/android/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 19 Dec 2023 11:49:41 +0330</lastBuildDate><atom:link href="/tags/android/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Revanced Apks (Youtube, X(Twitter), Reddit) 19 December 2023</title>
+      <link>/posts/revancedfiles1/</link>
+      <pubDate>Tue, 19 Dec 2023 11:49:41 +0330</pubDate>
+      
+      <guid>/posts/revancedfiles1/</guid>
+      <description><![CDATA[Revanced Apks for Youtube, Reddit and X(Twitter) I have explained what Revanced apps are in this post. For better understanding first checkout that post.
+Reddit Download link : github
+Apk version: 2023.50.1
+Revanced features:
+Disable screenshot popup Hide ads Sanitize sharing links Unlock premium Reddit icons X(Twitter) Download link : github
+Apk version: 10.20.0
+Revanced features:
+Dynamic color Hide ads Hide recommended users Youtube Download link : github
+Notes: In order to sign in to your google account you must download Vanced MicroG.]]></description>
+    </item>
+    
+    <item>
+      <title>Revanced Youtube Music, 24 October 2023</title>
+      <link>/posts/revancedytmusic/</link>
+      <pubDate>Tue, 24 Oct 2023 15:05:25 +0330</pubDate>
+      
+      <guid>/posts/revancedytmusic/</guid>
+      <description><![CDATA[Revanced Version of Youtube Music I have explained what Revanced apps are in this post. For better understanding first checkout that post.
+Mainly due to google killing google podcasts app, I&rsquo;ll be switching to YouTube Music for podcast listening. Plus with revanced version of YT music, this is another platform for listening to songs for free. Note that like Youtube Revanced this supports VancedMicroG. I&rsquo;ll link a trusted version of that as well.]]></description>
+    </item>
+    
+    <item>
+      <title>Revanced Apks (Youtube, X(Twitter), Reddit) 21 October 2023</title>
+      <link>/posts/revancedfiles/</link>
+      <pubDate>Sat, 21 Oct 2023 18:25:10 +0330</pubDate>
+      
+      <guid>/posts/revancedfiles/</guid>
+      <description><![CDATA[Revanced Apks for Youtube, Reddit and X(Twitter) I have explained what Revanced apps are in this post. For better understanding first checkout that post.
+Reddit Download link : github
+Apk version: 2023.41.1
+Revanced features:
+Disable screenshot popup Hide ads Sanitize sharing links Unlock premium Reddit icons X(Twitter) Download link : github
+Apk version: 10.12.0
+Revanced features:
+Dynamic color Hide ads Hide recommended users Youtube Download link : github
+Notes: In order to sign in to your google account you must download Vanced MicroG.]]></description>
+    </item>
+    
     <item>
       <title>Revanced</title>
-      <link>https://hbs-skeleton.netlify.app/posts/revanced/</link>
+      <link>/posts/revanced/</link>
       <pubDate>Thu, 19 Oct 2023 12:24:39 +0330</pubDate>
       
-      <guid>https://hbs-skeleton.netlify.app/posts/revanced/</guid>
+      <guid>/posts/revanced/</guid>
       <description><![CDATA[Revanced Apps To be simple about it revanced apps are apps that have been modified in a way to add certain functionalities. For example, a revanced youtube, is a youtube app with most of the youtube premium features for free. Meaning no ads, content playing while not on the app, window in window playing and more features that the youtube premium offers. There are many apps that have revanced versions.]]></description>
     </item>
     
