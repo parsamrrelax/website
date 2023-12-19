@@ -2,7 +2,7 @@
 # type: docs 
 title: Revanced Apks (Youtube, X(Twitter), Reddit) 19 December 2023
 date: 2023-12-19T11:49:41+03:30
-featured: false
+featured: true
 draft: false
 comment: true
 toc: true
