@@ -8,7 +8,18 @@
     <language>en</language>
     <copyright>
 </copyright>
-    <lastBuildDate>Tue, 19 Dec 2023 11:49:41 +0330</lastBuildDate><atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 20 Jan 2024 01:58:21 +0330</lastBuildDate><atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Huawei Laptops not playing sound from speakers on Linux</title>
+      <link>/posts/fix_huawei_speaker_linux/</link>
+      <pubDate>Sat, 20 Jan 2024 01:58:21 +0330</pubDate>
+      
+      <guid>/posts/fix_huawei_speaker_linux/</guid>
+      <description><![CDATA[No audio from device when switching to Linux on Huawei laptops Huawei laptops actually have many problems with linux. From fingerprint of the device not working to MANY audio problems. Fortunately this one has a fix.
+Solution:
+Note : This fix is tested on hauwei b3-520 laptop but will probably work on all huawei laptops. The solution is to completely switch from Pipewire to Pulseaudio. So my distro is arch-based so I did yay -R &quot;anything related to pipewire and after I removed all those packages, I installed pulseaudio alternative to everything I removed.]]></description><enclosure url="/posts/fix_huawei_speaker_linux/featured.jpg" length="120403" type="image/jpeg" />
+    </item>
+    
     <item>
       <title>Revanced Apks (Youtube, X(Twitter), Reddit) 19 December 2023</title>
       <link>/posts/revancedfiles1/</link>
@@ -23,7 +34,7 @@ Disable screenshot popup Hide ads Sanitize sharing links Unlock premium Reddit i
 Apk version: 10.20.0
 Revanced features:
 Dynamic color Hide ads Hide recommended users Youtube Download link : github
-Notes: In order to sign in to your google account you must download Vanced MicroG.]]></description>
+Notes: In order to sign in to your google account you must download Vanced MicroG.]]></description><enclosure url="/posts/revancedfiles1/featured.jpg" length="199313" type="image/jpeg" />
     </item>
     
     <item>

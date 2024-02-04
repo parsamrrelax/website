@@ -2,19 +2,34 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>/categories/</loc>
+    <lastmod>2024-01-20T01:58:21+03:30</lastmod>
+  </url><url>
+    <loc>/posts/fix_huawei_speaker_linux/</loc>
+    <lastmod>2024-01-20T01:58:21+03:30</lastmod>
+  </url><url>
+    <loc>/tags/linux/</loc>
+    <lastmod>2024-01-20T01:58:21+03:30</lastmod>
+  </url><url>
+    <loc>/categories/linux/</loc>
+    <lastmod>2024-01-20T01:58:21+03:30</lastmod>
+  </url><url>
+    <loc>/</loc>
+    <lastmod>2024-01-20T01:58:21+03:30</lastmod>
+  </url><url>
+    <loc>/posts/</loc>
+    <lastmod>2024-01-20T01:58:21+03:30</lastmod>
+  </url><url>
+    <loc>/tags/problems/</loc>
+    <lastmod>2024-01-20T01:58:21+03:30</lastmod>
+  </url><url>
+    <loc>/tags/</loc>
+    <lastmod>2024-01-20T01:58:21+03:30</lastmod>
+  </url><url>
     <loc>/tags/android/</loc>
     <lastmod>2023-12-19T11:49:41+03:30</lastmod>
   </url><url>
     <loc>/categories/apks/</loc>
-    <lastmod>2023-12-19T11:49:41+03:30</lastmod>
-  </url><url>
-    <loc>/categories/</loc>
-    <lastmod>2023-12-19T11:49:41+03:30</lastmod>
-  </url><url>
-    <loc>/</loc>
-    <lastmod>2023-12-19T11:49:41+03:30</lastmod>
-  </url><url>
-    <loc>/posts/</loc>
     <lastmod>2023-12-19T11:49:41+03:30</lastmod>
   </url><url>
     <loc>/tags/reddit/</loc>
@@ -27,9 +42,6 @@
     <lastmod>2023-12-19T11:49:41+03:30</lastmod>
   </url><url>
     <loc>/posts/revancedfiles1/</loc>
-    <lastmod>2023-12-19T11:49:41+03:30</lastmod>
-  </url><url>
-    <loc>/tags/</loc>
     <lastmod>2023-12-19T11:49:41+03:30</lastmod>
   </url><url>
     <loc>/tags/xtwitter/</loc>
@@ -45,9 +57,6 @@
     <lastmod>2023-10-31T22:44:26+03:30</lastmod>
   </url><url>
     <loc>/categories/mac/</loc>
-    <lastmod>2023-10-31T22:44:26+03:30</lastmod>
-  </url><url>
-    <loc>/tags/problems/</loc>
     <lastmod>2023-10-31T22:44:26+03:30</lastmod>
   </url><url>
     <loc>/categories/problems/</loc>
