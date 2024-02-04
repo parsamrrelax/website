@@ -10,7 +10,7 @@ keywords: Tech, Tech toturials, Python, Flutter, Flask, Rust, Hugo, Wordpress
 # images:
 #   - site-feature-image.jpg
 
-# metaRobots: noindex, nofollow # Default value for Meta Tag robots
+metaRobots: index, follow # Default value for Meta Tag robots
 # metaRobots:  # disable Meta Tag robots
 
 logo: images/favicon.webp # Logo image. Default to images/logo.webp.

@@ -20,7 +20,7 @@
     {{- end }}
     <title>{{ .Permalink }}</title>
     <link rel="canonical" href="{{ .Permalink }}"/>
-    <meta name="robots" content="noindex">
+    <meta name="robots" content="index">
     <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
     <meta http-equiv="refresh" content="{{ cond $isHome `5` `0` }}; url={{ .Permalink }}"/>
   </head>
