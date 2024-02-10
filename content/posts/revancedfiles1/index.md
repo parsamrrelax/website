@@ -1,15 +1,14 @@
 ---
-# type: docs 
 title: Revanced Apks (Youtube, X(Twitter), Reddit) 19 December 2023
 date: 2023-12-19T11:49:41+03:30
-featured: true
+featured: false
 draft: false
 comment: true
 toc: true
 reward: false
 pinned: false
 carousel: false
-series:
+series: 
 categories:
   - Revanced
   - Apks
@@ -19,8 +18,8 @@ tags:
   - Youtube
   - Reddit
   - X(Twitter)
-images: []
-keywords: 
+images: 
+keywords:
   - Revanced
   - Youtube Revanced
   - Reddit Revanced

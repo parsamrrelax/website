@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>YoutubeMusic on Maybeparsa | Tech Content</title>
+    <link>/tags/youtubemusic/</link>
+    <description>Recent content in YoutubeMusic on Maybeparsa | Tech Content</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>
+</copyright>
+    <lastBuildDate>Sat, 10 Feb 2024 12:08:41 +0330</lastBuildDate><atom:link href="/tags/youtubemusic/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Revanced Apks (Youtube, X(Twitter), Reddit, Youtube Music) 10 Feb 2024</title>
+      <link>/posts/revancedfiles2/</link>
+      <pubDate>Sat, 10 Feb 2024 12:08:41 +0330</pubDate>
+      
+      <guid>/posts/revancedfiles2/</guid>
+      <description><![CDATA[Revanced Apks for Youtube, Reddit and X(Twitter) I have explained what Revanced apps are in this post. For better understanding first checkout that post.
+Reddit Download link : github
+Apk version: 2024.06.0
+Revanced features:
+Disable screenshot popup Hide ads Sanitize sharing links Unlock premium Reddit icons X(Twitter) Download link : github
+Apk version: 10.27.0
+Revanced features:
+Dynamic color Hide ads Hide recommended users Youtube Download link : github
+Notes: In order to sign in to your google account you must download Vanced MicroG.]]></description><enclosure url="/posts/revancedfiles2/featured.jpg" length="199313" type="image/jpeg" />
+    </item>
+    
+  </channel>
+</rss>
+
