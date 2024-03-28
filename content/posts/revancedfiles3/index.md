@@ -37,9 +37,9 @@ I have explained what Revanced apps are in [this](https://maybeparsa.top/posts/r
 
 ## X(Twitter)
 
-Download link : [github](https://github.com/parsamrrelax/revancedapks/releases/download/twitter10.33.0/x-revanced_v10.33.0-release.0-patches_v4.3.0.apk)
+Download link : [github](https://github.com/parsamrrelax/revancedapks/releases/download/twitter10.34.0/x-revanced_v10.34.0-release.0-patches_v4.4.0.apk)
 
-Apk version: 10.33.0
+Apk version: 10.34.0
 
 Revanced features:
 - Dynamic color
@@ -48,11 +48,10 @@ Revanced features:
 
 ## Youtube
 
-Download link : [github](https://github.com/parsamrrelax/revancedapks/releases/download/youtube19.04.37.hotfix/youtube-revanced_v19.04.37-patches_v4.3.0.apk)
+Download link : [github](https://github.com/parsamrrelax/revancedapks/releases/download/youtube19.09.37/auto-translate-revanced_v19.09.37-patches_v4.4.0.apk)
 
-Notes: In order to sign in to your google account you must download Vanced MicroG. This an opensource apk alternative to google services. Download it from [here](https://github.com/parsamrrelax/revancedapks/releases/download/Youtube/vanced-microG.apk) or get your own version from a contributer's github or make your own.
-
-Apk version: 19.04.37 Hot Fix
+Notes: In order to sign in to your google account you must download Vanced MicroG. This an opensource apk alternative to google services. Download it from [here](https://github.com/ReVanced/GmsCore/releases/download/v0.3.1.3.240913/app.revanced.android.gms-240913006-signed.apk) .
+Apk version: 19.09.37 
 
 Revanced features:
 - Alternative thumbnails
