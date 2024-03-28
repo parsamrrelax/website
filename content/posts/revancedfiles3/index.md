@@ -1,7 +1,7 @@
 ---
-title: Revanced Apks (Youtube, X(Twitter), Reddit, Youtube Music) 10 Feb 2024
-date: 2024-02-10T12:08:41+03:30
-featured: false
+title: Revanced Apks (Youtube, X(Twitter), Youtube Music) 28 Mar 2024
+date: 2024-03-28T13:10:53+03:30
+featured: true
 draft: false
 comment: true
 toc: true
@@ -16,43 +16,30 @@ tags:
   - Revanced
   - Android
   - Youtube
-  - Reddit
-  - X(Twitter)
   - YoutubeMusic
+  - twitter
+  - Mod
 images: 
 keywords:
-  - Revanced
   - Youtube Revanced
-  - Reddit Revanced
-  - Twitter Revanced
-  - no ads youtube
-  - no ads reddit
-  - no ads twitter
   - Youtube Music Revanced
+  - Youtube Music
+  - Twitter Revanced
+  - no ads reddit
   - no ads youtube music
+  - no ads youtube
 ---
 
 # Revanced Apks for Youtube, Reddit and X(Twitter)
 
 I have explained what Revanced apps are in [this](https://maybeparsa.top/posts/revanced/) post. For better understanding first checkout that post.
 
-## Reddit
-
-Download link : [github](https://github.com/parsamrrelax/revancedapks/releases/download/reddit2024.06.0/reddit-revanced_v2024.06.0-patches_v4.2.0.apk)
-
-Apk version: 2024.06.0
-
-Revanced features:
-- Disable screenshot popup
-- Hide ads
-- Sanitize sharing links
-- Unlock premium Reddit icons
 
 ## X(Twitter)
 
-Download link : [github](https://github.com/parsamrrelax/revancedapks/releases/download/twitter10.27.0/x-revanced_v10.27.0-release.0-patches_v4.2.0.apk)
+Download link : [github](https://github.com/parsamrrelax/revancedapks/releases/download/twitter10.33.0/x-revanced_v10.33.0-release.0-patches_v4.3.0.apk)
 
-Apk version: 10.27.0
+Apk version: 10.33.0
 
 Revanced features:
 - Dynamic color
@@ -61,11 +48,11 @@ Revanced features:
 
 ## Youtube
 
-Download link : [github](https://github.com/parsamrrelax/revancedapks/releases/download/youtube19.04.37/youtube-revanced_v19.04.37-patches_v4.2.0.apk)
+Download link : [github](https://github.com/parsamrrelax/revancedapks/releases/download/youtube19.04.37.hotfix/youtube-revanced_v19.04.37-patches_v4.3.0.apk)
 
 Notes: In order to sign in to your google account you must download Vanced MicroG. This an opensource apk alternative to google services. Download it from [here](https://github.com/parsamrrelax/revancedapks/releases/download/Youtube/vanced-microG.apk) or get your own version from a contributer's github or make your own.
 
-Apk version: 19.04.37
+Apk version: 19.04.37 Hot Fix
 
 Revanced features:
 - Alternative thumbnails
@@ -126,10 +113,10 @@ Revanced features:
 ## Revanced YouTube Music
 
 
-Download link : [github](https://github.com/parsamrrelax/revancedapks/releases/download/youtubemusic6.37.50/youtube-music-revanced_v6.37.50-patches_v4.2.0.apk)
+Download link : [github](https://github.com/parsamrrelax/revancedapks/releases/download/youtubemusic6.45.54/youtube-music-revanced_v6.45.54-patches_v4.3.0.apk)
 
 
-Apk version : 6.37.50
+Apk version : 6.45.54
 
 Revanced features:
 - Background play
@@ -142,6 +129,8 @@ Revanced features:
 - Remove upgrade button
 
 **It is highly advisable to create your own version of revanced apps and don't trust sources of apks in the internet**
+
+
 
 
 
