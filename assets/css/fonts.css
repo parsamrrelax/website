@@ -1,0 +1,15 @@
+/* _font.scss */
+@font-face {
+  font-display: swap;
+  font-family: "Courier Prime";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/CourierPrime-Regular.ttf") format("ttf");
+}
+@font-face {
+  font-display: swap;
+  font-family: "Courier Prime";
+  font-style: normal;
+  font-weight: 800;
+  src: url("../fonts/CourierPrime-Bold.ttf") format("ttf");
+}

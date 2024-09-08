@@ -1,21 +1,149 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Maybeparsa | Tech Content</title>
+    <title>Posts on Parsa | Tech Content</title>
     <link>/posts/</link>
-    <description>Recent content in Posts on Maybeparsa | Tech Content</description>
+    <description>Recent content in Posts on Parsa | Tech Content</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <copyright>
-</copyright>
-    <lastBuildDate>Sat, 10 Feb 2024 12:08:41 +0330</lastBuildDate><atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 25 Jun 2024 14:08:33 +0330</lastBuildDate><atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Revanced Apks (Youtube, X(Twitter), Youtube Music) 25 Jun 2024</title>
+      <link>/posts/revancedfiles4/</link>
+      <pubDate>Tue, 25 Jun 2024 14:08:33 +0330</pubDate>
+      
+      <guid>/posts/revancedfiles4/</guid>
+      <description>Revanced Apks for Youtube, Reddit and X(Twitter) I have explained what Revanced apps are in this post. For better understanding first checkout that post.
+X(Twitter) Download link : github
+Apk version: 10.46.1
+Youtube Download link : github
+Apk version: 19.16.39
+Revanced YouTube Music Download link : github
+Apk version : 7.03.52
+It is highly advisable to create your own version of revanced apps and don&amp;rsquo;t trust sources of apks in the internet</description>
+      <content>&lt;h1 id=&#34;revanced-apks-for-youtube-reddit-and-xtwitter&#34;&gt;Revanced Apks for Youtube, Reddit and X(Twitter)&lt;/h1&gt;
+&lt;p&gt;I have explained what Revanced apps are in &lt;a href=&#34;https://maybeparsa.top/posts/revanced/&#34;&gt;this&lt;/a&gt; post. For better understanding first checkout that post.&lt;/p&gt;
+&lt;h2 id=&#34;xtwitter&#34;&gt;X(Twitter)&lt;/h2&gt;
+&lt;p&gt;Download link : &lt;a href=&#34;https://github.com/parsamrrelax/revancedapks/releases/download/twitter10.46.1/x-revanced_v10.46.1-release.0-patches_v4.10.0.apk&#34;&gt;github&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Apk version: 10.46.1&lt;/p&gt;
+&lt;h2 id=&#34;youtube&#34;&gt;Youtube&lt;/h2&gt;
+&lt;p&gt;Download link : &lt;a href=&#34;https://github.com/parsamrrelax/revancedapks/releases/download/youtube19.16.39/youtube-revanced_v19.16.39-patches_v4.10.0.apk&#34;&gt;github&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Apk version: 19.16.39&lt;/p&gt;
+&lt;h2 id=&#34;revanced-youtube-music&#34;&gt;Revanced YouTube Music&lt;/h2&gt;
+&lt;p&gt;Download link : &lt;a href=&#34;https://github.com/parsamrrelax/revancedapks/releases/download/youtubemusic7.03.52/youtube-music-revanced_v7.03.52-patches_v4.10.0.apk&#34;&gt;github&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Apk version : 7.03.52&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;It is highly advisable to create your own version of revanced apps and don&amp;rsquo;t trust sources of apks in the internet&lt;/strong&gt;&lt;/p&gt;
+</content>
+    </item>
+    
+    <item>
+      <title>Revanced Apks (Youtube, X(Twitter), Youtube Music) 28 Mar 2024</title>
+      <link>/posts/revancedfiles3/</link>
+      <pubDate>Thu, 28 Mar 2024 13:10:53 +0330</pubDate>
+      
+      <guid>/posts/revancedfiles3/</guid>
+      <description>Revanced Apks for Youtube, Reddit and X(Twitter) I have explained what Revanced apps are in this post. For better understanding first checkout that post.
+X(Twitter) Download link : github
+Apk version: 10.34.0
+Revanced features:
+Dynamic color Hide ads Hide recommended users Youtube Download link : github
+Notes: In order to sign in to your google account you must download Vanced MicroG. This an opensource apk alternative to google services. Download it from here .</description>
+      <content>&lt;h1 id=&#34;revanced-apks-for-youtube-reddit-and-xtwitter&#34;&gt;Revanced Apks for Youtube, Reddit and X(Twitter)&lt;/h1&gt;
+&lt;p&gt;I have explained what Revanced apps are in &lt;a href=&#34;https://maybeparsa.top/posts/revanced/&#34;&gt;this&lt;/a&gt; post. For better understanding first checkout that post.&lt;/p&gt;
+&lt;h2 id=&#34;xtwitter&#34;&gt;X(Twitter)&lt;/h2&gt;
+&lt;p&gt;Download link : &lt;a href=&#34;https://github.com/parsamrrelax/revancedapks/releases/download/twitter10.34.0/x-revanced_v10.34.0-release.0-patches_v4.4.0.apk&#34;&gt;github&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Apk version: 10.34.0&lt;/p&gt;
+&lt;p&gt;Revanced features:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Dynamic color&lt;/li&gt;
+&lt;li&gt;Hide ads&lt;/li&gt;
+&lt;li&gt;Hide recommended users&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;youtube&#34;&gt;Youtube&lt;/h2&gt;
+&lt;p&gt;Download link : &lt;a href=&#34;https://github.com/parsamrrelax/revancedapks/releases/download/youtube19.09.37/auto-translate-revanced_v19.09.37-patches_v4.4.0.apk&#34;&gt;github&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Notes: In order to sign in to your google account you must download Vanced MicroG. This an opensource apk alternative to google services. Download it from &lt;a href=&#34;https://github.com/ReVanced/GmsCore/releases/download/v0.3.1.3.240913/app.revanced.android.gms-240913006-signed.apk&#34;&gt;here&lt;/a&gt; .
+Apk version: 19.09.37&lt;/p&gt;
+&lt;p&gt;Revanced features:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Alternative thumbnails&lt;/li&gt;
+&lt;li&gt;Always autorepeat&lt;/li&gt;
+&lt;li&gt;Announcements&lt;/li&gt;
+&lt;li&gt;Bypass URL redirects&lt;/li&gt;
+&lt;li&gt;Client spoof&lt;/li&gt;
+&lt;li&gt;Comments&lt;/li&gt;
+&lt;li&gt;Copy video URL&lt;/li&gt;
+&lt;li&gt;Custom player overlay opacity&lt;/li&gt;
+&lt;li&gt;Disable shorts on startup&lt;/li&gt;
+&lt;li&gt;Disable auto captions&lt;/li&gt;
+&lt;li&gt;Disable fine scrubbing gesture&lt;/li&gt;
+&lt;li&gt;Disable player popup panels&lt;/li&gt;
+&lt;li&gt;Disable zoom haptics&lt;/li&gt;
+&lt;li&gt;Enable debugging&lt;/li&gt;
+&lt;li&gt;Enable tablet layout&lt;/li&gt;
+&lt;li&gt;External downloads&lt;/li&gt;
+&lt;li&gt;HDR auto brightness&lt;/li&gt;
+&lt;li&gt;Hide &amp;lsquo;Load more&amp;rsquo; button&lt;/li&gt;
+&lt;li&gt;Hide shorts components&lt;/li&gt;
+&lt;li&gt;Hide ads&lt;/li&gt;
+&lt;li&gt;Hide album cards&lt;/li&gt;
+&lt;li&gt;Hide autoplay button&lt;/li&gt;
+&lt;li&gt;Hide breaking news shelf&lt;/li&gt;
+&lt;li&gt;Hide captions button&lt;/li&gt;
+&lt;li&gt;Hide cast button&lt;/li&gt;
+&lt;li&gt;Hide crowdfunding box&lt;/li&gt;
+&lt;li&gt;Hide email address&lt;/li&gt;
+&lt;li&gt;Hide endscreen cards&lt;/li&gt;
+&lt;li&gt;Hide filter bar&lt;/li&gt;
+&lt;li&gt;Hide floating microphone button&lt;/li&gt;
+&lt;li&gt;Hide info cards&lt;/li&gt;
+&lt;li&gt;Hide layout components&lt;/li&gt;
+&lt;li&gt;Hide player buttons&lt;/li&gt;
+&lt;li&gt;Hide seekbar&lt;/li&gt;
+&lt;li&gt;Hide timestamp&lt;/li&gt;
+&lt;li&gt;Hide video action buttons&lt;/li&gt;
+&lt;li&gt;Minimized playback&lt;/li&gt;
+&lt;li&gt;Navigation buttons&lt;/li&gt;
+&lt;li&gt;Old video quality menu&lt;/li&gt;
+&lt;li&gt;Open links externally&lt;/li&gt;
+&lt;li&gt;Playback speed&lt;/li&gt;
+&lt;li&gt;Player flyout menu&lt;/li&gt;
+&lt;li&gt;Remember video quality&lt;/li&gt;
+&lt;li&gt;Return Youtube Dislike&lt;/li&gt;
+&lt;li&gt;Seekbar tapping&lt;/li&gt;
+&lt;li&gt;SponserBlock&lt;/li&gt;
+&lt;li&gt;Spoof app version&lt;/li&gt;
+&lt;li&gt;Spoof device demnsions&lt;/li&gt;
+&lt;li&gt;Swipe controls&lt;/li&gt;
+&lt;li&gt;Tablet mini player&lt;/li&gt;
+&lt;li&gt;Theme&lt;/li&gt;
+&lt;li&gt;Video ads&lt;/li&gt;
+&lt;li&gt;Wide searchbar&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;revanced-youtube-music&#34;&gt;Revanced YouTube Music&lt;/h2&gt;
+&lt;p&gt;Download link : &lt;a href=&#34;https://github.com/parsamrrelax/revancedapks/releases/download/youtubemusic6.45.54/youtube-music-revanced_v6.45.54-patches_v4.3.0.apk&#34;&gt;github&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Apk version : 6.45.54&lt;/p&gt;
+&lt;p&gt;Revanced features:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Background play&lt;/li&gt;
+&lt;li&gt;Bypass certificate checks&lt;/li&gt;
+&lt;li&gt;Codecs unlock&lt;/li&gt;
+&lt;li&gt;Exclusive audio playback&lt;/li&gt;
+&lt;li&gt;Hide get premium&lt;/li&gt;
+&lt;li&gt;Minimized playback music&lt;/li&gt;
+&lt;li&gt;Music video ads&lt;/li&gt;
+&lt;li&gt;Remove upgrade button&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;It is highly advisable to create your own version of revanced apps and don&amp;rsquo;t trust sources of apks in the internet&lt;/strong&gt;&lt;/p&gt;
+</content>
+    </item>
+    
     <item>
       <title>Revanced Apks (Youtube, X(Twitter), Reddit, Youtube Music) 10 Feb 2024</title>
       <link>/posts/revancedfiles2/</link>
       <pubDate>Sat, 10 Feb 2024 12:08:41 +0330</pubDate>
       
       <guid>/posts/revancedfiles2/</guid>
-      <description><![CDATA[Revanced Apks for Youtube, Reddit and X(Twitter) I have explained what Revanced apps are in this post. For better understanding first checkout that post.
+      <description>Revanced Apks for Youtube, Reddit and X(Twitter) I have explained what Revanced apps are in this post. For better understanding first checkout that post.
 Reddit Download link : github
 Apk version: 2024.06.0
 Revanced features:
@@ -23,7 +151,104 @@ Disable screenshot popup Hide ads Sanitize sharing links Unlock premium Reddit i
 Apk version: 10.27.0
 Revanced features:
 Dynamic color Hide ads Hide recommended users Youtube Download link : github
-Notes: In order to sign in to your google account you must download Vanced MicroG.]]></description><enclosure url="/posts/revancedfiles2/featured.jpg" length="199313" type="image/jpeg" />
+Notes: In order to sign in to your google account you must download Vanced MicroG.</description>
+      <content>&lt;h1 id=&#34;revanced-apks-for-youtube-reddit-and-xtwitter&#34;&gt;Revanced Apks for Youtube, Reddit and X(Twitter)&lt;/h1&gt;
+&lt;p&gt;I have explained what Revanced apps are in &lt;a href=&#34;https://maybeparsa.top/posts/revanced/&#34;&gt;this&lt;/a&gt; post. For better understanding first checkout that post.&lt;/p&gt;
+&lt;h2 id=&#34;reddit&#34;&gt;Reddit&lt;/h2&gt;
+&lt;p&gt;Download link : &lt;a href=&#34;https://github.com/parsamrrelax/revancedapks/releases/download/reddit2024.06.0/reddit-revanced_v2024.06.0-patches_v4.2.0.apk&#34;&gt;github&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Apk version: 2024.06.0&lt;/p&gt;
+&lt;p&gt;Revanced features:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Disable screenshot popup&lt;/li&gt;
+&lt;li&gt;Hide ads&lt;/li&gt;
+&lt;li&gt;Sanitize sharing links&lt;/li&gt;
+&lt;li&gt;Unlock premium Reddit icons&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;xtwitter&#34;&gt;X(Twitter)&lt;/h2&gt;
+&lt;p&gt;Download link : &lt;a href=&#34;https://github.com/parsamrrelax/revancedapks/releases/download/twitter10.27.0/x-revanced_v10.27.0-release.0-patches_v4.2.0.apk&#34;&gt;github&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Apk version: 10.27.0&lt;/p&gt;
+&lt;p&gt;Revanced features:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Dynamic color&lt;/li&gt;
+&lt;li&gt;Hide ads&lt;/li&gt;
+&lt;li&gt;Hide recommended users&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;youtube&#34;&gt;Youtube&lt;/h2&gt;
+&lt;p&gt;Download link : &lt;a href=&#34;https://github.com/parsamrrelax/revancedapks/releases/download/youtube19.04.37/youtube-revanced_v19.04.37-patches_v4.2.0.apk&#34;&gt;github&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Notes: In order to sign in to your google account you must download Vanced MicroG. This an opensource apk alternative to google services. Download it from &lt;a href=&#34;https://github.com/parsamrrelax/revancedapks/releases/download/Youtube/vanced-microG.apk&#34;&gt;here&lt;/a&gt; or get your own version from a contributer&amp;rsquo;s github or make your own.&lt;/p&gt;
+&lt;p&gt;Apk version: 19.04.37&lt;/p&gt;
+&lt;p&gt;Revanced features:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Alternative thumbnails&lt;/li&gt;
+&lt;li&gt;Always autorepeat&lt;/li&gt;
+&lt;li&gt;Announcements&lt;/li&gt;
+&lt;li&gt;Bypass URL redirects&lt;/li&gt;
+&lt;li&gt;Client spoof&lt;/li&gt;
+&lt;li&gt;Comments&lt;/li&gt;
+&lt;li&gt;Copy video URL&lt;/li&gt;
+&lt;li&gt;Custom player overlay opacity&lt;/li&gt;
+&lt;li&gt;Disable shorts on startup&lt;/li&gt;
+&lt;li&gt;Disable auto captions&lt;/li&gt;
+&lt;li&gt;Disable fine scrubbing gesture&lt;/li&gt;
+&lt;li&gt;Disable player popup panels&lt;/li&gt;
+&lt;li&gt;Disable zoom haptics&lt;/li&gt;
+&lt;li&gt;Enable debugging&lt;/li&gt;
+&lt;li&gt;Enable tablet layout&lt;/li&gt;
+&lt;li&gt;External downloads&lt;/li&gt;
+&lt;li&gt;HDR auto brightness&lt;/li&gt;
+&lt;li&gt;Hide &amp;lsquo;Load more&amp;rsquo; button&lt;/li&gt;
+&lt;li&gt;Hide shorts components&lt;/li&gt;
+&lt;li&gt;Hide ads&lt;/li&gt;
+&lt;li&gt;Hide album cards&lt;/li&gt;
+&lt;li&gt;Hide autoplay button&lt;/li&gt;
+&lt;li&gt;Hide breaking news shelf&lt;/li&gt;
+&lt;li&gt;Hide captions button&lt;/li&gt;
+&lt;li&gt;Hide cast button&lt;/li&gt;
+&lt;li&gt;Hide crowdfunding box&lt;/li&gt;
+&lt;li&gt;Hide email address&lt;/li&gt;
+&lt;li&gt;Hide endscreen cards&lt;/li&gt;
+&lt;li&gt;Hide filter bar&lt;/li&gt;
+&lt;li&gt;Hide floating microphone button&lt;/li&gt;
+&lt;li&gt;Hide info cards&lt;/li&gt;
+&lt;li&gt;Hide layout components&lt;/li&gt;
+&lt;li&gt;Hide player buttons&lt;/li&gt;
+&lt;li&gt;Hide seekbar&lt;/li&gt;
+&lt;li&gt;Hide timestamp&lt;/li&gt;
+&lt;li&gt;Hide video action buttons&lt;/li&gt;
+&lt;li&gt;Minimized playback&lt;/li&gt;
+&lt;li&gt;Navigation buttons&lt;/li&gt;
+&lt;li&gt;Old video quality menu&lt;/li&gt;
+&lt;li&gt;Open links externally&lt;/li&gt;
+&lt;li&gt;Playback speed&lt;/li&gt;
+&lt;li&gt;Player flyout menu&lt;/li&gt;
+&lt;li&gt;Remember video quality&lt;/li&gt;
+&lt;li&gt;Return Youtube Dislike&lt;/li&gt;
+&lt;li&gt;Seekbar tapping&lt;/li&gt;
+&lt;li&gt;SponserBlock&lt;/li&gt;
+&lt;li&gt;Spoof app version&lt;/li&gt;
+&lt;li&gt;Spoof device demnsions&lt;/li&gt;
+&lt;li&gt;Swipe controls&lt;/li&gt;
+&lt;li&gt;Tablet mini player&lt;/li&gt;
+&lt;li&gt;Theme&lt;/li&gt;
+&lt;li&gt;Video ads&lt;/li&gt;
+&lt;li&gt;Wide searchbar&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;revanced-youtube-music&#34;&gt;Revanced YouTube Music&lt;/h2&gt;
+&lt;p&gt;Download link : &lt;a href=&#34;https://github.com/parsamrrelax/revancedapks/releases/download/youtubemusic6.37.50/youtube-music-revanced_v6.37.50-patches_v4.2.0.apk&#34;&gt;github&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Apk version : 6.37.50&lt;/p&gt;
+&lt;p&gt;Revanced features:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Background play&lt;/li&gt;
+&lt;li&gt;Bypass certificate checks&lt;/li&gt;
+&lt;li&gt;Codecs unlock&lt;/li&gt;
+&lt;li&gt;Exclusive audio playback&lt;/li&gt;
+&lt;li&gt;Hide get premium&lt;/li&gt;
+&lt;li&gt;Minimized playback music&lt;/li&gt;
+&lt;li&gt;Music video ads&lt;/li&gt;
+&lt;li&gt;Remove upgrade button&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;It is highly advisable to create your own version of revanced apps and don&amp;rsquo;t trust sources of apks in the internet&lt;/strong&gt;&lt;/p&gt;
+</content>
     </item>
     
     <item>
@@ -32,9 +257,19 @@ Notes: In order to sign in to your google account you must download Vanced Micro
       <pubDate>Sat, 20 Jan 2024 01:58:21 +0330</pubDate>
       
       <guid>/posts/fix_huawei_speaker_linux/</guid>
-      <description><![CDATA[No audio from device when switching to Linux on Huawei laptops Huawei laptops actually have many problems with linux. From fingerprint of the device not working to MANY audio problems. Fortunately this one has a fix.
+      <description>No audio from device when switching to Linux on Huawei laptops Huawei laptops actually have many problems with linux. From fingerprint of the device not working to MANY audio problems. Fortunately this one has a fix.
 Solution:
-Note : This fix is tested on hauwei b3-520 laptop but will probably work on all huawei laptops. The solution is to completely switch from Pipewire to Pulseaudio. So my distro is arch-based so I did yay -R &quot;anything related to pipewire and after I removed all those packages, I installed pulseaudio alternative to everything I removed.]]></description><enclosure url="/posts/fix_huawei_speaker_linux/featured.jpg" length="120403" type="image/jpeg" />
+Note : This fix is tested on hauwei b3-520 laptop but will probably work on all huawei laptops. The solution is to completely switch from Pipewire to Pulseaudio. So my distro is arch-based so I did yay -R &amp;quot;anything related to pipewire and after I removed all those packages, I installed pulseaudio alternative to everything I removed.</description>
+      <content>&lt;h1 id=&#34;no-audio-from-device-when-switching-to-linux-on-huawei-laptops&#34;&gt;No audio from device when switching to Linux on Huawei laptops&lt;/h1&gt;
+&lt;p&gt;Huawei laptops actually have many problems with linux. From fingerprint of the device not working to MANY audio problems. Fortunately this one has a fix.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Solution:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Note : This fix is tested on hauwei b3-520 laptop but will probably work on all huawei laptops.&lt;/em&gt;
+The solution is to completely switch from Pipewire to Pulseaudio. So my distro is arch-based so I did &lt;code&gt;yay -R &amp;quot;anything related to pipewire&lt;/code&gt; and after I removed all those packages, I installed pulseaudio alternative to everything I removed. I started with &lt;code&gt;sudo pacman -S alsa-utils pulseaudio pavucontrol&lt;/code&gt; and continued installing everything from the pipewire that I removed. So if I had &lt;code&gt;pipewire-jack&lt;/code&gt; I installed &lt;code&gt;pulseaudio-jack&lt;/code&gt; instead.
+This fixed my audio problem with the speakers.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Huawei not releasing drivers for audio and many other things.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;So although this fixes the speakers problem. I still can&amp;rsquo;t use audio jack of the device. Connecting any headphones to it will result in audio both playing from the headphones and the speakers.
+And based on all the research I did, this problem has been here for a while, and is likely to never be fixed.&lt;/p&gt;
+</content>
     </item>
     
     <item>
@@ -43,7 +278,7 @@ Note : This fix is tested on hauwei b3-520 laptop but will probably work on all 
       <pubDate>Tue, 19 Dec 2023 11:49:41 +0330</pubDate>
       
       <guid>/posts/revancedfiles1/</guid>
-      <description><![CDATA[Revanced Apks for Youtube, Reddit and X(Twitter) I have explained what Revanced apps are in this post. For better understanding first checkout that post.
+      <description>Revanced Apks for Youtube, Reddit and X(Twitter) I have explained what Revanced apps are in this post. For better understanding first checkout that post.
 Reddit Download link : github
 Apk version: 2023.50.1
 Revanced features:
@@ -51,7 +286,92 @@ Disable screenshot popup Hide ads Sanitize sharing links Unlock premium Reddit i
 Apk version: 10.20.0
 Revanced features:
 Dynamic color Hide ads Hide recommended users Youtube Download link : github
-Notes: In order to sign in to your google account you must download Vanced MicroG.]]></description><enclosure url="/posts/revancedfiles1/featured.jpg" length="199313" type="image/jpeg" />
+Notes: In order to sign in to your google account you must download Vanced MicroG.</description>
+      <content>&lt;h1 id=&#34;revanced-apks-for-youtube-reddit-and-xtwitter&#34;&gt;Revanced Apks for Youtube, Reddit and X(Twitter)&lt;/h1&gt;
+&lt;p&gt;I have explained what Revanced apps are in &lt;a href=&#34;https://maybeparsa.top/posts/revanced/&#34;&gt;this&lt;/a&gt; post. For better understanding first checkout that post.&lt;/p&gt;
+&lt;h2 id=&#34;reddit&#34;&gt;Reddit&lt;/h2&gt;
+&lt;p&gt;Download link : &lt;a href=&#34;https://github.com/parsamrrelax/revancedapks/releases/download/reddit2023.50.1/reddit-revanced_v2023.50.1-patches_v3.1.0.apk&#34;&gt;github&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Apk version: 2023.50.1&lt;/p&gt;
+&lt;p&gt;Revanced features:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Disable screenshot popup&lt;/li&gt;
+&lt;li&gt;Hide ads&lt;/li&gt;
+&lt;li&gt;Sanitize sharing links&lt;/li&gt;
+&lt;li&gt;Unlock premium Reddit icons&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;xtwitter&#34;&gt;X(Twitter)&lt;/h2&gt;
+&lt;p&gt;Download link : &lt;a href=&#34;https://github.com/parsamrrelax/revancedapks/releases/download/twitter10.20.0/x-revanced_v10.20.0-release.0-patches_v3.1.0.apk&#34;&gt;github&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Apk version: 10.20.0&lt;/p&gt;
+&lt;p&gt;Revanced features:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Dynamic color&lt;/li&gt;
+&lt;li&gt;Hide ads&lt;/li&gt;
+&lt;li&gt;Hide recommended users&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;youtube&#34;&gt;Youtube&lt;/h2&gt;
+&lt;p&gt;Download link : &lt;a href=&#34;https://github.com/parsamrrelax/revancedapks/releases/download/youtube18.45.43/youtube-revanced_v18.45.43-patches_v3.1.0.apk&#34;&gt;github&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Notes: In order to sign in to your google account you must download Vanced MicroG. This an opensource apk alternative to google services. Download it from &lt;a href=&#34;https://github.com/parsamrrelax/revancedapks/releases/download/Youtube/vanced-microG.apk&#34;&gt;here&lt;/a&gt; or get your own version from a contributer&amp;rsquo;s github or make your own.&lt;/p&gt;
+&lt;p&gt;Apk version: 18.45.43&lt;/p&gt;
+&lt;p&gt;Revanced features:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Alternative thumbnails&lt;/li&gt;
+&lt;li&gt;Always autorepeat&lt;/li&gt;
+&lt;li&gt;Announcements&lt;/li&gt;
+&lt;li&gt;Bypass URL redirects&lt;/li&gt;
+&lt;li&gt;Client spoof&lt;/li&gt;
+&lt;li&gt;Comments&lt;/li&gt;
+&lt;li&gt;Copy video URL&lt;/li&gt;
+&lt;li&gt;Custom player overlay opacity&lt;/li&gt;
+&lt;li&gt;Disable shorts on startup&lt;/li&gt;
+&lt;li&gt;Disable auto captions&lt;/li&gt;
+&lt;li&gt;Disable fine scrubbing gesture&lt;/li&gt;
+&lt;li&gt;Disable player popup panels&lt;/li&gt;
+&lt;li&gt;Disable zoom haptics&lt;/li&gt;
+&lt;li&gt;Enable debugging&lt;/li&gt;
+&lt;li&gt;Enable tablet layout&lt;/li&gt;
+&lt;li&gt;External downloads&lt;/li&gt;
+&lt;li&gt;HDR auto brightness&lt;/li&gt;
+&lt;li&gt;Hide &amp;lsquo;Load more&amp;rsquo; button&lt;/li&gt;
+&lt;li&gt;Hide shorts components&lt;/li&gt;
+&lt;li&gt;Hide ads&lt;/li&gt;
+&lt;li&gt;Hide album cards&lt;/li&gt;
+&lt;li&gt;Hide autoplay button&lt;/li&gt;
+&lt;li&gt;Hide breaking news shelf&lt;/li&gt;
+&lt;li&gt;Hide captions button&lt;/li&gt;
+&lt;li&gt;Hide cast button&lt;/li&gt;
+&lt;li&gt;Hide crowdfunding box&lt;/li&gt;
+&lt;li&gt;Hide email address&lt;/li&gt;
+&lt;li&gt;Hide endscreen cards&lt;/li&gt;
+&lt;li&gt;Hide filter bar&lt;/li&gt;
+&lt;li&gt;Hide floating microphone button&lt;/li&gt;
+&lt;li&gt;Hide info cards&lt;/li&gt;
+&lt;li&gt;Hide layout components&lt;/li&gt;
+&lt;li&gt;Hide player buttons&lt;/li&gt;
+&lt;li&gt;Hide seekbar&lt;/li&gt;
+&lt;li&gt;Hide timestamp&lt;/li&gt;
+&lt;li&gt;Hide video action buttons&lt;/li&gt;
+&lt;li&gt;Minimized playback&lt;/li&gt;
+&lt;li&gt;Navigation buttons&lt;/li&gt;
+&lt;li&gt;Old video quality menu&lt;/li&gt;
+&lt;li&gt;Open links externally&lt;/li&gt;
+&lt;li&gt;Playback speed&lt;/li&gt;
+&lt;li&gt;Player flyout menu&lt;/li&gt;
+&lt;li&gt;Premium heading&lt;/li&gt;
+&lt;li&gt;Remember video quality&lt;/li&gt;
+&lt;li&gt;Return Youtube Dislike&lt;/li&gt;
+&lt;li&gt;Seekbar tapping&lt;/li&gt;
+&lt;li&gt;SponserBlock&lt;/li&gt;
+&lt;li&gt;Spoof app version&lt;/li&gt;
+&lt;li&gt;Spoof device demnsions&lt;/li&gt;
+&lt;li&gt;Swipe controls&lt;/li&gt;
+&lt;li&gt;Tablet mini player&lt;/li&gt;
+&lt;li&gt;Theme&lt;/li&gt;
+&lt;li&gt;Vanced MicroG support&lt;/li&gt;
+&lt;li&gt;Video ads&lt;/li&gt;
+&lt;li&gt;Wide searchbar&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;It is highly advisable to create your own version of revanced apps and don&amp;rsquo;t trust sources of apks in the internet&lt;/strong&gt;&lt;/p&gt;
+</content>
     </item>
     
     <item>
@@ -60,8 +380,33 @@ Notes: In order to sign in to your google account you must download Vanced Micro
       <pubDate>Tue, 31 Oct 2023 22:44:26 +0330</pubDate>
       
       <guid>/posts/videoeditingproblem2/</guid>
-      <description><![CDATA[CF cards only working on MacOS If you&rsquo;re a video editor working with footage from Alexa Minis or Alexa LFs, you have probably heard this sentence before. CF cards only work on Mac. This is simply not true and we&rsquo;ll go through what is the problem here.
-Connection Ports These CF drives are extremely fast drives and therefore require require fast ports to be connected to. Arri suggest using Thunderbolt 3 at least for CFast 2.]]></description><enclosure url="/posts/videoeditingproblem2/featured.jpg" length="132708" type="image/jpeg" />
+      <description>CF cards only working on MacOS If you&amp;rsquo;re a video editor working with footage from Alexa Minis or Alexa LFs, you have probably heard this sentence before. CF cards only work on Mac. This is simply not true and we&amp;rsquo;ll go through what is the problem here.
+Connection Ports These CF drives are extremely fast drives and therefore require require fast ports to be connected to. Arri suggest using Thunderbolt 3 at least for CFast 2.</description>
+      <content>&lt;h1 id=&#34;cf-cards-only-working-on-macos&#34;&gt;CF cards only working on MacOS&lt;/h1&gt;
+&lt;p&gt;If you&amp;rsquo;re a video editor working with footage from Alexa Minis or Alexa LFs, you have probably heard this sentence before. CF cards only work on Mac.
+This is simply &lt;strong&gt;not true&lt;/strong&gt; and we&amp;rsquo;ll go through what is the problem here.&lt;/p&gt;
+&lt;h2 id=&#34;connection-ports&#34;&gt;Connection Ports&lt;/h2&gt;
+&lt;p&gt;These CF drives are extremely fast drives and therefore require require fast ports to be connected to. Arri suggest using Thunderbolt 3 at least for CFast 2.0 cards which are the newer ones typically by the AngelBird Company. But if your Cfast card reader has a normal USB instead of USB type C, you should use USB 3.2 Gen 2x2 or 2x1 (very confusing naming). So search for your laptop model or for your motherboard model on the web and see if it has those ports to get the most out of your Cfast. However if there is power being delivered to your CFast card reader then your usb generation should only affect your speed not it working or not. (except for Thunderbolt 2 and USB 2 ports which can&amp;rsquo;t deliver power to CFast 2.0 cards at all.)&lt;/p&gt;
+&lt;h2 id=&#34;udf-formatting&#34;&gt;UDF formatting&lt;/h2&gt;
+&lt;p&gt;These CF cards or CFast cards are UDF formatted. These drives are well supported on Mac and were supported on Windows 10 and Windows 11 at one time. However an &amp;ldquo;update&amp;rdquo; for Windows apparently broke this feature on Windows and it&amp;rsquo;s being solved for the past 2 years.&lt;/p&gt;
+&lt;h3 id=&#34;what-can-you-do-in-this-case&#34;&gt;What can you do in this case?&lt;/h3&gt;
+&lt;p&gt;This is temporary solution and  the main fix will come from Microsoft, but you should rollback your updates to a point which it was before this update from Microsoft.
+To this search for rolling back updates on the web or on your windows search and you&amp;rsquo;ll see what you should do.
+However rolling back updates means rolling back security updates as well, Which is not recommended. but if you have to you have to.&lt;/p&gt;
+&lt;h3 id=&#34;the-advanced-solution-for-windows-10&#34;&gt;The advanced solution for Windows 10&lt;/h3&gt;
+&lt;p&gt;What the update broke is a file called partmgr.sys located in C:/Windows/system32/drivers/:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Take a backup of that file (add a .back to the end of the file name).&lt;/li&gt;
+&lt;li&gt;Download &lt;a href=&#34;https://github.com/parsamrrelax/partmgr.sys/releases/download/partmgr/partmgr.sys&#34;&gt;this file&lt;/a&gt; and put it in the same directory.
+&lt;ul&gt;
+&lt;li&gt;Replace the old version if it asks you to.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Change the permission of the file to administrator from the properties.&lt;/li&gt;
+&lt;li&gt;Reboot&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;em&gt;Note that every Windows Update breaks this function again and you should repeat the process&lt;/em&gt;&lt;/p&gt;
+</content>
     </item>
     
     <item>
@@ -70,18 +415,57 @@ Connection Ports These CF drives are extremely fast drives and therefore require
       <pubDate>Tue, 31 Oct 2023 20:49:09 +0330</pubDate>
       
       <guid>/posts/videoeditingproblem/</guid>
-      <description><![CDATA[External drives are not recogonized either on Windows or MacOS To better understand why this problem happens we must first understand some basic terms.
-File systems: File systems are methods that data is stored and retrieved on operating systems. Now this is not a clear explanation if you&rsquo;re not familiar with computing and not tech savvy in general. So let&rsquo;s explain it better. Basically every operating system (Windows, MacOS, Linux, &hellip;) chooses a variety of file systems to support.]]></description><enclosure url="/posts/videoeditingproblem/featured.jpg" length="120162" type="image/jpeg" />
-    </item>
-    
-    <item>
-      <title>Revanced Youtube Music, 24 October 2023</title>
-      <link>/posts/revancedytmusic/</link>
-      <pubDate>Tue, 24 Oct 2023 15:05:25 +0330</pubDate>
-      
-      <guid>/posts/revancedytmusic/</guid>
-      <description><![CDATA[Revanced Version of Youtube Music I have explained what Revanced apps are in this post. For better understanding first checkout that post.
-Mainly due to google killing google podcasts app, I&rsquo;ll be switching to YouTube Music for podcast listening. Plus with revanced version of YT music, this is another platform for listening to songs for free. Note that like Youtube Revanced this supports VancedMicroG. I&rsquo;ll link a trusted version of that as well.]]></description>
+      <description>External drives are not recogonized either on Windows or MacOS To better understand why this problem happens we must first understand some basic terms.
+File systems: File systems are methods that data is stored and retrieved on operating systems. Now this is not a clear explanation if you&amp;rsquo;re not familiar with computing and not tech savvy in general. So let&amp;rsquo;s explain it better. Basically every operating system (Windows, MacOS, Linux, &amp;hellip;) chooses a variety of file systems to support.</description>
+      <content>&lt;h1 id=&#34;external-drives-are-not-recogonized-either-on-windows-or-macos&#34;&gt;External drives are not recogonized either on Windows or MacOS&lt;/h1&gt;
+&lt;p&gt;To better understand why this problem happens we must first understand some basic terms.&lt;/p&gt;
+&lt;h2 id=&#34;file-systems&#34;&gt;File systems:&lt;/h2&gt;
+&lt;p&gt;File systems are methods that data is stored and retrieved on operating systems. Now this is not a clear explanation if you&amp;rsquo;re not familiar with computing and not tech savvy in general. So let&amp;rsquo;s explain it better.
+Basically every operating system (Windows, MacOS, Linux, &amp;hellip;) chooses a variety of file systems to support. This means that each of these operating systems can write and read information in those file system types.&lt;/p&gt;
+&lt;h2 id=&#34;where-is-the-problem-in-this&#34;&gt;Where is the problem in this?&lt;/h2&gt;
+&lt;p&gt;The problem begins when one of these file systems are exclusive to one operating system and you format your hard drive to one of these proprietary ones, then it can not be read in other operating systems.&lt;/p&gt;
+&lt;h2 id=&#34;different-file-systems&#34;&gt;Different file systems:&lt;/h2&gt;
+&lt;p&gt;There are many popular filesystems around including NTFS,  FAT32, ExFat, Btrfs and many more.
+NTFS is a propriety file system developed by Microsoft and is exclusive for Windows.
+APFS is a propriety file system developed by Apple and is exclusive for MacOS.
+HFS and HFS+ are propriety file systems developed by Apple and are exclusive for MacOS.
+Above are the known propriety file systems that I know of but these are the most popular ones.
+There are some general file systems that almost all operating systems support.
+One of the most popular ones in this category is FAT32. Basically everything supports FAT32. &lt;em&gt;But it has a file size limit of 4GBs&lt;/em&gt; , meaning you can&amp;rsquo;t store files larger than 4GB on drives that have this file system.&lt;/p&gt;
+&lt;h2 id=&#34;what-is-the-best-format-for-compatibility&#34;&gt;What is the best format for compatibility&lt;/h2&gt;
+&lt;p&gt;You should always format your drives to &lt;strong&gt;exFAT&lt;/strong&gt;. That&amp;rsquo;s it. It is supported in Windows, MacOS, and Linux. I have tested this myself.
+&lt;em&gt;So if you&amp;rsquo;re a video editor use exFAT. So you can have cross platform compatibility.&lt;/em&gt;&lt;/p&gt;
+&lt;h2 id=&#34;what-if-i-cant-format-my-drive-now-and-want-access-to-my-files-on-one-of-these-operating-systems&#34;&gt;What if I can&amp;rsquo;t format my drive now and want access to my files on one of these operating systems?&lt;/h2&gt;
+&lt;p&gt;Say someone copied the footage to your drive and you want to copy the footage in your machine before formatting it. Let&amp;rsquo;s see the solution.&lt;/p&gt;
+&lt;h3 id=&#34;windows&#34;&gt;Windows:&lt;/h3&gt;
+&lt;p&gt;If your operating system is Windows and your drive was working on a Mac but not showing up on your Windows machine.
+First check if this is actually a file system issue and not a drive problem. The drive should be powered on, and you should be able to unmount it from the taskbar. If you right click on the Windows start and check disk management, you should see that your external drive is recognized but the file system in not shown like your internal drive which is generally NTFS.
+So if it was like this it is probably in APFS or HFS and you need third party software to access it.&lt;/p&gt;
+&lt;p&gt;Paragon software company has some great products for this issue
+Download their software for this issue from their website:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.paragon-software.com/home/hfs-windows/&#34;&gt;HFS for Windows&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.paragon-software.com/home/apfs-windows/&#34;&gt;APFS for Windows&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Download these programs and install them. You will see your drive recognized in one of them and mounted as a normal drive from now on. But remember to don&amp;rsquo;t rely heavily on these softwares and format your drive to exFAT after you&amp;rsquo;re done.&lt;/p&gt;
+&lt;h3 id=&#34;macos&#34;&gt;MacOS:&lt;/h3&gt;
+&lt;p&gt;If your operating system is MacOS and your drive was working on a Windows PC but not showing up on your Mac.
+First check if this is actually a file system issue and not a drive problem. Do this by running the disk utility app and check if your drive is recognized. If it was and you know it was working on a Windows PC, the drive is probably in NTFS format and you&amp;rsquo;ll need a workaround to make it work.&lt;/p&gt;
+&lt;p&gt;You can use third party software for this for example from &lt;a href=&#34;https://www.paragon-software.com/home/ntfs-mac/&#34;&gt;Paragon&lt;/a&gt; but I recommend that you do it from terminal yourself. This is a bit advanced but more reliable and free.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Open Terminal&lt;/li&gt;
+&lt;li&gt;Type this command and press return and enter your password after that&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo nano /etc/fstab
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;Replace &amp;ldquo;NAME&amp;rdquo; in this command with your drive name and press return
+&lt;em&gt;If your drive contains spaces in it&amp;rsquo;s name you should enter them as \040&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;LABEL=NAME none ntfs rw, auto, nobrowse
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;Press Control + O then Control + X on Mac keyboard.&lt;/li&gt;
+&lt;li&gt; In Finder, click Go then go to Folder then type: &lt;strong&gt;/Volumes&lt;/strong&gt;, and click &amp;ldquo;Go&amp;rdquo;.
+You can now access your drive from here.&lt;/li&gt;
+&lt;/ul&gt;
+</content>
     </item>
     
     <item>
@@ -90,8 +474,28 @@ Mainly due to google killing google podcasts app, I&rsquo;ll be switching to You
       <pubDate>Mon, 23 Oct 2023 20:28:30 +0330</pubDate>
       
       <guid>/posts/spotify/</guid>
-      <description><![CDATA[Getting Spotify premium features with help of xmanager What is the difference between Spotify premium and Spotify free? As with most streaming platforms you get more features when you purchase the premium version of the app. These features include an ad-free expreience, higher quality listening, selecting music, not shuffling , downloading the music for offline listening and more&hellip;
-What do you get with X-manager version of Spotify? Xmanager is an app that let&rsquo;s you download modded and patched Spotify apks.]]></description>
+      <description>Getting Spotify premium features with help of xmanager What is the difference between Spotify premium and Spotify free? As with most streaming platforms you get more features when you purchase the premium version of the app. These features include an ad-free expreience, higher quality listening, selecting music, not shuffling , downloading the music for offline listening and more&amp;hellip;
+What do you get with X-manager version of Spotify? Xmanager is an app that let&amp;rsquo;s you download modded and patched Spotify apks.</description>
+      <content>&lt;h1 id=&#34;getting-spotify-premium-features-with-help-of-xmanager&#34;&gt;Getting Spotify premium features with help of xmanager&lt;/h1&gt;
+&lt;h2 id=&#34;what-is-the-difference-between-spotify-premium-and-spotify-free&#34;&gt;What is the difference between Spotify premium and Spotify free?&lt;/h2&gt;
+&lt;p&gt;As with most streaming platforms you get more features when you purchase the premium version of the app. These features include an ad-free expreience, higher quality listening, selecting music, not shuffling , downloading the music for offline listening and more&amp;hellip;&lt;/p&gt;
+&lt;h2 id=&#34;what-do-you-get-with-x-manager-version-of-spotify&#34;&gt;What do you get with X-manager version of Spotify?&lt;/h2&gt;
+&lt;p&gt;Xmanager is an app that let&amp;rsquo;s you download modded and patched Spotify apks. So with the Spotify apks that are downloaded with Xmanager:
+Well you certainly don&amp;rsquo;t get ads. You can choose your music as well. But no downloading or higher quality listening.&lt;/p&gt;
+&lt;h2 id=&#34;is-this-safe&#34;&gt;Is this safe?&lt;/h2&gt;
+&lt;p&gt;Yes it&amp;rsquo;s perfectly fine. It&amp;rsquo;s open source on &lt;a href=&#34;https://github.com/Team-xManager/xManager&#34;&gt;github&lt;/a&gt;. This is their &lt;a href=&#34;https://www.xmanagerapp.com&#34;&gt;website&lt;/a&gt;. Don&amp;rsquo;t trust me, go check it out yourself.&lt;/p&gt;
+&lt;h2 id=&#34;easier-route&#34;&gt;Easier route&lt;/h2&gt;
+&lt;p&gt;In case you don&amp;rsquo;t want to downlaod Xmanager and then the spotify apk. Here&amp;rsquo;s their &lt;a href=&#34;https://t.me/xManagerSupport&#34;&gt;telegram&lt;/a&gt;. They provide pre-patched apks for every type of android device. If you want to install this next to the original Spotify app, install one of the cloned ones. They have proven to me that they&amp;rsquo;re safe to use. Of course you shouldn&amp;rsquo;t trust me or them and check the apk files with &lt;a href=&#34;https://www.virustotal.com/gui/home/upload&#34;&gt;virustotal&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Here&amp;rsquo;s how the patched app looks:&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;Resize&#34; src=&#34;/posts/spotify/1.webp??width=600px&amp;height=600px&#34;&gt; &lt;img alt=&#34;Resize&#34; src=&#34;/posts/spotify/2.webp??width=600px&amp;height=600px&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;where-to-download&#34;&gt;Where to download?&lt;/h2&gt;
+&lt;p&gt;Here&amp;rsquo;s the download link to the latest version of Xmanager from their &lt;a href=&#34;https://github.com/xManager-App/xManager/releases/latest/download/xManager.apk&#34;&gt;github&lt;/a&gt;.
+You can directly check their github or their website and download from there.&lt;/p&gt;
+&lt;h2 id=&#34;what-next&#34;&gt;What next?&lt;/h2&gt;
+&lt;p&gt;From any of the above routes, either via the xmanager app or their telegram channel, the process is now simple. Install the Spotify apk for your cpu architecture.
+If you still have any questions, read their &lt;a href=&#34;https://www.xmanagerapp.com/faq&#34;&gt;FAQ&lt;/a&gt;. Some versions can have notes to do after installing, some not. Be sure to check for that as well.&lt;/p&gt;
+&lt;p&gt;Enjoy your ad-free experience now for free&lt;/p&gt;
+</content>
     </item>
     
     <item>
@@ -100,7 +504,7 @@ What do you get with X-manager version of Spotify? Xmanager is an app that let&r
       <pubDate>Sat, 21 Oct 2023 18:25:10 +0330</pubDate>
       
       <guid>/posts/revancedfiles/</guid>
-      <description><![CDATA[Revanced Apks for Youtube, Reddit and X(Twitter) I have explained what Revanced apps are in this post. For better understanding first checkout that post.
+      <description>Revanced Apks for Youtube, Reddit and X(Twitter) I have explained what Revanced apps are in this post. For better understanding first checkout that post.
 Reddit Download link : github
 Apk version: 2023.41.1
 Revanced features:
@@ -108,7 +512,92 @@ Disable screenshot popup Hide ads Sanitize sharing links Unlock premium Reddit i
 Apk version: 10.12.0
 Revanced features:
 Dynamic color Hide ads Hide recommended users Youtube Download link : github
-Notes: In order to sign in to your google account you must download Vanced MicroG.]]></description>
+Notes: In order to sign in to your google account you must download Vanced MicroG.</description>
+      <content>&lt;h1 id=&#34;revanced-apks-for-youtube-reddit-and-xtwitter&#34;&gt;Revanced Apks for Youtube, Reddit and X(Twitter)&lt;/h1&gt;
+&lt;p&gt;I have explained what Revanced apps are in &lt;a href=&#34;https://maybeparsa.top/posts/revanced/&#34;&gt;this&lt;/a&gt; post. For better understanding first checkout that post.&lt;/p&gt;
+&lt;h2 id=&#34;reddit&#34;&gt;Reddit&lt;/h2&gt;
+&lt;p&gt;Download link : &lt;a href=&#34;https://github.com/parsamrrelax/revancedapks/releases/download/Reddit/reddit-revanced_v2023.41.1.apk&#34;&gt;github&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Apk version: 2023.41.1&lt;/p&gt;
+&lt;p&gt;Revanced features:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Disable screenshot popup&lt;/li&gt;
+&lt;li&gt;Hide ads&lt;/li&gt;
+&lt;li&gt;Sanitize sharing links&lt;/li&gt;
+&lt;li&gt;Unlock premium Reddit icons&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;xtwitter&#34;&gt;X(Twitter)&lt;/h2&gt;
+&lt;p&gt;Download link : &lt;a href=&#34;https://github.com/parsamrrelax/revancedapks/releases/download/Twitter/x-revanced_v10.12.0-release.0.apk&#34;&gt;github&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Apk version: 10.12.0&lt;/p&gt;
+&lt;p&gt;Revanced features:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Dynamic color&lt;/li&gt;
+&lt;li&gt;Hide ads&lt;/li&gt;
+&lt;li&gt;Hide recommended users&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;youtube&#34;&gt;Youtube&lt;/h2&gt;
+&lt;p&gt;Download link : &lt;a href=&#34;https://github.com/parsamrrelax/revancedapks/releases/download/Youtube/youtube-revanced_v18.38.44.apk&#34;&gt;github&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Notes: In order to sign in to your google account you must download Vanced MicroG. This an opensource apk alternative to google services. Download it from &lt;a href=&#34;https://github.com/parsamrrelax/revancedapks/releases/download/Youtube/vanced-microG.apk&#34;&gt;here&lt;/a&gt; or get your own version from a contributer&amp;rsquo;s github or make your own.&lt;/p&gt;
+&lt;p&gt;Apk version: 18.38.44&lt;/p&gt;
+&lt;p&gt;Revanced features:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Alternative thumbnails&lt;/li&gt;
+&lt;li&gt;Always autorepeat&lt;/li&gt;
+&lt;li&gt;Announcements&lt;/li&gt;
+&lt;li&gt;Bypass URL redirects&lt;/li&gt;
+&lt;li&gt;Client spoof&lt;/li&gt;
+&lt;li&gt;Comments&lt;/li&gt;
+&lt;li&gt;Copy video URL&lt;/li&gt;
+&lt;li&gt;Custom player overlay opacity&lt;/li&gt;
+&lt;li&gt;Disable shorts on startup&lt;/li&gt;
+&lt;li&gt;Disable auto captions&lt;/li&gt;
+&lt;li&gt;Disable fine scrubbing gesture&lt;/li&gt;
+&lt;li&gt;Disable player popup panels&lt;/li&gt;
+&lt;li&gt;Disable zoom haptics&lt;/li&gt;
+&lt;li&gt;Enable debugging&lt;/li&gt;
+&lt;li&gt;Enable tablet layout&lt;/li&gt;
+&lt;li&gt;External downloads&lt;/li&gt;
+&lt;li&gt;HDR auto brightness&lt;/li&gt;
+&lt;li&gt;Hide &amp;lsquo;Load more&amp;rsquo; button&lt;/li&gt;
+&lt;li&gt;Hide shorts components&lt;/li&gt;
+&lt;li&gt;Hide ads&lt;/li&gt;
+&lt;li&gt;Hide album cards&lt;/li&gt;
+&lt;li&gt;Hide autoplay button&lt;/li&gt;
+&lt;li&gt;Hide breaking news shelf&lt;/li&gt;
+&lt;li&gt;Hide captions button&lt;/li&gt;
+&lt;li&gt;Hide cast button&lt;/li&gt;
+&lt;li&gt;Hide crowdfunding box&lt;/li&gt;
+&lt;li&gt;Hide email address&lt;/li&gt;
+&lt;li&gt;Hide endscreen cards&lt;/li&gt;
+&lt;li&gt;Hide filter bar&lt;/li&gt;
+&lt;li&gt;Hide floating microphone button&lt;/li&gt;
+&lt;li&gt;Hide info cards&lt;/li&gt;
+&lt;li&gt;Hide layout components&lt;/li&gt;
+&lt;li&gt;Hide player buttons&lt;/li&gt;
+&lt;li&gt;Hide seekbar&lt;/li&gt;
+&lt;li&gt;Hide timestamp&lt;/li&gt;
+&lt;li&gt;Hide video action buttons&lt;/li&gt;
+&lt;li&gt;Minimized playback&lt;/li&gt;
+&lt;li&gt;Navigation buttons&lt;/li&gt;
+&lt;li&gt;Old video quality menu&lt;/li&gt;
+&lt;li&gt;Open links externally&lt;/li&gt;
+&lt;li&gt;Playback speed&lt;/li&gt;
+&lt;li&gt;Player flyout menu&lt;/li&gt;
+&lt;li&gt;Premium heading&lt;/li&gt;
+&lt;li&gt;Remember video quality&lt;/li&gt;
+&lt;li&gt;Return Youtube Dislike&lt;/li&gt;
+&lt;li&gt;Seekbar tapping&lt;/li&gt;
+&lt;li&gt;SponserBlock&lt;/li&gt;
+&lt;li&gt;Spoof app version&lt;/li&gt;
+&lt;li&gt;Spoof device demnsions&lt;/li&gt;
+&lt;li&gt;Swipe controls&lt;/li&gt;
+&lt;li&gt;Tablet mini player&lt;/li&gt;
+&lt;li&gt;Theme&lt;/li&gt;
+&lt;li&gt;Vanced MicroG support&lt;/li&gt;
+&lt;li&gt;Video ads&lt;/li&gt;
+&lt;li&gt;Wide searchbar&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;It is highly advisable to create your own version of revanced apps and don&amp;rsquo;t trust sources of apks in the internet&lt;/strong&gt;&lt;/p&gt;
+</content>
     </item>
     
     <item>
@@ -117,9 +606,19 @@ Notes: In order to sign in to your google account you must download Vanced Micro
       <pubDate>Thu, 19 Oct 2023 12:24:39 +0330</pubDate>
       
       <guid>/posts/revanced/</guid>
-      <description><![CDATA[Revanced Apps To be simple about it revanced apps are apps that have been modified in a way to add certain functionalities. For example, a revanced youtube, is a youtube app with most of the youtube premium features for free. Meaning no ads, content playing while not on the app, window in window playing and more features that the youtube premium offers. There are many apps that have revanced versions.]]></description>
+      <description>Revanced Apps To be simple about it revanced apps are apps that have been modified in a way to add certain functionalities. For example, a revanced youtube, is a youtube app with most of the youtube premium features for free. Meaning no ads, content playing while not on the app, window in window playing and more features that the youtube premium offers. There are many apps that have revanced versions.</description>
+      <content>&lt;h1 id=&#34;revanced-apps&#34;&gt;Revanced Apps&lt;/h1&gt;
+&lt;p&gt;To be simple about it revanced apps are apps that have been modified in a way to add certain functionalities. For example, a revanced youtube, is a youtube app with most of the youtube premium features for free. Meaning no ads, content playing while not on the app, window in window playing and more features that the youtube premium offers. There are many apps that have revanced versions.&lt;/p&gt;
+&lt;h2 id=&#34;which-apps-are-supported&#34;&gt;Which apps are supported?&lt;/h2&gt;
+&lt;p&gt;There are lots of apps that are supported. You can see a full list of them in revanced&amp;rsquo;s own website &lt;a href=&#34;https://revanced.app/patches&#34;&gt;here&lt;/a&gt; .&lt;/p&gt;
+&lt;h2 id=&#34;my-version-of-revanced-apps&#34;&gt;My version of revanced apps&lt;/h2&gt;
+&lt;p&gt;The main point is that this patches must be made for your apps to work. Or the apks should be downloaded from somewhere. I&amp;rsquo;ll be providing apps that I use in the revanced form of them from now on on this website. and the files will be hosted on github.&lt;/p&gt;
+&lt;h2 id=&#34;can-i-patch-the-apps-myself&#34;&gt;Can I patch the apps myself?&lt;/h2&gt;
+&lt;p&gt;Sure, you can but the simplest way is having a rooted device which I have. If you have a rooted device download revanced manager app from &lt;a href=&#34;https://revanced.app/download&#34;&gt;here&lt;/a&gt; , and from there the process is simple. Download the apk of the app you want to patch from apkmirror if you don&amp;rsquo;t have the suggested version of the app installed, select your patches and you&amp;rsquo;re done. If you have the suggested version just patch that and install it.&lt;/p&gt;
+&lt;h3 id=&#34;how-revanced-manager-looks&#34;&gt;How revanced manager looks&lt;/h3&gt;
+&lt;p&gt;&lt;img alt=&#34;Resize&#34; src=&#34;/posts/revanced/manager.avif??width=600px&amp;height=600px&#34;&gt;&lt;/p&gt;
+</content>
     </item>
     
   </channel>
 </rss>
-

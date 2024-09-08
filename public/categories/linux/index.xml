@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Linux on Maybeparsa | Tech Content</title>
+    <title>Linux on Parsa | Tech Content</title>
     <link>/categories/linux/</link>
-    <description>Recent content in Linux on Maybeparsa | Tech Content</description>
+    <description>Recent content in Linux on Parsa | Tech Content</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <copyright>
-</copyright>
     <lastBuildDate>Sat, 20 Jan 2024 01:58:21 +0330</lastBuildDate><atom:link href="/categories/linux/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Huawei Laptops not playing sound from speakers on Linux</title>
@@ -15,11 +13,20 @@
       <pubDate>Sat, 20 Jan 2024 01:58:21 +0330</pubDate>
       
       <guid>/posts/fix_huawei_speaker_linux/</guid>
-      <description><![CDATA[No audio from device when switching to Linux on Huawei laptops Huawei laptops actually have many problems with linux. From fingerprint of the device not working to MANY audio problems. Fortunately this one has a fix.
+      <description>No audio from device when switching to Linux on Huawei laptops Huawei laptops actually have many problems with linux. From fingerprint of the device not working to MANY audio problems. Fortunately this one has a fix.
 Solution:
-Note : This fix is tested on hauwei b3-520 laptop but will probably work on all huawei laptops. The solution is to completely switch from Pipewire to Pulseaudio. So my distro is arch-based so I did yay -R &quot;anything related to pipewire and after I removed all those packages, I installed pulseaudio alternative to everything I removed.]]></description><enclosure url="/posts/fix_huawei_speaker_linux/featured.jpg" length="120403" type="image/jpeg" />
+Note : This fix is tested on hauwei b3-520 laptop but will probably work on all huawei laptops. The solution is to completely switch from Pipewire to Pulseaudio. So my distro is arch-based so I did yay -R &amp;quot;anything related to pipewire and after I removed all those packages, I installed pulseaudio alternative to everything I removed.</description>
+      <content>&lt;h1 id=&#34;no-audio-from-device-when-switching-to-linux-on-huawei-laptops&#34;&gt;No audio from device when switching to Linux on Huawei laptops&lt;/h1&gt;
+&lt;p&gt;Huawei laptops actually have many problems with linux. From fingerprint of the device not working to MANY audio problems. Fortunately this one has a fix.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Solution:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Note : This fix is tested on hauwei b3-520 laptop but will probably work on all huawei laptops.&lt;/em&gt;
+The solution is to completely switch from Pipewire to Pulseaudio. So my distro is arch-based so I did &lt;code&gt;yay -R &amp;quot;anything related to pipewire&lt;/code&gt; and after I removed all those packages, I installed pulseaudio alternative to everything I removed. I started with &lt;code&gt;sudo pacman -S alsa-utils pulseaudio pavucontrol&lt;/code&gt; and continued installing everything from the pipewire that I removed. So if I had &lt;code&gt;pipewire-jack&lt;/code&gt; I installed &lt;code&gt;pulseaudio-jack&lt;/code&gt; instead.
+This fixed my audio problem with the speakers.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Huawei not releasing drivers for audio and many other things.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;So although this fixes the speakers problem. I still can&amp;rsquo;t use audio jack of the device. Connecting any headphones to it will result in audio both playing from the headphones and the speakers.
+And based on all the research I did, this problem has been here for a while, and is likely to never be fixed.&lt;/p&gt;
+</content>
     </item>
     
   </channel>
 </rss>
-

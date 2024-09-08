@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Video Editors on Maybeparsa | Tech Content</title>
+    <title>Video Editors on Parsa | Tech Content</title>
     <link>/tags/video-editors/</link>
-    <description>Recent content in Video Editors on Maybeparsa | Tech Content</description>
+    <description>Recent content in Video Editors on Parsa | Tech Content</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <copyright>
-</copyright>
     <lastBuildDate>Tue, 31 Oct 2023 22:44:26 +0330</lastBuildDate><atom:link href="/tags/video-editors/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>CFast cards not working in Windows</title>
@@ -15,8 +13,33 @@
       <pubDate>Tue, 31 Oct 2023 22:44:26 +0330</pubDate>
       
       <guid>/posts/videoeditingproblem2/</guid>
-      <description><![CDATA[CF cards only working on MacOS If you&rsquo;re a video editor working with footage from Alexa Minis or Alexa LFs, you have probably heard this sentence before. CF cards only work on Mac. This is simply not true and we&rsquo;ll go through what is the problem here.
-Connection Ports These CF drives are extremely fast drives and therefore require require fast ports to be connected to. Arri suggest using Thunderbolt 3 at least for CFast 2.]]></description><enclosure url="/posts/videoeditingproblem2/featured.jpg" length="132708" type="image/jpeg" />
+      <description>CF cards only working on MacOS If you&amp;rsquo;re a video editor working with footage from Alexa Minis or Alexa LFs, you have probably heard this sentence before. CF cards only work on Mac. This is simply not true and we&amp;rsquo;ll go through what is the problem here.
+Connection Ports These CF drives are extremely fast drives and therefore require require fast ports to be connected to. Arri suggest using Thunderbolt 3 at least for CFast 2.</description>
+      <content>&lt;h1 id=&#34;cf-cards-only-working-on-macos&#34;&gt;CF cards only working on MacOS&lt;/h1&gt;
+&lt;p&gt;If you&amp;rsquo;re a video editor working with footage from Alexa Minis or Alexa LFs, you have probably heard this sentence before. CF cards only work on Mac.
+This is simply &lt;strong&gt;not true&lt;/strong&gt; and we&amp;rsquo;ll go through what is the problem here.&lt;/p&gt;
+&lt;h2 id=&#34;connection-ports&#34;&gt;Connection Ports&lt;/h2&gt;
+&lt;p&gt;These CF drives are extremely fast drives and therefore require require fast ports to be connected to. Arri suggest using Thunderbolt 3 at least for CFast 2.0 cards which are the newer ones typically by the AngelBird Company. But if your Cfast card reader has a normal USB instead of USB type C, you should use USB 3.2 Gen 2x2 or 2x1 (very confusing naming). So search for your laptop model or for your motherboard model on the web and see if it has those ports to get the most out of your Cfast. However if there is power being delivered to your CFast card reader then your usb generation should only affect your speed not it working or not. (except for Thunderbolt 2 and USB 2 ports which can&amp;rsquo;t deliver power to CFast 2.0 cards at all.)&lt;/p&gt;
+&lt;h2 id=&#34;udf-formatting&#34;&gt;UDF formatting&lt;/h2&gt;
+&lt;p&gt;These CF cards or CFast cards are UDF formatted. These drives are well supported on Mac and were supported on Windows 10 and Windows 11 at one time. However an &amp;ldquo;update&amp;rdquo; for Windows apparently broke this feature on Windows and it&amp;rsquo;s being solved for the past 2 years.&lt;/p&gt;
+&lt;h3 id=&#34;what-can-you-do-in-this-case&#34;&gt;What can you do in this case?&lt;/h3&gt;
+&lt;p&gt;This is temporary solution and  the main fix will come from Microsoft, but you should rollback your updates to a point which it was before this update from Microsoft.
+To this search for rolling back updates on the web or on your windows search and you&amp;rsquo;ll see what you should do.
+However rolling back updates means rolling back security updates as well, Which is not recommended. but if you have to you have to.&lt;/p&gt;
+&lt;h3 id=&#34;the-advanced-solution-for-windows-10&#34;&gt;The advanced solution for Windows 10&lt;/h3&gt;
+&lt;p&gt;What the update broke is a file called partmgr.sys located in C:/Windows/system32/drivers/:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Take a backup of that file (add a .back to the end of the file name).&lt;/li&gt;
+&lt;li&gt;Download &lt;a href=&#34;https://github.com/parsamrrelax/partmgr.sys/releases/download/partmgr/partmgr.sys&#34;&gt;this file&lt;/a&gt; and put it in the same directory.
+&lt;ul&gt;
+&lt;li&gt;Replace the old version if it asks you to.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Change the permission of the file to administrator from the properties.&lt;/li&gt;
+&lt;li&gt;Reboot&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;em&gt;Note that every Windows Update breaks this function again and you should repeat the process&lt;/em&gt;&lt;/p&gt;
+</content>
     </item>
     
     <item>
@@ -25,10 +48,58 @@ Connection Ports These CF drives are extremely fast drives and therefore require
       <pubDate>Tue, 31 Oct 2023 20:49:09 +0330</pubDate>
       
       <guid>/posts/videoeditingproblem/</guid>
-      <description><![CDATA[External drives are not recogonized either on Windows or MacOS To better understand why this problem happens we must first understand some basic terms.
-File systems: File systems are methods that data is stored and retrieved on operating systems. Now this is not a clear explanation if you&rsquo;re not familiar with computing and not tech savvy in general. So let&rsquo;s explain it better. Basically every operating system (Windows, MacOS, Linux, &hellip;) chooses a variety of file systems to support.]]></description><enclosure url="/posts/videoeditingproblem/featured.jpg" length="120162" type="image/jpeg" />
+      <description>External drives are not recogonized either on Windows or MacOS To better understand why this problem happens we must first understand some basic terms.
+File systems: File systems are methods that data is stored and retrieved on operating systems. Now this is not a clear explanation if you&amp;rsquo;re not familiar with computing and not tech savvy in general. So let&amp;rsquo;s explain it better. Basically every operating system (Windows, MacOS, Linux, &amp;hellip;) chooses a variety of file systems to support.</description>
+      <content>&lt;h1 id=&#34;external-drives-are-not-recogonized-either-on-windows-or-macos&#34;&gt;External drives are not recogonized either on Windows or MacOS&lt;/h1&gt;
+&lt;p&gt;To better understand why this problem happens we must first understand some basic terms.&lt;/p&gt;
+&lt;h2 id=&#34;file-systems&#34;&gt;File systems:&lt;/h2&gt;
+&lt;p&gt;File systems are methods that data is stored and retrieved on operating systems. Now this is not a clear explanation if you&amp;rsquo;re not familiar with computing and not tech savvy in general. So let&amp;rsquo;s explain it better.
+Basically every operating system (Windows, MacOS, Linux, &amp;hellip;) chooses a variety of file systems to support. This means that each of these operating systems can write and read information in those file system types.&lt;/p&gt;
+&lt;h2 id=&#34;where-is-the-problem-in-this&#34;&gt;Where is the problem in this?&lt;/h2&gt;
+&lt;p&gt;The problem begins when one of these file systems are exclusive to one operating system and you format your hard drive to one of these proprietary ones, then it can not be read in other operating systems.&lt;/p&gt;
+&lt;h2 id=&#34;different-file-systems&#34;&gt;Different file systems:&lt;/h2&gt;
+&lt;p&gt;There are many popular filesystems around including NTFS,  FAT32, ExFat, Btrfs and many more.
+NTFS is a propriety file system developed by Microsoft and is exclusive for Windows.
+APFS is a propriety file system developed by Apple and is exclusive for MacOS.
+HFS and HFS+ are propriety file systems developed by Apple and are exclusive for MacOS.
+Above are the known propriety file systems that I know of but these are the most popular ones.
+There are some general file systems that almost all operating systems support.
+One of the most popular ones in this category is FAT32. Basically everything supports FAT32. &lt;em&gt;But it has a file size limit of 4GBs&lt;/em&gt; , meaning you can&amp;rsquo;t store files larger than 4GB on drives that have this file system.&lt;/p&gt;
+&lt;h2 id=&#34;what-is-the-best-format-for-compatibility&#34;&gt;What is the best format for compatibility&lt;/h2&gt;
+&lt;p&gt;You should always format your drives to &lt;strong&gt;exFAT&lt;/strong&gt;. That&amp;rsquo;s it. It is supported in Windows, MacOS, and Linux. I have tested this myself.
+&lt;em&gt;So if you&amp;rsquo;re a video editor use exFAT. So you can have cross platform compatibility.&lt;/em&gt;&lt;/p&gt;
+&lt;h2 id=&#34;what-if-i-cant-format-my-drive-now-and-want-access-to-my-files-on-one-of-these-operating-systems&#34;&gt;What if I can&amp;rsquo;t format my drive now and want access to my files on one of these operating systems?&lt;/h2&gt;
+&lt;p&gt;Say someone copied the footage to your drive and you want to copy the footage in your machine before formatting it. Let&amp;rsquo;s see the solution.&lt;/p&gt;
+&lt;h3 id=&#34;windows&#34;&gt;Windows:&lt;/h3&gt;
+&lt;p&gt;If your operating system is Windows and your drive was working on a Mac but not showing up on your Windows machine.
+First check if this is actually a file system issue and not a drive problem. The drive should be powered on, and you should be able to unmount it from the taskbar. If you right click on the Windows start and check disk management, you should see that your external drive is recognized but the file system in not shown like your internal drive which is generally NTFS.
+So if it was like this it is probably in APFS or HFS and you need third party software to access it.&lt;/p&gt;
+&lt;p&gt;Paragon software company has some great products for this issue
+Download their software for this issue from their website:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.paragon-software.com/home/hfs-windows/&#34;&gt;HFS for Windows&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.paragon-software.com/home/apfs-windows/&#34;&gt;APFS for Windows&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Download these programs and install them. You will see your drive recognized in one of them and mounted as a normal drive from now on. But remember to don&amp;rsquo;t rely heavily on these softwares and format your drive to exFAT after you&amp;rsquo;re done.&lt;/p&gt;
+&lt;h3 id=&#34;macos&#34;&gt;MacOS:&lt;/h3&gt;
+&lt;p&gt;If your operating system is MacOS and your drive was working on a Windows PC but not showing up on your Mac.
+First check if this is actually a file system issue and not a drive problem. Do this by running the disk utility app and check if your drive is recognized. If it was and you know it was working on a Windows PC, the drive is probably in NTFS format and you&amp;rsquo;ll need a workaround to make it work.&lt;/p&gt;
+&lt;p&gt;You can use third party software for this for example from &lt;a href=&#34;https://www.paragon-software.com/home/ntfs-mac/&#34;&gt;Paragon&lt;/a&gt; but I recommend that you do it from terminal yourself. This is a bit advanced but more reliable and free.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Open Terminal&lt;/li&gt;
+&lt;li&gt;Type this command and press return and enter your password after that&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo nano /etc/fstab
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;Replace &amp;ldquo;NAME&amp;rdquo; in this command with your drive name and press return
+&lt;em&gt;If your drive contains spaces in it&amp;rsquo;s name you should enter them as \040&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;LABEL=NAME none ntfs rw, auto, nobrowse
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;Press Control + O then Control + X on Mac keyboard.&lt;/li&gt;
+&lt;li&gt; In Finder, click Go then go to Folder then type: &lt;strong&gt;/Volumes&lt;/strong&gt;, and click &amp;ldquo;Go&amp;rdquo;.
+You can now access your drive from here.&lt;/li&gt;
+&lt;/ul&gt;
+</content>
     </item>
     
   </channel>
 </rss>
-

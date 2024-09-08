@@ -1,13 +1,16 @@
-<head>
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-C37YK844BP"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-C37YK844BP');
-</script>
-</head>
-<header class="mb-4{{ if $.Site.Params.fixedHeader }} sticky-top{{ end }}">
-  {{ partial "header/index" . }}
+<header class="header">
+  <div class="header__inner">
+    <div class="header__logo">
+      {{ partial "logo.html" . }}
+    </div>
+    {{ if len $.Site.Menus }}
+      {{ partial "mobile-menu.html" . }}
+    {{ end }}
+    {{ if and $.Site.Params.showLanguageSelector (len $.Site.Home.AllTranslations) }}
+      {{ partial "language-menu.html" . }}
+    {{ end }}
+  </div>
+  {{ if len $.Site.Menus }}
+    {{ partial "menu.html" . }}
+  {{ end }}
 </header>

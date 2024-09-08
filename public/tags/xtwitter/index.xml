@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>X(Twitter) on Maybeparsa | Tech Content</title>
+    <title>X(Twitter) on Parsa | Tech Content</title>
     <link>/tags/xtwitter/</link>
-    <description>Recent content in X(Twitter) on Maybeparsa | Tech Content</description>
+    <description>Recent content in X(Twitter) on Parsa | Tech Content</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <copyright>
-</copyright>
     <lastBuildDate>Sat, 10 Feb 2024 12:08:41 +0330</lastBuildDate><atom:link href="/tags/xtwitter/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Revanced Apks (Youtube, X(Twitter), Reddit, Youtube Music) 10 Feb 2024</title>
@@ -15,7 +13,7 @@
       <pubDate>Sat, 10 Feb 2024 12:08:41 +0330</pubDate>
       
       <guid>/posts/revancedfiles2/</guid>
-      <description><![CDATA[Revanced Apks for Youtube, Reddit and X(Twitter) I have explained what Revanced apps are in this post. For better understanding first checkout that post.
+      <description>Revanced Apks for Youtube, Reddit and X(Twitter) I have explained what Revanced apps are in this post. For better understanding first checkout that post.
 Reddit Download link : github
 Apk version: 2024.06.0
 Revanced features:
@@ -23,7 +21,104 @@ Disable screenshot popup Hide ads Sanitize sharing links Unlock premium Reddit i
 Apk version: 10.27.0
 Revanced features:
 Dynamic color Hide ads Hide recommended users Youtube Download link : github
-Notes: In order to sign in to your google account you must download Vanced MicroG.]]></description><enclosure url="/posts/revancedfiles2/featured.jpg" length="199313" type="image/jpeg" />
+Notes: In order to sign in to your google account you must download Vanced MicroG.</description>
+      <content>&lt;h1 id=&#34;revanced-apks-for-youtube-reddit-and-xtwitter&#34;&gt;Revanced Apks for Youtube, Reddit and X(Twitter)&lt;/h1&gt;
+&lt;p&gt;I have explained what Revanced apps are in &lt;a href=&#34;https://maybeparsa.top/posts/revanced/&#34;&gt;this&lt;/a&gt; post. For better understanding first checkout that post.&lt;/p&gt;
+&lt;h2 id=&#34;reddit&#34;&gt;Reddit&lt;/h2&gt;
+&lt;p&gt;Download link : &lt;a href=&#34;https://github.com/parsamrrelax/revancedapks/releases/download/reddit2024.06.0/reddit-revanced_v2024.06.0-patches_v4.2.0.apk&#34;&gt;github&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Apk version: 2024.06.0&lt;/p&gt;
+&lt;p&gt;Revanced features:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Disable screenshot popup&lt;/li&gt;
+&lt;li&gt;Hide ads&lt;/li&gt;
+&lt;li&gt;Sanitize sharing links&lt;/li&gt;
+&lt;li&gt;Unlock premium Reddit icons&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;xtwitter&#34;&gt;X(Twitter)&lt;/h2&gt;
+&lt;p&gt;Download link : &lt;a href=&#34;https://github.com/parsamrrelax/revancedapks/releases/download/twitter10.27.0/x-revanced_v10.27.0-release.0-patches_v4.2.0.apk&#34;&gt;github&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Apk version: 10.27.0&lt;/p&gt;
+&lt;p&gt;Revanced features:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Dynamic color&lt;/li&gt;
+&lt;li&gt;Hide ads&lt;/li&gt;
+&lt;li&gt;Hide recommended users&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;youtube&#34;&gt;Youtube&lt;/h2&gt;
+&lt;p&gt;Download link : &lt;a href=&#34;https://github.com/parsamrrelax/revancedapks/releases/download/youtube19.04.37/youtube-revanced_v19.04.37-patches_v4.2.0.apk&#34;&gt;github&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Notes: In order to sign in to your google account you must download Vanced MicroG. This an opensource apk alternative to google services. Download it from &lt;a href=&#34;https://github.com/parsamrrelax/revancedapks/releases/download/Youtube/vanced-microG.apk&#34;&gt;here&lt;/a&gt; or get your own version from a contributer&amp;rsquo;s github or make your own.&lt;/p&gt;
+&lt;p&gt;Apk version: 19.04.37&lt;/p&gt;
+&lt;p&gt;Revanced features:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Alternative thumbnails&lt;/li&gt;
+&lt;li&gt;Always autorepeat&lt;/li&gt;
+&lt;li&gt;Announcements&lt;/li&gt;
+&lt;li&gt;Bypass URL redirects&lt;/li&gt;
+&lt;li&gt;Client spoof&lt;/li&gt;
+&lt;li&gt;Comments&lt;/li&gt;
+&lt;li&gt;Copy video URL&lt;/li&gt;
+&lt;li&gt;Custom player overlay opacity&lt;/li&gt;
+&lt;li&gt;Disable shorts on startup&lt;/li&gt;
+&lt;li&gt;Disable auto captions&lt;/li&gt;
+&lt;li&gt;Disable fine scrubbing gesture&lt;/li&gt;
+&lt;li&gt;Disable player popup panels&lt;/li&gt;
+&lt;li&gt;Disable zoom haptics&lt;/li&gt;
+&lt;li&gt;Enable debugging&lt;/li&gt;
+&lt;li&gt;Enable tablet layout&lt;/li&gt;
+&lt;li&gt;External downloads&lt;/li&gt;
+&lt;li&gt;HDR auto brightness&lt;/li&gt;
+&lt;li&gt;Hide &amp;lsquo;Load more&amp;rsquo; button&lt;/li&gt;
+&lt;li&gt;Hide shorts components&lt;/li&gt;
+&lt;li&gt;Hide ads&lt;/li&gt;
+&lt;li&gt;Hide album cards&lt;/li&gt;
+&lt;li&gt;Hide autoplay button&lt;/li&gt;
+&lt;li&gt;Hide breaking news shelf&lt;/li&gt;
+&lt;li&gt;Hide captions button&lt;/li&gt;
+&lt;li&gt;Hide cast button&lt;/li&gt;
+&lt;li&gt;Hide crowdfunding box&lt;/li&gt;
+&lt;li&gt;Hide email address&lt;/li&gt;
+&lt;li&gt;Hide endscreen cards&lt;/li&gt;
+&lt;li&gt;Hide filter bar&lt;/li&gt;
+&lt;li&gt;Hide floating microphone button&lt;/li&gt;
+&lt;li&gt;Hide info cards&lt;/li&gt;
+&lt;li&gt;Hide layout components&lt;/li&gt;
+&lt;li&gt;Hide player buttons&lt;/li&gt;
+&lt;li&gt;Hide seekbar&lt;/li&gt;
+&lt;li&gt;Hide timestamp&lt;/li&gt;
+&lt;li&gt;Hide video action buttons&lt;/li&gt;
+&lt;li&gt;Minimized playback&lt;/li&gt;
+&lt;li&gt;Navigation buttons&lt;/li&gt;
+&lt;li&gt;Old video quality menu&lt;/li&gt;
+&lt;li&gt;Open links externally&lt;/li&gt;
+&lt;li&gt;Playback speed&lt;/li&gt;
+&lt;li&gt;Player flyout menu&lt;/li&gt;
+&lt;li&gt;Remember video quality&lt;/li&gt;
+&lt;li&gt;Return Youtube Dislike&lt;/li&gt;
+&lt;li&gt;Seekbar tapping&lt;/li&gt;
+&lt;li&gt;SponserBlock&lt;/li&gt;
+&lt;li&gt;Spoof app version&lt;/li&gt;
+&lt;li&gt;Spoof device demnsions&lt;/li&gt;
+&lt;li&gt;Swipe controls&lt;/li&gt;
+&lt;li&gt;Tablet mini player&lt;/li&gt;
+&lt;li&gt;Theme&lt;/li&gt;
+&lt;li&gt;Video ads&lt;/li&gt;
+&lt;li&gt;Wide searchbar&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;revanced-youtube-music&#34;&gt;Revanced YouTube Music&lt;/h2&gt;
+&lt;p&gt;Download link : &lt;a href=&#34;https://github.com/parsamrrelax/revancedapks/releases/download/youtubemusic6.37.50/youtube-music-revanced_v6.37.50-patches_v4.2.0.apk&#34;&gt;github&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Apk version : 6.37.50&lt;/p&gt;
+&lt;p&gt;Revanced features:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Background play&lt;/li&gt;
+&lt;li&gt;Bypass certificate checks&lt;/li&gt;
+&lt;li&gt;Codecs unlock&lt;/li&gt;
+&lt;li&gt;Exclusive audio playback&lt;/li&gt;
+&lt;li&gt;Hide get premium&lt;/li&gt;
+&lt;li&gt;Minimized playback music&lt;/li&gt;
+&lt;li&gt;Music video ads&lt;/li&gt;
+&lt;li&gt;Remove upgrade button&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;It is highly advisable to create your own version of revanced apps and don&amp;rsquo;t trust sources of apks in the internet&lt;/strong&gt;&lt;/p&gt;
+</content>
     </item>
     
     <item>
@@ -32,7 +127,7 @@ Notes: In order to sign in to your google account you must download Vanced Micro
       <pubDate>Tue, 19 Dec 2023 11:49:41 +0330</pubDate>
       
       <guid>/posts/revancedfiles1/</guid>
-      <description><![CDATA[Revanced Apks for Youtube, Reddit and X(Twitter) I have explained what Revanced apps are in this post. For better understanding first checkout that post.
+      <description>Revanced Apks for Youtube, Reddit and X(Twitter) I have explained what Revanced apps are in this post. For better understanding first checkout that post.
 Reddit Download link : github
 Apk version: 2023.50.1
 Revanced features:
@@ -40,7 +135,92 @@ Disable screenshot popup Hide ads Sanitize sharing links Unlock premium Reddit i
 Apk version: 10.20.0
 Revanced features:
 Dynamic color Hide ads Hide recommended users Youtube Download link : github
-Notes: In order to sign in to your google account you must download Vanced MicroG.]]></description><enclosure url="/posts/revancedfiles1/featured.jpg" length="199313" type="image/jpeg" />
+Notes: In order to sign in to your google account you must download Vanced MicroG.</description>
+      <content>&lt;h1 id=&#34;revanced-apks-for-youtube-reddit-and-xtwitter&#34;&gt;Revanced Apks for Youtube, Reddit and X(Twitter)&lt;/h1&gt;
+&lt;p&gt;I have explained what Revanced apps are in &lt;a href=&#34;https://maybeparsa.top/posts/revanced/&#34;&gt;this&lt;/a&gt; post. For better understanding first checkout that post.&lt;/p&gt;
+&lt;h2 id=&#34;reddit&#34;&gt;Reddit&lt;/h2&gt;
+&lt;p&gt;Download link : &lt;a href=&#34;https://github.com/parsamrrelax/revancedapks/releases/download/reddit2023.50.1/reddit-revanced_v2023.50.1-patches_v3.1.0.apk&#34;&gt;github&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Apk version: 2023.50.1&lt;/p&gt;
+&lt;p&gt;Revanced features:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Disable screenshot popup&lt;/li&gt;
+&lt;li&gt;Hide ads&lt;/li&gt;
+&lt;li&gt;Sanitize sharing links&lt;/li&gt;
+&lt;li&gt;Unlock premium Reddit icons&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;xtwitter&#34;&gt;X(Twitter)&lt;/h2&gt;
+&lt;p&gt;Download link : &lt;a href=&#34;https://github.com/parsamrrelax/revancedapks/releases/download/twitter10.20.0/x-revanced_v10.20.0-release.0-patches_v3.1.0.apk&#34;&gt;github&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Apk version: 10.20.0&lt;/p&gt;
+&lt;p&gt;Revanced features:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Dynamic color&lt;/li&gt;
+&lt;li&gt;Hide ads&lt;/li&gt;
+&lt;li&gt;Hide recommended users&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;youtube&#34;&gt;Youtube&lt;/h2&gt;
+&lt;p&gt;Download link : &lt;a href=&#34;https://github.com/parsamrrelax/revancedapks/releases/download/youtube18.45.43/youtube-revanced_v18.45.43-patches_v3.1.0.apk&#34;&gt;github&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Notes: In order to sign in to your google account you must download Vanced MicroG. This an opensource apk alternative to google services. Download it from &lt;a href=&#34;https://github.com/parsamrrelax/revancedapks/releases/download/Youtube/vanced-microG.apk&#34;&gt;here&lt;/a&gt; or get your own version from a contributer&amp;rsquo;s github or make your own.&lt;/p&gt;
+&lt;p&gt;Apk version: 18.45.43&lt;/p&gt;
+&lt;p&gt;Revanced features:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Alternative thumbnails&lt;/li&gt;
+&lt;li&gt;Always autorepeat&lt;/li&gt;
+&lt;li&gt;Announcements&lt;/li&gt;
+&lt;li&gt;Bypass URL redirects&lt;/li&gt;
+&lt;li&gt;Client spoof&lt;/li&gt;
+&lt;li&gt;Comments&lt;/li&gt;
+&lt;li&gt;Copy video URL&lt;/li&gt;
+&lt;li&gt;Custom player overlay opacity&lt;/li&gt;
+&lt;li&gt;Disable shorts on startup&lt;/li&gt;
+&lt;li&gt;Disable auto captions&lt;/li&gt;
+&lt;li&gt;Disable fine scrubbing gesture&lt;/li&gt;
+&lt;li&gt;Disable player popup panels&lt;/li&gt;
+&lt;li&gt;Disable zoom haptics&lt;/li&gt;
+&lt;li&gt;Enable debugging&lt;/li&gt;
+&lt;li&gt;Enable tablet layout&lt;/li&gt;
+&lt;li&gt;External downloads&lt;/li&gt;
+&lt;li&gt;HDR auto brightness&lt;/li&gt;
+&lt;li&gt;Hide &amp;lsquo;Load more&amp;rsquo; button&lt;/li&gt;
+&lt;li&gt;Hide shorts components&lt;/li&gt;
+&lt;li&gt;Hide ads&lt;/li&gt;
+&lt;li&gt;Hide album cards&lt;/li&gt;
+&lt;li&gt;Hide autoplay button&lt;/li&gt;
+&lt;li&gt;Hide breaking news shelf&lt;/li&gt;
+&lt;li&gt;Hide captions button&lt;/li&gt;
+&lt;li&gt;Hide cast button&lt;/li&gt;
+&lt;li&gt;Hide crowdfunding box&lt;/li&gt;
+&lt;li&gt;Hide email address&lt;/li&gt;
+&lt;li&gt;Hide endscreen cards&lt;/li&gt;
+&lt;li&gt;Hide filter bar&lt;/li&gt;
+&lt;li&gt;Hide floating microphone button&lt;/li&gt;
+&lt;li&gt;Hide info cards&lt;/li&gt;
+&lt;li&gt;Hide layout components&lt;/li&gt;
+&lt;li&gt;Hide player buttons&lt;/li&gt;
+&lt;li&gt;Hide seekbar&lt;/li&gt;
+&lt;li&gt;Hide timestamp&lt;/li&gt;
+&lt;li&gt;Hide video action buttons&lt;/li&gt;
+&lt;li&gt;Minimized playback&lt;/li&gt;
+&lt;li&gt;Navigation buttons&lt;/li&gt;
+&lt;li&gt;Old video quality menu&lt;/li&gt;
+&lt;li&gt;Open links externally&lt;/li&gt;
+&lt;li&gt;Playback speed&lt;/li&gt;
+&lt;li&gt;Player flyout menu&lt;/li&gt;
+&lt;li&gt;Premium heading&lt;/li&gt;
+&lt;li&gt;Remember video quality&lt;/li&gt;
+&lt;li&gt;Return Youtube Dislike&lt;/li&gt;
+&lt;li&gt;Seekbar tapping&lt;/li&gt;
+&lt;li&gt;SponserBlock&lt;/li&gt;
+&lt;li&gt;Spoof app version&lt;/li&gt;
+&lt;li&gt;Spoof device demnsions&lt;/li&gt;
+&lt;li&gt;Swipe controls&lt;/li&gt;
+&lt;li&gt;Tablet mini player&lt;/li&gt;
+&lt;li&gt;Theme&lt;/li&gt;
+&lt;li&gt;Vanced MicroG support&lt;/li&gt;
+&lt;li&gt;Video ads&lt;/li&gt;
+&lt;li&gt;Wide searchbar&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;It is highly advisable to create your own version of revanced apps and don&amp;rsquo;t trust sources of apks in the internet&lt;/strong&gt;&lt;/p&gt;
+</content>
     </item>
     
     <item>
@@ -49,7 +229,7 @@ Notes: In order to sign in to your google account you must download Vanced Micro
       <pubDate>Sat, 21 Oct 2023 18:25:10 +0330</pubDate>
       
       <guid>/posts/revancedfiles/</guid>
-      <description><![CDATA[Revanced Apks for Youtube, Reddit and X(Twitter) I have explained what Revanced apps are in this post. For better understanding first checkout that post.
+      <description>Revanced Apks for Youtube, Reddit and X(Twitter) I have explained what Revanced apps are in this post. For better understanding first checkout that post.
 Reddit Download link : github
 Apk version: 2023.41.1
 Revanced features:
@@ -57,9 +237,93 @@ Disable screenshot popup Hide ads Sanitize sharing links Unlock premium Reddit i
 Apk version: 10.12.0
 Revanced features:
 Dynamic color Hide ads Hide recommended users Youtube Download link : github
-Notes: In order to sign in to your google account you must download Vanced MicroG.]]></description>
+Notes: In order to sign in to your google account you must download Vanced MicroG.</description>
+      <content>&lt;h1 id=&#34;revanced-apks-for-youtube-reddit-and-xtwitter&#34;&gt;Revanced Apks for Youtube, Reddit and X(Twitter)&lt;/h1&gt;
+&lt;p&gt;I have explained what Revanced apps are in &lt;a href=&#34;https://maybeparsa.top/posts/revanced/&#34;&gt;this&lt;/a&gt; post. For better understanding first checkout that post.&lt;/p&gt;
+&lt;h2 id=&#34;reddit&#34;&gt;Reddit&lt;/h2&gt;
+&lt;p&gt;Download link : &lt;a href=&#34;https://github.com/parsamrrelax/revancedapks/releases/download/Reddit/reddit-revanced_v2023.41.1.apk&#34;&gt;github&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Apk version: 2023.41.1&lt;/p&gt;
+&lt;p&gt;Revanced features:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Disable screenshot popup&lt;/li&gt;
+&lt;li&gt;Hide ads&lt;/li&gt;
+&lt;li&gt;Sanitize sharing links&lt;/li&gt;
+&lt;li&gt;Unlock premium Reddit icons&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;xtwitter&#34;&gt;X(Twitter)&lt;/h2&gt;
+&lt;p&gt;Download link : &lt;a href=&#34;https://github.com/parsamrrelax/revancedapks/releases/download/Twitter/x-revanced_v10.12.0-release.0.apk&#34;&gt;github&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Apk version: 10.12.0&lt;/p&gt;
+&lt;p&gt;Revanced features:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Dynamic color&lt;/li&gt;
+&lt;li&gt;Hide ads&lt;/li&gt;
+&lt;li&gt;Hide recommended users&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;youtube&#34;&gt;Youtube&lt;/h2&gt;
+&lt;p&gt;Download link : &lt;a href=&#34;https://github.com/parsamrrelax/revancedapks/releases/download/Youtube/youtube-revanced_v18.38.44.apk&#34;&gt;github&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Notes: In order to sign in to your google account you must download Vanced MicroG. This an opensource apk alternative to google services. Download it from &lt;a href=&#34;https://github.com/parsamrrelax/revancedapks/releases/download/Youtube/vanced-microG.apk&#34;&gt;here&lt;/a&gt; or get your own version from a contributer&amp;rsquo;s github or make your own.&lt;/p&gt;
+&lt;p&gt;Apk version: 18.38.44&lt;/p&gt;
+&lt;p&gt;Revanced features:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Alternative thumbnails&lt;/li&gt;
+&lt;li&gt;Always autorepeat&lt;/li&gt;
+&lt;li&gt;Announcements&lt;/li&gt;
+&lt;li&gt;Bypass URL redirects&lt;/li&gt;
+&lt;li&gt;Client spoof&lt;/li&gt;
+&lt;li&gt;Comments&lt;/li&gt;
+&lt;li&gt;Copy video URL&lt;/li&gt;
+&lt;li&gt;Custom player overlay opacity&lt;/li&gt;
+&lt;li&gt;Disable shorts on startup&lt;/li&gt;
+&lt;li&gt;Disable auto captions&lt;/li&gt;
+&lt;li&gt;Disable fine scrubbing gesture&lt;/li&gt;
+&lt;li&gt;Disable player popup panels&lt;/li&gt;
+&lt;li&gt;Disable zoom haptics&lt;/li&gt;
+&lt;li&gt;Enable debugging&lt;/li&gt;
+&lt;li&gt;Enable tablet layout&lt;/li&gt;
+&lt;li&gt;External downloads&lt;/li&gt;
+&lt;li&gt;HDR auto brightness&lt;/li&gt;
+&lt;li&gt;Hide &amp;lsquo;Load more&amp;rsquo; button&lt;/li&gt;
+&lt;li&gt;Hide shorts components&lt;/li&gt;
+&lt;li&gt;Hide ads&lt;/li&gt;
+&lt;li&gt;Hide album cards&lt;/li&gt;
+&lt;li&gt;Hide autoplay button&lt;/li&gt;
+&lt;li&gt;Hide breaking news shelf&lt;/li&gt;
+&lt;li&gt;Hide captions button&lt;/li&gt;
+&lt;li&gt;Hide cast button&lt;/li&gt;
+&lt;li&gt;Hide crowdfunding box&lt;/li&gt;
+&lt;li&gt;Hide email address&lt;/li&gt;
+&lt;li&gt;Hide endscreen cards&lt;/li&gt;
+&lt;li&gt;Hide filter bar&lt;/li&gt;
+&lt;li&gt;Hide floating microphone button&lt;/li&gt;
+&lt;li&gt;Hide info cards&lt;/li&gt;
+&lt;li&gt;Hide layout components&lt;/li&gt;
+&lt;li&gt;Hide player buttons&lt;/li&gt;
+&lt;li&gt;Hide seekbar&lt;/li&gt;
+&lt;li&gt;Hide timestamp&lt;/li&gt;
+&lt;li&gt;Hide video action buttons&lt;/li&gt;
+&lt;li&gt;Minimized playback&lt;/li&gt;
+&lt;li&gt;Navigation buttons&lt;/li&gt;
+&lt;li&gt;Old video quality menu&lt;/li&gt;
+&lt;li&gt;Open links externally&lt;/li&gt;
+&lt;li&gt;Playback speed&lt;/li&gt;
+&lt;li&gt;Player flyout menu&lt;/li&gt;
+&lt;li&gt;Premium heading&lt;/li&gt;
+&lt;li&gt;Remember video quality&lt;/li&gt;
+&lt;li&gt;Return Youtube Dislike&lt;/li&gt;
+&lt;li&gt;Seekbar tapping&lt;/li&gt;
+&lt;li&gt;SponserBlock&lt;/li&gt;
+&lt;li&gt;Spoof app version&lt;/li&gt;
+&lt;li&gt;Spoof device demnsions&lt;/li&gt;
+&lt;li&gt;Swipe controls&lt;/li&gt;
+&lt;li&gt;Tablet mini player&lt;/li&gt;
+&lt;li&gt;Theme&lt;/li&gt;
+&lt;li&gt;Vanced MicroG support&lt;/li&gt;
+&lt;li&gt;Video ads&lt;/li&gt;
+&lt;li&gt;Wide searchbar&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;It is highly advisable to create your own version of revanced apps and don&amp;rsquo;t trust sources of apks in the internet&lt;/strong&gt;&lt;/p&gt;
+</content>
     </item>
     
   </channel>
 </rss>
-

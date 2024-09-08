@@ -3,42 +3,54 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>/tags/android/</loc>
-    <lastmod>2024-02-10T12:08:41+03:30</lastmod>
+    <lastmod>2024-06-25T14:08:33+03:30</lastmod>
   </url><url>
     <loc>/categories/apks/</loc>
-    <lastmod>2024-02-10T12:08:41+03:30</lastmod>
+    <lastmod>2024-06-25T14:08:33+03:30</lastmod>
   </url><url>
     <loc>/categories/</loc>
-    <lastmod>2024-02-10T12:08:41+03:30</lastmod>
+    <lastmod>2024-06-25T14:08:33+03:30</lastmod>
+  </url><url>
+    <loc>/tags/mod/</loc>
+    <lastmod>2024-06-25T14:08:33+03:30</lastmod>
   </url><url>
     <loc>/</loc>
-    <lastmod>2024-02-10T12:08:41+03:30</lastmod>
+    <lastmod>2024-06-25T14:08:33+03:30</lastmod>
   </url><url>
     <loc>/posts/</loc>
-    <lastmod>2024-02-10T12:08:41+03:30</lastmod>
-  </url><url>
-    <loc>/tags/reddit/</loc>
-    <lastmod>2024-02-10T12:08:41+03:30</lastmod>
+    <lastmod>2024-06-25T14:08:33+03:30</lastmod>
   </url><url>
     <loc>/tags/revanced/</loc>
-    <lastmod>2024-02-10T12:08:41+03:30</lastmod>
+    <lastmod>2024-06-25T14:08:33+03:30</lastmod>
   </url><url>
     <loc>/categories/revanced/</loc>
+    <lastmod>2024-06-25T14:08:33+03:30</lastmod>
+  </url><url>
+    <loc>/posts/revancedfiles4/</loc>
+    <lastmod>2024-06-25T14:08:33+03:30</lastmod>
+  </url><url>
+    <loc>/tags/</loc>
+    <lastmod>2024-06-25T14:08:33+03:30</lastmod>
+  </url><url>
+    <loc>/tags/twitter/</loc>
+    <lastmod>2024-06-25T14:08:33+03:30</lastmod>
+  </url><url>
+    <loc>/tags/youtube/</loc>
+    <lastmod>2024-06-25T14:08:33+03:30</lastmod>
+  </url><url>
+    <loc>/tags/youtubemusic/</loc>
+    <lastmod>2024-06-25T14:08:33+03:30</lastmod>
+  </url><url>
+    <loc>/posts/revancedfiles3/</loc>
+    <lastmod>2024-03-28T13:10:53+03:30</lastmod>
+  </url><url>
+    <loc>/tags/reddit/</loc>
     <lastmod>2024-02-10T12:08:41+03:30</lastmod>
   </url><url>
     <loc>/posts/revancedfiles2/</loc>
     <lastmod>2024-02-10T12:08:41+03:30</lastmod>
   </url><url>
-    <loc>/tags/</loc>
-    <lastmod>2024-02-10T12:08:41+03:30</lastmod>
-  </url><url>
     <loc>/tags/xtwitter/</loc>
-    <lastmod>2024-02-10T12:08:41+03:30</lastmod>
-  </url><url>
-    <loc>/tags/youtube/</loc>
-    <lastmod>2024-02-10T12:08:41+03:30</lastmod>
-  </url><url>
-    <loc>/tags/youtubemusic/</loc>
     <lastmod>2024-02-10T12:08:41+03:30</lastmod>
   </url><url>
     <loc>/posts/fix_huawei_speaker_linux/</loc>
@@ -83,12 +95,6 @@
     <loc>/posts/videoeditingproblem/</loc>
     <lastmod>2023-10-31T20:49:09+03:30</lastmod>
   </url><url>
-    <loc>/posts/revancedytmusic/</loc>
-    <lastmod>2023-10-24T15:05:25+03:30</lastmod>
-  </url><url>
-    <loc>/tags/mod/</loc>
-    <lastmod>2023-10-23T20:28:30+03:30</lastmod>
-  </url><url>
     <loc>/tags/spotify/</loc>
     <lastmod>2023-10-23T20:28:30+03:30</lastmod>
   </url><url>
@@ -100,29 +106,5 @@
   </url><url>
     <loc>/posts/revanced/</loc>
     <lastmod>2023-10-19T12:24:39+03:30</lastmod>
-  </url><url>
-    <loc>/docs/</loc>
-  </url><url>
-    <loc>/news/</loc>
-  </url><url>
-    <loc>/archives/2022/</loc>
-  </url><url>
-    <loc>/about/</loc>
-  </url><url>
-    <loc>/archives/</loc>
-  </url><url>
-    <loc>/authors/</loc>
-  </url><url>
-    <loc>/blog/</loc>
-  </url><url>
-    <loc>/contact/</loc>
-  </url><url>
-    <loc>/offline/</loc>
-  </url><url>
-    <loc>/authors/maybeparsa/</loc>
-  </url><url>
-    <loc>/search/</loc>
-  </url><url>
-    <loc>/series/</loc>
   </url>
 </urlset>

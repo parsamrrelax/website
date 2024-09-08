@@ -1,810 +1,203 @@
-<!doctype html>
-<html class="position-relative" itemscope itemtype="https://schema.org/WebPage" lang="en"
-  data-bs-theme="auto" data-palette="yellow">
-  <head><script src="/assets/init/bundle.min.803ccd1d78c0ca8fe8c283e8104bea082fcb8b008dc3ea9b90e81c5a21e07796.js" integrity="sha256-gDzNHXjAyo/owoPoEEvqCC/LiwCNw&#43;qbkOgcWiHgd5Y=" crossorigin="anonymous"></script>
-<meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Video edtiors problems with footages on external hard drives - Maybeparsa | Tech Content</title>
-    <link rel="icon" href="/favicon_hud947c314198828d36baa9997c047c2d5_435265_16x16_resize_q75_h2_box_2.webp" sizes="16x16" type="image/webp">
-    <link rel="icon" href="/favicon_hud947c314198828d36baa9997c047c2d5_435265_32x32_resize_q75_h2_box_2.webp" sizes="32x32" type="image/webp">
-    <link rel="icon" href="/favicon_hud947c314198828d36baa9997c047c2d5_435265_150x150_resize_q75_h2_box_2.webp" sizes="150x150" type="image/webp">
-    <link rel="apple-touch-icon" href="/favicon_hud947c314198828d36baa9997c047c2d5_435265_180x180_resize_q75_h2_box_2.webp" sizes="180x180" type="image/webp">
-    <link rel="icon" href="/favicon_hud947c314198828d36baa9997c047c2d5_435265_192x192_resize_q75_h2_box_2.webp" sizes="192x192" type="image/webp">
-<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#6f42c1">
-<meta name="keywords" content="UDF drives on windows, APFS on windows, HFS on windows, NTFS on Mac, video edtior problem" />
-  <meta name="description" content="External drives are not recogonized either on Windows or MacOS To better understand why this problem happens we must first understand some basic terms.
-File systems: File systems are methods that data is stored and retrieved on operating systems. Now this is not a clear explanation if you&rsquo;re not familiar with computing and not tech savvy in general. So let&rsquo;s explain it better. Basically every operating system (Windows, MacOS, Linux, &hellip;) chooses a variety of file systems to support." />
-    <meta name="robots" content="index, follow" /><meta name="twitter:card" content="summary_large_image"/>
-<meta name="twitter:image" content="/posts/videoeditingproblem/featured.jpg"/>
-<meta name="twitter:title" content="Video edtiors problems with footages on external hard drives"/>
-<meta name="twitter:description" content="External drives are not recogonized either on Windows or MacOS To better understand why this problem happens we must first understand some basic terms.
-File systems: File systems are methods that data is stored and retrieved on operating systems. Now this is not a clear explanation if you&rsquo;re not familiar with computing and not tech savvy in general. So let&rsquo;s explain it better. Basically every operating system (Windows, MacOS, Linux, &hellip;) chooses a variety of file systems to support."/>
-<meta name="twitter:site" content="@maybeparsa"/>
-<meta property="og:title" content="Video edtiors problems with footages on external hard drives" />
-<meta property="og:description" content="External drives are not recogonized either on Windows or MacOS To better understand why this problem happens we must first understand some basic terms.
-File systems: File systems are methods that data is stored and retrieved on operating systems. Now this is not a clear explanation if you&rsquo;re not familiar with computing and not tech savvy in general. So let&rsquo;s explain it better. Basically every operating system (Windows, MacOS, Linux, &hellip;) chooses a variety of file systems to support." />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="/posts/videoeditingproblem/" /><meta property="og:image" content="/posts/videoeditingproblem/featured.jpg"/><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2023-10-31T20:49:09+03:30" />
-<meta property="article:modified_time" content="2023-10-31T20:49:09+03:30" />
-
-<meta itemprop="name" content="Video edtiors problems with footages on external hard drives">
-<meta itemprop="description" content="External drives are not recogonized either on Windows or MacOS To better understand why this problem happens we must first understand some basic terms.
-File systems: File systems are methods that data is stored and retrieved on operating systems. Now this is not a clear explanation if you&rsquo;re not familiar with computing and not tech savvy in general. So let&rsquo;s explain it better. Basically every operating system (Windows, MacOS, Linux, &hellip;) chooses a variety of file systems to support."><meta itemprop="datePublished" content="2023-10-31T20:49:09+03:30" />
-<meta itemprop="dateModified" content="2023-10-31T20:49:09+03:30" />
-<meta itemprop="wordCount" content="737"><meta itemprop="image" content="/posts/videoeditingproblem/featured.jpg">
-<meta itemprop="keywords" content="Windows,Mac,Video Editors,Problems," />
-  <meta property="og:image:alt" content="Video edtiors problems with footages on external hard drives" />
-  <meta name="twitter:image:alt" content="Video edtiors problems with footages on external hard drives" />
-  <link rel="manifest" href="/manifest.json">
-
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-C37YK844BP"></script>
-<script>
-var doNotTrack = false;
-if (!doNotTrack) {
-	window.dataLayer = window.dataLayer || [];
-	function gtag(){dataLayer.push(arguments);}
-	gtag('js', new Date());
-	gtag('config', 'G-C37YK844BP', { 'anonymize_ip': false });
-}
-</script>
-
-<link data-precache rel="stylesheet" href="/assets/main/bundle.min.956587dbb61cdd2367f08f37d5e24fbd9fdb7461ddd835bf04ec888ae91947ba.css" integrity="sha256-lWWH27Yc3SNn8I831eJPvZ/bdGHd2DW/BOyIiukZR7o=" crossorigin="anonymous">
-
-    <link data-precache rel="stylesheet" href="/assets/viewer/bundle.min.8c1002839fa22c1350d6ae1eef6593120e108f973c41348be9b5065430566aaf.css" integrity="sha256-jBACg5&#43;iLBNQ1q4e72WTEg4Qj5c8QTSL6bUGVDBWaq8=" crossorigin="anonymous">
-
-
-</head>
-  <body><head>
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-C37YK844BP"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-C37YK844BP');
-</script>
-</head>
-<header class="mb-4 sticky-top">
+<!DOCTYPE html>
+<html lang="en">
+<head>
   
-<nav class="top-app-bar shadow navbar navbar-expand-xxl">
-  <div class="container">
-<a class="navbar-brand d-flex align-items-center flex-grow-1 flex-xxl-grow-0 justify-content-xxl-start ms-2 ms-xxl-0 mx-auto me-xxl-2"
-    href="/">
-    <picture><img class="logo " alt="Logo" src="/images/favicon.webp" loading="lazy" width="567" height="573" />
-</picture>
-MaybeParsa
+    <title>Video edtiors problems with footages on external hard drives :: Parsa | Tech Content</title>
+  
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="External drives are not recogonized either on Windows or MacOS To better understand why this problem happens we must first understand some basic terms.
+File systems: File systems are methods that data is stored and retrieved on operating systems. Now this is not a clear explanation if you&amp;rsquo;re not familiar with computing and not tech savvy in general. So let&amp;rsquo;s explain it better. Basically every operating system (Windows, MacOS, Linux, &amp;hellip;) chooses a variety of file systems to support." />
+<meta name="keywords" content="UDF drives on windows, APFS on windows, HFS on windows, NTFS on Mac, video edtior problem" />
+
+  <meta name="robots" content="noodp" />
+
+<link rel="canonical" href="/posts/videoeditingproblem/" />
+
+
+  
+
+
+
+
+
+  
+  <link rel="stylesheet" href="/css/buttons.min.2bc533403a27dfe0e93105a92502b42ce4587e2e4a87d9f7d349e51e16e09478.css">
+
+  
+  <link rel="stylesheet" href="/css/code.min.00125962708925857e7b66dbc58391d55be1191a3d0ce2034de8c9cd2c481c36.css">
+
+  
+  <link rel="stylesheet" href="/css/fonts.min.23057e40db67c96fd98b1bd73002e3c7c370bacb18f4a48eee12a4f3075a93d2.css">
+
+  
+  <link rel="stylesheet" href="/css/footer.min.2e3eb191baee58dd05a9f0104ac1fab0827bca7c64dafe0b2579f934c33a1d69.css">
+
+  
+  <link rel="stylesheet" href="/css/gist.min.a751e8b0abe1ba8bc53ced52a38b19d8950fe78ca29454ea8c2595cf26aad5c0.css">
+
+  
+  <link rel="stylesheet" href="/css/header.min.b6fb4423cf82a9f9d7abc9cd010223fa3d70a6526a3f28f8e17d814c06e18f9e.css">
+
+  
+  <link rel="stylesheet" href="/css/main.min.25ab35b4ef392af8f0aa6590b50283f72549f4b2df6de27e93db60b961b85324.css">
+
+  
+  <link rel="stylesheet" href="/css/menu.min.83637a90d903026bc280d3f82f96ceb06c5fc72b7c1a8d686afb5bbf818a29f7.css">
+
+  
+  <link rel="stylesheet" href="/css/pagination.min.82f6400eae7c7c6dc3c866733c2ec0579e4089608fea69400ff85b3880aa0d3c.css">
+
+  
+  <link rel="stylesheet" href="/css/post.min.fc74ca360273c1d828da3c02b8174eba435607b369d98418ccc6f2243cd4e75d.css">
+
+  
+  <link rel="stylesheet" href="/css/prism.min.9023bbc24533d09e97a51a0a42a5a7bfe4c591ae167c5551fb1d2191d11977c0.css">
+
+  
+  <link rel="stylesheet" href="/css/syntax.min.cc789ed9377260d7949ea4c18781fc58959a89287210fe4edbff44ebfc1511b6.css">
+
+  
+  <link rel="stylesheet" href="/css/terminal.min.0b8fe9f359484565f9dd26651a363a59d99595a1af2f1eb6e8db9e6940500d6b.css">
+
+  
+  <link rel="stylesheet" href="/css/terms.min.b81791663c3790e738e571cdbf802312390d30e4b1d8dc9d814a5b5454d0ac11.css">
+
+
+<link rel="stylesheet" href="/terminal.css">
+
+
+
+
+<link rel="shortcut icon" href="/favicon.png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
+
+<meta name="twitter:card" content="summary" />
+
+  
+    <meta name="twitter:site" content="" />
+  
+    <meta name="twitter:creator" content="" />
+
+
+
+<meta property="og:locale" content="en" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Video edtiors problems with footages on external hard drives">
+<meta property="og:description" content="External drives are not recogonized either on Windows or MacOS To better understand why this problem happens we must first understand some basic terms.
+File systems: File systems are methods that data is stored and retrieved on operating systems. Now this is not a clear explanation if you&amp;rsquo;re not familiar with computing and not tech savvy in general. So let&amp;rsquo;s explain it better. Basically every operating system (Windows, MacOS, Linux, &amp;hellip;) chooses a variety of file systems to support." />
+<meta property="og:url" content="/posts/videoeditingproblem/" />
+<meta property="og:site_name" content="Parsa | Tech Content" />
+
+  <meta property="og:image" content="/og-image.png">
+
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="627">
+
+  <meta property="article:section" content="Windows" />
+
+  <meta property="article:section" content="Mac" />
+
+  <meta property="article:section" content="Problems" />
+
+  <meta property="article:section" content="Video Editors" />
+
+
+  <meta property="article:published_time" content="2023-10-31 20:49:09 &#43;0330 &#43;0330" />
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+<body>
+
+
+<div class="container center">
+
+  <header class="header">
+  <div class="header__inner">
+    <div class="header__logo">
+      <a href="/">
+  <div class="logo">
+    Parsa | Tech Content
+  </div>
 </a>
 
-    <div class="offcanvas-xxl offcanvas-end flex-grow-1" data-bs-scroll="true" tabindex="-1" id="navbarMenus" aria-labelledby="navbarMenusLabel">
-      <div class="offcanvas-header px-4 pb-0">
-        <div class="offcanvas-title h5" id="navbarMenusLabel">MaybeParsa</div>
-        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" data-bs-target="#navbarMenus" aria-label="Close"></button>
-      </div>
-      <div class="offcanvas-body p-4 pt-0 p-xxl-0">
-        <hr class="d-xxl-none">
-        <ul class="navbar-nav flex-row flex-wrap align-items-center me-auto">
-          <li class="nav-item col-12 col-xxl-auto dropdown px-0">
-            <a href="#"
-              class="nav-link dropdown-toggle"
-              id="navbarDropdownBlog" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-<span class="menu-icon me-1"><i class="fas fa-fw fa-blog"></i></span>Blog
-            </a>
-            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownBlog" data-bs-popper="none">
-                <li><h6 class="dropdown-header">Blog Menu Description</h6></li>
-              <li>
-                <a class="dropdown-item d-flex align-items-center text-wrap text-xxl-nowrap"
-                  href="/archives/">
-                    <span class="dropdown-item-icon me-2 p-2 rounded">
-                      <i class="fas fa-fw fa-file-archive text-primary"></i>
-                    </span>
-                  <div class="dropdown-item-content">
-                    <p class="dropdown-item-title mb-0">Archives</p>
-                  </div></a>
-              </li>
-              <li>
-                <a class="dropdown-item d-flex align-items-center text-wrap text-xxl-nowrap"
-                  href="/series/">
-                    <span class="dropdown-item-icon me-2 p-2 rounded">
-                      <i class="fas fa-fw fa-columns"></i>
-                    </span>
-                  <div class="dropdown-item-content">
-                    <p class="dropdown-item-title mb-1">Series</p>
-                      <p class="dropdown-item-description mb-0 text-secondary">List of series.</p>
-                  </div></a>
-              </li>
-              <li>
-                <a class="dropdown-item d-flex align-items-center text-wrap text-xxl-nowrap"
-                  href="/categories/">
-                    <span class="dropdown-item-icon me-2 p-2 rounded">
-                      <i class="fas fa-fw fa-folder text-success"></i>
-                    </span>
-                  <div class="dropdown-item-content">
-                    <p class="dropdown-item-title mb-1">Categories</p>
-                      <p class="dropdown-item-description mb-0 text-secondary">List of categories.</p>
-                  </div></a>
-              </li>
-              <li>
-                <a class="dropdown-item d-flex align-items-center text-wrap text-xxl-nowrap"
-                  href="/tags/">
-                    <span class="dropdown-item-icon me-2 p-2 rounded">
-                      <i class="fas fa-fw fa-tags"></i>
-                    </span>
-                  <div class="dropdown-item-content">
-                    <p class="dropdown-item-title mb-1">Tags</p>
-                      <p class="dropdown-item-description mb-0 text-secondary">List of tags.</p>
-                  </div></a>
-              </li>
-            </ul>
-          </li>
-        </ul>
+    </div>
+    
+      <ul class="menu menu--mobile">
+  <li class="menu__trigger">Menu&nbsp;▾</li>
+  <li>
+    <ul class="menu__dropdown">
+      
         
-    <hr class="d-xxl-none">
-    <form class="search-bar ms-auto my-auto" action="/search/" novalidate>
-      <div class="input-group input-group-sm align-items-center">
-        <span class="btn btn-search disabled position-absolute left-0 border-0 px-1">
-          <i class="fas fa-fw fa-search fa-lg"></i>
-        </span>
-        <input
-          class="my-1 form-control border-white rounded-5 search-input bg-body"
-          name="q"
-          type="search"
-          placeholder="Search"
-          aria-label="Search"
-          required>
-          <span class="search-shortcut position-absolute end-0 top-0 me-2">
-            <kbd class="bg-primary rounded shadow">/</kbd>
-          </span>
-      </div>
-    </form><hr class="d-xxl-none">
-        <ul class="navbar-nav flex-row flex-wrap align-items-center ms-md-auto">
-<li class="nav-item py-2 py-xxl-1 col-12 col-xxl-auto">
-
-
-<nav class="social-links nav justify-content-center flex-row">
-      <a class="nav-link social-link col-6 col-xxl-auto p-1" target="_blank" href="https://github.com/parsamrrelax" title="GitHub" rel="me">
-        <i class="fa-fw fab fa-github"
-          ></i>
-        <span class="ms-1 d-xxl-none">Github</span>
-      </a>
-  <a class="nav-link social-link col-6 col-xxl-auto p-1" target="_blank" href="/index.xml" title="RSS" rel="me">
-    <i class="fas fa-fw fa-rss"></i>
-    <span class="ms-1 d-xxl-none">RSS</span>
-  </a>
-</nav>
-
-</li>
-<li class="nav-item py-2 py-xxl-1 col-12 col-xxl-auto">
-  <div class="vr d-none d-xxl-flex h-100 mx-xxl-2 text-white"></div>
-  <hr class="d-xxl-none my-2">
-</li>
-<li class="nav-item dropdown col-6 col-xxl-auto">
-    <a class="nav-link px-0 py-2 px-xxl-1" href="#" id="fontSizeDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-        <i class="fas fa-fw fa-font"></i>
-        <span class="d-xxl-none">Font Size</span>
-    </a>
-    <ul class="font-size-dropdown-menu dropdown-menu dropdown-menu-end" aria-labelledby="fontSizeDropdown">
-        <li>
-            <button class="font-size-item dropdown-item" data-size="xs">
-                Extra Small
-            </button>
-        </li>
-        <li>
-            <button class="font-size-item dropdown-item" data-size="sm">
-                Small
-            </button>
-        </li>
-        <li>
-            <button class="font-size-item dropdown-item active" data-size="md">
-                Medium
-            </button>
-        </li>
-        <li>
-            <button class="font-size-item dropdown-item" data-size="lg">
-                Large
-            </button>
-        </li>
-        <li>
-            <button class="font-size-item dropdown-item" data-size="xl">
-                Extra Large
-            </button>
-        </li>
+          <li><a href="/about">About</a></li>
+        
+      
+      
     </ul>
-</li>
-<li class="nav-item dropdown col-6 col-xxl-auto">
-    <a class="nav-link px-0 py-2 px-xxl-1" href="#" id="paletteDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-        <i class="fas fa-fw fa-palette"></i>
-        <span class="d-xxl-none">Palette</span>
-    </a>
-    <ul class="palette-dropdown-menu dropdown-menu dropdown-menu-end px-2 row g-2" aria-labelledby="paletteDropdown">
-            <li class="col-4 my-1">
-                <a role="button" id="palette-blue" aria-label="Blue"
-                    class="btn btn-sm w-100 palette text-bg-blue" data-palette="blue">
-                </a>
-            </li>
-            <li class="col-4 my-1">
-                <a role="button" id="palette-blue-gray" aria-label="Blue Gray"
-                    class="btn btn-sm w-100 palette text-bg-blue-gray" data-palette="blue-gray">
-                </a>
-            </li>
-            <li class="col-4 my-1">
-                <a role="button" id="palette-brown" aria-label="Brown"
-                    class="btn btn-sm w-100 palette text-bg-brown" data-palette="brown">
-                </a>
-            </li>
-            <li class="col-4 my-1">
-                <a role="button" id="palette-cyan" aria-label="Cyan"
-                    class="btn btn-sm w-100 palette text-bg-cyan" data-palette="cyan">
-                </a>
-            </li>
-            <li class="col-4 my-1">
-                <a role="button" id="palette-green" aria-label="Green"
-                    class="btn btn-sm w-100 palette text-bg-green" data-palette="green">
-                </a>
-            </li>
-            <li class="col-4 my-1">
-                <a role="button" id="palette-indigo" aria-label="Indigo"
-                    class="btn btn-sm w-100 palette text-bg-indigo" data-palette="indigo">
-                </a>
-            </li>
-            <li class="col-4 my-1">
-                <a role="button" id="palette-orange" aria-label="Orange"
-                    class="btn btn-sm w-100 palette text-bg-orange" data-palette="orange">
-                </a>
-            </li>
-            <li class="col-4 my-1">
-                <a role="button" id="palette-pink" aria-label="Pink"
-                    class="btn btn-sm w-100 palette text-bg-pink" data-palette="pink">
-                </a>
-            </li>
-            <li class="col-4 my-1">
-                <a role="button" id="palette-purple" aria-label="Purple"
-                    class="btn btn-sm w-100 palette text-bg-purple" data-palette="purple">
-                </a>
-            </li>
-            <li class="col-4 my-1">
-                <a role="button" id="palette-red" aria-label="Red"
-                    class="btn btn-sm w-100 palette text-bg-red" data-palette="red">
-                </a>
-            </li>
-            <li class="col-4 my-1">
-                <a role="button" id="palette-teal" aria-label="Teal"
-                    class="btn btn-sm w-100 palette text-bg-teal" data-palette="teal">
-                </a>
-            </li>
-            <li class="col-4 my-1">
-                <a role="button" id="palette-yellow" aria-label="Yellow"
-                    class="btn btn-sm w-100 palette text-bg-yellow" data-palette="yellow">
-                </a>
-            </li>
-    </ul>
-</li>
-<li class="nav-item dropdown col-6 col-xxl-auto">
-    <a class="nav-link px-0 py-2 px-xxl-1" href="#" id="modeDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-        <i class="mode-icon fas fa-fw fa-adjust" id="modeIcon"></i>
-        <span class="d-xxl-none">Mode</span>
-    </a>
-    <ul class="mode-dropdown-menu dropdown-menu dropdown-menu-end" aria-labelledby="modeDropdown">
-        <li class="mode-item" data-color-mode="light" data-icon="sun">
-            <button class="dropdown-item">
-                <i class="mode-icon fas fa-fw fa-sun"></i> Light
-            </button>
-        </li>
-        <li class="mode-item" data-color-mode="dark" data-icon="moon">
-            <button class="dropdown-item">
-                <i class="mode-icon fas fa-fw fa-moon"></i> Dark
-            </button>
-        </li>
-        <li class="mode-item active" data-color-mode="auto" data-icon="adjust">
-            <button class="dropdown-item">
-                <i class="mode-icon fas fa-fw fa-adjust"></i> Auto
-            </button>
-        </li>
-    </ul>
-</li>
-        </ul>
-      </div>
-    </div>
-    <div class="d-flex">
-      <button class="navbar-toggler order-5 border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbarMenus"
-        aria-controls="navbarMenus" aria-expanded="false" aria-label="Toggle navigation">
-        <i class="fas fa-ellipsis-h"></i>
-      </button>
-    </div>
+  </li>
+</ul>
+
+    
+    
   </div>
+  
+    <nav class="navigation-menu">
+  <ul class="navigation-menu__inner menu--desktop">
+    
+      
+        
+          <li><a href="/about" >About</a></li>
+        
+      
+      
+    
+  </ul>
 </nav>
 
+  
 </header>
 
-    <main class="container">
-      <div class="row content"><noscript>
-    <div class="alert alert-danger" role="alert">Your browser does not support JavaScript.</div>
-</noscript>
 
-<div class="col-xxl-8">
-  <div class="container"><nav class="row card component" aria-label="breadcrumb">
-  <div class="card-body pb-0">
-    <ol class="hbs-breadcrumb breadcrumb flex-nowrap"><li class="breadcrumb-item text-surface"><a href="/">Home</a></li><li class="breadcrumb-item text-surface"><a href="/posts/">Posts</a></li><li class="breadcrumb-item active">Video Edtiors Problems With Footages on External Hard Drives</li></ol>
-  </div>
-</nav><div class="post-panel-wrapper position-relative d-flex justify-content-center">
-  <div class="d-flex flex-row justify-content-center rounded-5 border post-panel position-fixed px-3 py-1 surface shadow-1">
+  <div class="content">
     
-    
+<article class="post">
+  <h1 class="post-title">
+    <a href="/posts/videoeditingproblem/">Video edtiors problems with footages on external hard drives</a>
+  </h1>
+  <div class="post-meta"><time class="post-date">2023-10-31</time></div>
 
-    
-    
-    
-  <a class="action action-toc d-none d-xxl-block" href="#postTOC" role="button" title="Table of contents">
-    <i class="fas fa-fw fa-list-alt"></i>
-  </a>
-<a class="action action-toc d-block d-xxl-none" href="#post-toc-container" role="button" title="Table of contents">
-  <i class="fas fa-fw fa-list-alt"></i>
-</a>
-    
-    
-    
-<a id="sidebarToggler" class="action action-sidebar-toggler d-none d-xxl-block" role="button" title="Sidebar toggler">
-  <i class="fas fa-fw fa-expand-alt" data-fa-transform="rotate-45"></i>
-</a>
-
-    
-  </div>
-</div><article class="row card component mb-4 post">
-  <div class="card-header ">
-    <h1 class="card-title post-title my-2">Video Edtiors Problems With Footages on External Hard Drives</h1>
-  </div>
-  <div class="card-body"><div class="post-meta mb-3">
-  <span class="post-date me-1 mb-1" title="created on 2023-10-31 20:49:09 &#43;0330 &#43;0330.">October 31, 2023</span><span class="post-reading-time me-1 mb-1">4 min read</span><a href="/categories/mac/" class="btn btn-sm btn-secondary mb-1 me-2 py-0 pe-1 post-taxonomy post-taxonomy-sm post-category">
-      <i class="fas fa-fw fa-folder me-1"></i>Mac</a><a href="/categories/problems/" class="btn btn-sm btn-secondary mb-1 me-2 py-0 pe-1 post-taxonomy post-taxonomy-sm post-category">
-      <i class="fas fa-fw fa-folder me-1"></i>Problems</a><a href="/categories/video-editors/" class="btn btn-sm btn-secondary mb-1 me-2 py-0 pe-1 post-taxonomy post-taxonomy-sm post-category">
-      <i class="fas fa-fw fa-folder me-1"></i>Video Editors</a><a href="/categories/windows/" class="btn btn-sm btn-secondary mb-1 me-2 py-0 pe-1 post-taxonomy post-taxonomy-sm post-category">
-      <i class="fas fa-fw fa-folder me-1"></i>Windows</a><a href="/tags/mac/" class="btn btn-sm btn-secondary mb-1 me-2 py-0 pe-1 post-taxonomy post-taxonomy-sm post-tag">Mac</a><a href="/tags/problems/" class="btn btn-sm btn-secondary mb-1 me-2 py-0 pe-1 post-taxonomy post-taxonomy-sm post-tag">Problems</a><a href="/tags/video-editors/" class="btn btn-sm btn-secondary mb-1 me-2 py-0 pe-1 post-taxonomy post-taxonomy-sm post-tag">Video Editors</a><a href="/tags/windows/" class="btn btn-sm btn-secondary mb-1 me-2 py-0 pe-1 post-taxonomy post-taxonomy-sm post-tag">Windows</a>
-</div>
-<picture class="d-flex justify-content-center"><source srcset="/posts/videoeditingproblem/featured_hu5a1df5d6cca77f0876c4c8749db3d7d6_120162_0x270_resize_q75_box.jpg" type="image/jpeg" media="(max-width: 576px)" width="270" height="270">
-      <img class="post-featured-img h-auto w-auto mb-3" alt="Video edtiors problems with footages on external hard drives" src="/posts/videoeditingproblem/featured_hu5a1df5d6cca77f0876c4c8749db3d7d6_120162_0x480_resize_q75_box.jpg" width="480" height="480" data-src="/posts/videoeditingproblem/featured.jpg"/>
-    </picture>
-<div class="mt-2 mb-3 d-block d-xxl-none">
-    <h2 class="text-surface mb-3">Contents</h2>
-    <div id="post-toc-container">
-        </div>
-    <hr class="text-secondary">
-</div><div class="post-content mb-3" data-bs-spy="scroll" data-bs-target="#TableOfContents" tabindex="0">
-        <div id="post-content-body"><h1 id="external-drives-are-not-recogonized-either-on-windows-or-macos" data-numberify>External drives are not recogonized either on Windows or MacOS<a class="anchor ms-1" href="#external-drives-are-not-recogonized-either-on-windows-or-macos"></a></h1>
-<p>To better understand why this problem happens we must first understand some basic terms.</p>
-<h2 id="file-systems" data-numberify>File systems:<a class="anchor ms-1" href="#file-systems"></a></h2>
-<p>File systems are methods that data is stored and retrieved on operating systems. Now this is not a clear explanation if you&rsquo;re not familiar with computing and not tech savvy in general. So let&rsquo;s explain it better.
-Basically every operating system (Windows, MacOS, Linux, &hellip;) chooses a variety of file systems to support. This means that each of these operating systems can write and read information in those file system types.</p>
-<h2 id="where-is-the-problem-in-this" data-numberify>Where is the problem in this?<a class="anchor ms-1" href="#where-is-the-problem-in-this"></a></h2>
-<p>The problem begins when one of these file systems are exclusive to one operating system and you format your hard drive to one of these proprietary ones, then it can not be read in other operating systems.</p>
-<h2 id="different-file-systems" data-numberify>Different file systems:<a class="anchor ms-1" href="#different-file-systems"></a></h2>
-<p>There are many popular filesystems around including NTFS,  FAT32, ExFat, Btrfs and many more.
-NTFS is a propriety file system developed by Microsoft and is exclusive for Windows.
-APFS is a propriety file system developed by Apple and is exclusive for MacOS.
-HFS and HFS+ are propriety file systems developed by Apple and are exclusive for MacOS.
-Above are the known propriety file systems that I know of but these are the most popular ones.
-There are some general file systems that almost all operating systems support.
-One of the most popular ones in this category is FAT32. Basically everything supports FAT32. <em>But it has a file size limit of 4GBs</em> , meaning you can&rsquo;t store files larger than 4GB on drives that have this file system.</p>
-<h2 id="what-is-the-best-format-for-compatibility" data-numberify>What is the best format for compatibility<a class="anchor ms-1" href="#what-is-the-best-format-for-compatibility"></a></h2>
-<p>You should always format your drives to <strong>exFAT</strong>. That&rsquo;s it. It is supported in Windows, MacOS, and Linux. I have tested this myself.
-<em>So if you&rsquo;re a video editor use exFAT. So you can have cross platform compatibility.</em></p>
-<h2 id="what-if-i-cant-format-my-drive-now-and-want-access-to-my-files-on-one-of-these-operating-systems" data-numberify>What if I can&rsquo;t format my drive now and want access to my files on one of these operating systems?<a class="anchor ms-1" href="#what-if-i-cant-format-my-drive-now-and-want-access-to-my-files-on-one-of-these-operating-systems"></a></h2>
-<p>Say someone copied the footage to your drive and you want to copy the footage in your machine before formatting it. Let&rsquo;s see the solution.</p>
-<h3 id="windows" data-numberify>Windows:<a class="anchor ms-1" href="#windows"></a></h3>
-<p>If your operating system is Windows and your drive was working on a Mac but not showing up on your Windows machine.
-First check if this is actually a file system issue and not a drive problem. The drive should be powered on, and you should be able to unmount it from the taskbar. If you right click on the Windows start and check disk management, you should see that your external drive is recognized but the file system in not shown like your internal drive which is generally NTFS.
-So if it was like this it is probably in APFS or HFS and you need third party software to access it.</p>
-<p>Paragon software company has some great products for this issue
-Download their software for this issue from their website:</p>
-<p><a href="https://www.paragon-software.com/home/hfs-windows/#" target="_blank" rel="noopener noreferrer">HFS for Windows<i class="fas fa-external-link-square-alt ms-1"></i></a></p>
-<p><a href="https://www.paragon-software.com/home/apfs-windows/#" target="_blank" rel="noopener noreferrer">APFS for Windows<i class="fas fa-external-link-square-alt ms-1"></i></a></p>
-<p>Download these programs and install them. You will see your drive recognized in one of them and mounted as a normal drive from now on. But remember to don&rsquo;t rely heavily on these softwares and format your drive to exFAT after you&rsquo;re done.</p>
-<h3 id="macos" data-numberify>MacOS:<a class="anchor ms-1" href="#macos"></a></h3>
-<p>If your operating system is MacOS and your drive was working on a Windows PC but not showing up on your Mac.
-First check if this is actually a file system issue and not a drive problem. Do this by running the disk utility app and check if your drive is recognized. If it was and you know it was working on a Windows PC, the drive is probably in NTFS format and you&rsquo;ll need a workaround to make it work.</p>
-<p>You can use third party software for this for example from <a href="https://www.paragon-software.com/home/ntfs-mac/" target="_blank" rel="noopener noreferrer">Paragon<i class="fas fa-external-link-square-alt ms-1"></i></a> but I recommend that you do it from terminal yourself. This is a bit advanced but more reliable and free.</p>
-<ul>
-<li>Open Terminal</li>
-<li>Type this command and press return and enter your password after that</li>
-</ul>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo nano /etc/fstab
-</span></span></code></pre></div><ul>
-<li>Replace &ldquo;NAME&rdquo; in this command with your drive name and press return
-<em>If your drive contains spaces in it&rsquo;s name you should enter them as \040</em></li>
-</ul>
-<pre tabindex="0"><code>LABEL=NAME none ntfs rw, auto, nobrowse
-</code></pre><ul>
-<li>Press Control + O then Control + X on Mac keyboard.</li>
-<li> In Finder, click Go then go to Folder then type: <strong>/Volumes</strong>, and click &ldquo;Go&rdquo;.
-You can now access your drive from here.</li>
-</ul>
-</div>
-</div>
-</div><div class="card-footer">
-  <div class="post-navs d-flex justify-content-evenly"><div class="post-nav post-prev">
-      <i class="fas fa-fw fa-chevron-down post-prev-icon me-1" data-fa-transform="rotate-90"></i>
-      <a href="/posts/revancedytmusic/">Revanced Youtube Music, 24 October 2023</a>
-    </div><div class="post-nav post-next">
-      <a href="/posts/videoeditingproblem2/">CFast Cards Not Working in Windows</a>
-      <i class="fas fa-fw fa-chevron-down post-next-icon ms-1" data-fa-transform="rotate-270"></i>
-    </div></div>
-</div></article>
-
-</div>
-</div>
-<aside class="col-xxl-4 sidebar d-flex">
-  <div class="container d-flex flex-column">
-    
-    
-<div class="accordion profile">
-  <div class="accordion-item card row text-center component">
-    <div class="accordion-header card-header border-0" id="profile-header">
-      <a
-        class="accordion-button d-lg-none mb-2 shadow-none p-0 bg-transparent text-surface"
-        role="button" data-bs-toggle="collapse" href="#profile" aria-expanded="true" aria-controls="profile">
-        Profile
-      </a>
-    </div>
-    <div class="card-body collapse accordion-collapse accordion-body d-lg-block show" id="profile" aria-labelledby="profile-header">
-      <div class="col-12 d-flex align-items-center justify-content-center"><picture><img class="profile-avatar rounded-circle " alt="Parsa" src="/images/avatar.png" loading="lazy" data-viewer-invisible width="640" height="640" />
-</picture>
-</div>
-      <div class="col-12 profile-meta"><div class="profile-name fw-fold fs-lg">Parsa</div><div class="profile-bio">Python (Flask) and Flutter coder, also exploring Rust. Passionate about building dynamic web apps and sleek static sites with a friendly touch.</div><div class="profile-location"><i class="fas fa-fw fa-map-marker-alt"></i>Tehran</div><a class="profile-about text-primary" href="/about/"><i class="fas fa-fw fa-user"></i>About</a><a class="profile-contact text-primary" href="/contact/"><i class="fas fa-fw fa-question-circle"></i>Contact Us</a></div>
+  
+    <span class="post-tags">
+      
+      #<a href="/tags/windows/">Windows</a>&nbsp;
+      
+      #<a href="/tags/mac/">Mac</a>&nbsp;
+      
+      #<a href="/tags/video-editors/">Video Editors</a>&nbsp;
+      
+      #<a href="/tags/problems/">Problems</a>&nbsp;
+      
+    </span>
+  
+  
 
 
-<nav class="social-links nav justify-content-center mt-1 justify-content-around">
-    <a class="nav-link social-link" href="mailto:iknowarch@proton.me" title="Email">
-      <i class="fas fa-fw fa-2x fa-envelope" style="color: #0963ac;"></i>
-    </a>
-      <a class="nav-link social-link" target="_blank" href="https://github.com/parsamrrelax" title="GitHub" rel="me">
-        <i class="fa-fw fa-2x fab fa-github"
-          ></i>
-      </a>
-      <a class="nav-link social-link" target="_blank" href="https://twitter.com/maybeparsa" title="Twitter" rel="me">
-        <i class="fa-fw fa-2x fab fa-twitter"
-           style="color: #1d9bf0;"></i>
-      </a>
-  <a class="nav-link social-link" target="_blank" href="/index.xml" title="RSS" rel="me">
-    <i class="fas fa-fw fa-2x fa-rss" style="color: #ea6221;"></i>
-  </a>
-</nav>
-</div>
-  </div>
-</div>
-
-
-<div class="accordion taxonomies-toggle">
-    <div class="row card component accordion-item">
-        <div class="accordion-header card-header border-0">
-            <a
-                class="accordion-button d-lg-none mb-1 shadow-none p-0 bg-transparent"
-                role="button" data-bs-toggle="collapse" href="#taxonomies-toggle" aria-expanded="true" aria-controls="taxonomies-toggle">
-                Taxonomies
-            </a>
-        </div>
-        <div class="card-body collapse accordion-collapse accordion-body d-lg-block show" id="taxonomies-toggle">
-            <ul class="nav nav-pills nav-fill" role="tablist">
-                    <li class="nav-item" role="presentation">
-                        <button class="nav-link active" id="taxonomyCategoriesTab" data-bs-toggle="tab" data-bs-target="#taxonomyCategories" 
-                            type="button" role="tab" aria-controls="taxonomyCategories" aria-selected="true">
-                            Categories
-                        </button>
-                    </li>
-                    <li class="nav-item" role="presentation">
-                        <button class="nav-link" id="taxonomyTagsTab" data-bs-toggle="tab" data-bs-target="#taxonomyTags" 
-                            type="button" role="tab" aria-controls="taxonomyTags" aria-selected="true">
-                            Tags
-                        </button>
-                    </li>
-                <li class="nav-item" role="presentation">
-                    <button class="nav-link" id="taxonomyArchivesTab" data-bs-toggle="tab" data-bs-target="#taxonomyArchives" 
-                        type="button" role="tab" aria-controls="taxonomyArchives" aria-selected="true">
-                        Archives
-                    </button>
-                </li>
-            </ul>
-            
-            <div class="tab-content mt-3">
-                    <div class="tab-pane active" id="taxonomyCategories" role="tabpanel" aria-labelledby="taxonomyCategoriesTab" tabindex="0">
-                        <a href="/categories/revanced/" class="btn btn-sm btn-secondary post-taxonomy ps-3 post-category me-2 mb-2" title="Revanced">
-                            Revanced
-                            <span class="badge badge-sm text-secondary bg-white ms-1">5</span>
-                        </a>
-                        <a href="/categories/apks/" class="btn btn-sm btn-secondary post-taxonomy ps-3 post-category me-2 mb-2" title="Apks">
-                            Apks
-                            <span class="badge badge-sm text-secondary bg-white ms-1">4</span>
-                        </a>
-                        <a href="/categories/mac/" class="btn btn-sm btn-secondary post-taxonomy ps-3 post-category me-2 mb-2" title="Mac">
-                            Mac
-                            <span class="badge badge-sm text-secondary bg-white ms-1">2</span>
-                        </a>
-                        <a href="/categories/problems/" class="btn btn-sm btn-secondary post-taxonomy ps-3 post-category me-2 mb-2" title="Problems">
-                            Problems
-                            <span class="badge badge-sm text-secondary bg-white ms-1">2</span>
-                        </a>
-                        <a href="/categories/video-editors/" class="btn btn-sm btn-secondary post-taxonomy ps-3 post-category me-2 mb-2" title="Video Editors">
-                            Video Editors
-                            <span class="badge badge-sm text-secondary bg-white ms-1">2</span>
-                        </a>
-                        <a href="/categories/windows/" class="btn btn-sm btn-secondary post-taxonomy ps-3 post-category me-2 mb-2" title="Windows">
-                            Windows
-                            <span class="badge badge-sm text-secondary bg-white ms-1">2</span>
-                        </a>
-                        <a href="/categories/linux/" class="btn btn-sm btn-secondary post-taxonomy ps-3 post-category me-2 mb-2" title="Linux">
-                            Linux
-                            <span class="badge badge-sm text-secondary bg-white ms-1">1</span>
-                        </a>
-                    </div>
-                    <div class="tab-pane" id="taxonomyTags" role="tabpanel" aria-labelledby="taxonomyTagsTab" tabindex="0">
-                        <a href="/tags/android/" class="btn btn-sm btn-secondary post-taxonomy ps-3 post-tag me-2 mb-2" title="Android">
-                            Android
-                            <span class="badge badge-sm text-secondary bg-white ms-1">5</span>
-                        </a>
-                        <a href="/tags/revanced/" class="btn btn-sm btn-secondary post-taxonomy ps-3 post-tag me-2 mb-2" title="Revanced">
-                            Revanced
-                            <span class="badge badge-sm text-secondary bg-white ms-1">5</span>
-                        </a>
-                        <a href="/tags/youtube/" class="btn btn-sm btn-secondary post-taxonomy ps-3 post-tag me-2 mb-2" title="Youtube">
-                            Youtube
-                            <span class="badge badge-sm text-secondary bg-white ms-1">4</span>
-                        </a>
-                        <a href="/tags/problems/" class="btn btn-sm btn-secondary post-taxonomy ps-3 post-tag me-2 mb-2" title="Problems">
-                            Problems
-                            <span class="badge badge-sm text-secondary bg-white ms-1">3</span>
-                        </a>
-                        <a href="/tags/reddit/" class="btn btn-sm btn-secondary post-taxonomy ps-3 post-tag me-2 mb-2" title="Reddit">
-                            Reddit
-                            <span class="badge badge-sm text-secondary bg-white ms-1">3</span>
-                        </a>
-                        <a href="/tags/xtwitter/" class="btn btn-sm btn-secondary post-taxonomy ps-3 post-tag me-2 mb-2" title="X(Twitter)">
-                            X(Twitter)
-                            <span class="badge badge-sm text-secondary bg-white ms-1">3</span>
-                        </a>
-                        <a href="/tags/mac/" class="btn btn-sm btn-secondary post-taxonomy ps-3 post-tag me-2 mb-2" title="Mac">
-                            Mac
-                            <span class="badge badge-sm text-secondary bg-white ms-1">2</span>
-                        </a>
-                        <a href="/tags/video-editors/" class="btn btn-sm btn-secondary post-taxonomy ps-3 post-tag me-2 mb-2" title="Video Editors">
-                            Video Editors
-                            <span class="badge badge-sm text-secondary bg-white ms-1">2</span>
-                        </a>
-                        <a href="/tags/windows/" class="btn btn-sm btn-secondary post-taxonomy ps-3 post-tag me-2 mb-2" title="Windows">
-                            Windows
-                            <span class="badge badge-sm text-secondary bg-white ms-1">2</span>
-                        </a>
-                        <a href="/tags/linux/" class="btn btn-sm btn-secondary post-taxonomy ps-3 post-tag me-2 mb-2" title="linux">
-                            linux
-                            <span class="badge badge-sm text-secondary bg-white ms-1">1</span>
-                        </a>
-                        <a href="/tags" class="btn btn-sm btn-secondary post-taxonomy ps-3 post-tag me-2 mb-2" title='ALL'>
-                        ALL
-                        <span class="badge badge-sm text-secondary bg-white ms-1">13</span>
-                        </a>
-                    </div>
-                <div class="tab-pane" id="taxonomyArchives" role="tabpanel" aria-labelledby="taxonomyArchivesTab" tabindex="0">
-
-    <a href="" class="btn btn-sm btn-secondary post-taxonomy ps-3 me-2 mb-2" title="2024">
-    2024 <span class="badge badge-sm text-secondary bg-white ms-1">2</span>
-    </a>
-
-    <a href="" class="btn btn-sm btn-secondary post-taxonomy ps-3 me-2 mb-2" title="2023">
-    2023 <span class="badge badge-sm text-secondary bg-white ms-1">7</span>
-    </a>
-
-
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-    <div class="accordion posts-toggle">
-      <div class="row card component accordion-item">
-        <div class="accordion-header card-header border-0">
-          <a
-            class="accordion-button d-lg-none mb-1 shadow-none p-0 bg-transparent"
-            role="button"
-            data-bs-toggle="collapse"
-            href="#posts-toggle"
-            aria-expanded="true"
-            aria-controls="posts-toggle">
-            Posts
-          </a>
-        </div>
-        <div
-          class="card-body collapse accordion-collapse accordion-body d-lg-block show"
-          id="posts-toggle">
-          <ul class="nav nav-pills nav-fill" role="tablist">
-              <li class="nav-item" role="presentation">
-                <button
-                  class="nav-link active"
-                  id="featured-posts-tab"
-                  data-bs-toggle="tab"
-                  data-bs-target="#featured-posts"
-                  type="button"
-                  role="tab"
-                  aria-controls="featured-posts"
-                  aria-selected="true">
-                  Featured Posts
-                </button>
-              </li>
-              <li class="nav-item" role="presentation">
-                <button
-                  class="nav-link"
-                  id="recent-posts-tab"
-                  data-bs-toggle="tab"
-                  data-bs-target="#recent-posts"
-                  type="button"
-                  role="tab"
-                  aria-controls="recent-posts"
-                  aria-selected="true">
-                  Recent Posts
-                </button>
-              </li>
-          </ul>
-
-          <div class="tab-content mt-3">
-              <div
-                class="tab-pane active"
-                id="featured-posts"
-                role="tabpanel"
-                aria-labelledby="featured-posts-tab"
-                tabindex="0">
-                <ul class="post-list list-unstyled ms-1">
-                    <li class="mb-2">
-  <div class="d-flex">
-      <div
-        class="flex-shrink-0 d-flex justify-content-center align-items-center"
-        style="max-width: 100px"><picture>
-      <source srcset="/posts/revancedfiles2/featured_hu8d11f7606cccc51576dc126ec553426f_199313_500x0_resize_q75_box.jpg" media="(max-width: 576px)" height="500" width="500">
-      <img class="img-fluid" height="180" width="180" alt="featured.jpg" src="/posts/revancedfiles2/featured_hu8d11f7606cccc51576dc126ec553426f_199313_180x0_resize_q75_box.jpg" data-src="/posts/revancedfiles2/featured.jpg" loading="lazy"/>
-    </picture>
-      </div>
-    <div
-      class="flex-grow-1 d-flex flex-column h-auto justify-content-center ms-3">
-      <a class="post-title" href="/posts/revancedfiles2/">
-        Revanced Apks (Youtube, X(Twitter), Reddit, Youtube Music) 10 Feb 2024
-      </a>
-      <div class="post-meta mt-2">
-        <span class="post-date">
-          February 10, 2024
-        </span>
-      </div>
-    </div>
-  </div>
-                    </li>
-                </ul>
-              </div>
-              <div
-                class="tab-pane"
-                id="recent-posts"
-                role="tabpanel"
-                aria-labelledby="recent-posts-tab"
-                tabindex="0">
-                <ul class="post-list list-unstyled ms-1">
-                    <li class="mb-2">
-  <div class="d-flex">
-      <div
-        class="flex-shrink-0 d-flex justify-content-center align-items-center"
-        style="max-width: 100px"><picture>
-      <source srcset="/posts/revancedfiles2/featured_hu8d11f7606cccc51576dc126ec553426f_199313_500x0_resize_q75_box.jpg" media="(max-width: 576px)" height="500" width="500">
-      <img class="img-fluid" height="180" width="180" alt="featured.jpg" src="/posts/revancedfiles2/featured_hu8d11f7606cccc51576dc126ec553426f_199313_180x0_resize_q75_box.jpg" data-src="/posts/revancedfiles2/featured.jpg" loading="lazy"/>
-    </picture>
-      </div>
-    <div
-      class="flex-grow-1 d-flex flex-column h-auto justify-content-center ms-3">
-      <a class="post-title" href="/posts/revancedfiles2/">
-        Revanced Apks (Youtube, X(Twitter), Reddit, Youtube Music) 10 Feb 2024
-      </a>
-      <div class="post-meta mt-2">
-        <span class="post-date">
-          February 10, 2024
-        </span>
-      </div>
-    </div>
-  </div>
-                    </li>
-                    <li class="mb-2">
-  <div class="d-flex">
-      <div
-        class="flex-shrink-0 d-flex justify-content-center align-items-center"
-        style="max-width: 100px"><picture>
-      <source srcset="/posts/fix_huawei_speaker_linux/featured_hu3d8a6e7260a11ccfb221a0f57e4e35ab_120403_500x0_resize_q75_box.jpg" media="(max-width: 576px)" height="497" width="500">
-      <img class="img-fluid" height="179" width="180" alt="featured.jpg" src="/posts/fix_huawei_speaker_linux/featured_hu3d8a6e7260a11ccfb221a0f57e4e35ab_120403_180x0_resize_q75_box.jpg" data-src="/posts/fix_huawei_speaker_linux/featured.jpg" loading="lazy"/>
-    </picture>
-      </div>
-    <div
-      class="flex-grow-1 d-flex flex-column h-auto justify-content-center ms-3">
-      <a class="post-title" href="/posts/fix_huawei_speaker_linux/">
-        Huawei Laptops Not Playing Sound From Speakers on Linux
-      </a>
-      <div class="post-meta mt-2">
-        <span class="post-date">
-          January 20, 2024
-        </span>
-      </div>
-    </div>
-  </div>
-                    </li>
-                    <li class="mb-2">
-  <div class="d-flex">
-      <div
-        class="flex-shrink-0 d-flex justify-content-center align-items-center"
-        style="max-width: 100px"><picture>
-      <source srcset="/posts/revancedfiles1/featured_hu8d11f7606cccc51576dc126ec553426f_199313_500x0_resize_q75_box.jpg" media="(max-width: 576px)" height="500" width="500">
-      <img class="img-fluid" height="180" width="180" alt="featured.jpg" src="/posts/revancedfiles1/featured_hu8d11f7606cccc51576dc126ec553426f_199313_180x0_resize_q75_box.jpg" data-src="/posts/revancedfiles1/featured.jpg" loading="lazy"/>
-    </picture>
-      </div>
-    <div
-      class="flex-grow-1 d-flex flex-column h-auto justify-content-center ms-3">
-      <a class="post-title" href="/posts/revancedfiles1/">
-        Revanced Apks (Youtube, X(Twitter), Reddit) 19 December 2023
-      </a>
-      <div class="post-meta mt-2">
-        <span class="post-date">
-          December 19, 2023
-        </span>
-      </div>
-    </div>
-  </div>
-                    </li>
-                    <li class="mb-2">
-  <div class="d-flex">
-      <div
-        class="flex-shrink-0 d-flex justify-content-center align-items-center"
-        style="max-width: 100px"><picture>
-      <source srcset="/posts/videoeditingproblem2/featured_huf677ab5284dc3059c291ae31652dfe1d_132708_500x0_resize_q75_box.jpg" media="(max-width: 576px)" height="500" width="500">
-      <img class="img-fluid" height="180" width="180" alt="featured.jpg" src="/posts/videoeditingproblem2/featured_huf677ab5284dc3059c291ae31652dfe1d_132708_180x0_resize_q75_box.jpg" data-src="/posts/videoeditingproblem2/featured.jpg" loading="lazy"/>
-    </picture>
-      </div>
-    <div
-      class="flex-grow-1 d-flex flex-column h-auto justify-content-center ms-3">
-      <a class="post-title" href="/posts/videoeditingproblem2/">
-        CFast Cards Not Working in Windows
-      </a>
-      <div class="post-meta mt-2">
-        <span class="post-date">
-          October 31, 2023
-        </span>
-      </div>
-    </div>
-  </div>
-                    </li>
-                    <li class="mb-2">
-  <div class="d-flex">
-      <div
-        class="flex-shrink-0 d-flex justify-content-center align-items-center"
-        style="max-width: 100px"><picture>
-      <source srcset="/posts/videoeditingproblem/featured_hu5a1df5d6cca77f0876c4c8749db3d7d6_120162_500x0_resize_q75_box.jpg" media="(max-width: 576px)" height="500" width="500">
-      <img class="img-fluid" height="180" width="180" alt="featured.jpg" src="/posts/videoeditingproblem/featured_hu5a1df5d6cca77f0876c4c8749db3d7d6_120162_180x0_resize_q75_box.jpg" data-src="/posts/videoeditingproblem/featured.jpg" loading="lazy"/>
-    </picture>
-      </div>
-    <div
-      class="flex-grow-1 d-flex flex-column h-auto justify-content-center ms-3">
-      <a class="post-title" href="/posts/videoeditingproblem/">
-        Video Edtiors Problems With Footages on External Hard Drives
-      </a>
-      <div class="post-meta mt-2">
-        <span class="post-date">
-          October 31, 2023
-        </span>
-      </div>
-    </div>
-  </div>
-                    </li>
-                </ul>
-              </div>
-          </div>
-        </div>
-      </div>
-    </div>
-<div class="accordion post-toc d-none d-lg-block">
-  <div class="accordion-item row mb-4 card component" id="postTOC">
-    <div class="card-header accordion-header">
-      <h2 class="card-title fs-4 my-2 text-surface d-none d-lg-block">Contents</h2>
-      <a class="accordion-button d-lg-none mb-1 collapsed shadow-none p-0 bg-transparent" role="button" data-bs-toggle="collapse" href="#post-toc" aria-expanded="false" aria-controls="post-toc">
-        Contents
-      </a>
-    </div>
-    <div class="card-body collapse accordion-collapse accordion-body d-lg-block" id="post-toc">
+  
+    <div class="table-of-contents">
+      <h2>
+        Table of Contents
+      </h2>
       <nav id="TableOfContents">
   <ul>
     <li><a href="#file-systems">File systems:</a></li>
@@ -820,90 +213,119 @@ You can now access your drive from here.</li>
   </ul>
 </nav>
     </div>
+  
+
+  <div class="post-content"><div>
+        <h1 id="external-drives-are-not-recogonized-either-on-windows-or-macos">External drives are not recogonized either on Windows or MacOS<a href="#external-drives-are-not-recogonized-either-on-windows-or-macos" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+<p>To better understand why this problem happens we must first understand some basic terms.</p>
+<h2 id="file-systems">File systems:<a href="#file-systems" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<p>File systems are methods that data is stored and retrieved on operating systems. Now this is not a clear explanation if you&rsquo;re not familiar with computing and not tech savvy in general. So let&rsquo;s explain it better.
+Basically every operating system (Windows, MacOS, Linux, &hellip;) chooses a variety of file systems to support. This means that each of these operating systems can write and read information in those file system types.</p>
+<h2 id="where-is-the-problem-in-this">Where is the problem in this?<a href="#where-is-the-problem-in-this" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<p>The problem begins when one of these file systems are exclusive to one operating system and you format your hard drive to one of these proprietary ones, then it can not be read in other operating systems.</p>
+<h2 id="different-file-systems">Different file systems:<a href="#different-file-systems" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<p>There are many popular filesystems around including NTFS,  FAT32, ExFat, Btrfs and many more.
+NTFS is a propriety file system developed by Microsoft and is exclusive for Windows.
+APFS is a propriety file system developed by Apple and is exclusive for MacOS.
+HFS and HFS+ are propriety file systems developed by Apple and are exclusive for MacOS.
+Above are the known propriety file systems that I know of but these are the most popular ones.
+There are some general file systems that almost all operating systems support.
+One of the most popular ones in this category is FAT32. Basically everything supports FAT32. <em>But it has a file size limit of 4GBs</em> , meaning you can&rsquo;t store files larger than 4GB on drives that have this file system.</p>
+<h2 id="what-is-the-best-format-for-compatibility">What is the best format for compatibility<a href="#what-is-the-best-format-for-compatibility" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<p>You should always format your drives to <strong>exFAT</strong>. That&rsquo;s it. It is supported in Windows, MacOS, and Linux. I have tested this myself.
+<em>So if you&rsquo;re a video editor use exFAT. So you can have cross platform compatibility.</em></p>
+<h2 id="what-if-i-cant-format-my-drive-now-and-want-access-to-my-files-on-one-of-these-operating-systems">What if I can&rsquo;t format my drive now and want access to my files on one of these operating systems?<a href="#what-if-i-cant-format-my-drive-now-and-want-access-to-my-files-on-one-of-these-operating-systems" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<p>Say someone copied the footage to your drive and you want to copy the footage in your machine before formatting it. Let&rsquo;s see the solution.</p>
+<h3 id="windows">Windows:<a href="#windows" class="hanchor" ariaLabel="Anchor">#</a> </h3>
+<p>If your operating system is Windows and your drive was working on a Mac but not showing up on your Windows machine.
+First check if this is actually a file system issue and not a drive problem. The drive should be powered on, and you should be able to unmount it from the taskbar. If you right click on the Windows start and check disk management, you should see that your external drive is recognized but the file system in not shown like your internal drive which is generally NTFS.
+So if it was like this it is probably in APFS or HFS and you need third party software to access it.</p>
+<p>Paragon software company has some great products for this issue
+Download their software for this issue from their website:</p>
+<p><a href="https://www.paragon-software.com/home/hfs-windows/">HFS for Windows</a></p>
+<p><a href="https://www.paragon-software.com/home/apfs-windows/">APFS for Windows</a></p>
+<p>Download these programs and install them. You will see your drive recognized in one of them and mounted as a normal drive from now on. But remember to don&rsquo;t rely heavily on these softwares and format your drive to exFAT after you&rsquo;re done.</p>
+<h3 id="macos">MacOS:<a href="#macos" class="hanchor" ariaLabel="Anchor">#</a> </h3>
+<p>If your operating system is MacOS and your drive was working on a Windows PC but not showing up on your Mac.
+First check if this is actually a file system issue and not a drive problem. Do this by running the disk utility app and check if your drive is recognized. If it was and you know it was working on a Windows PC, the drive is probably in NTFS format and you&rsquo;ll need a workaround to make it work.</p>
+<p>You can use third party software for this for example from <a href="https://www.paragon-software.com/home/ntfs-mac/">Paragon</a> but I recommend that you do it from terminal yourself. This is a bit advanced but more reliable and free.</p>
+<ul>
+<li>Open Terminal</li>
+<li>Type this command and press return and enter your password after that</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo nano /etc/fstab
+</span></span></code></pre></div><ul>
+<li>Replace &ldquo;NAME&rdquo; in this command with your drive name and press return
+<em>If your drive contains spaces in it&rsquo;s name you should enter them as \040</em></li>
+</ul>
+<pre tabindex="0"><code>LABEL=NAME none ntfs rw, auto, nobrowse
+</code></pre><ul>
+<li>Press Control + O then Control + X on Mac keyboard.</li>
+<li> In Finder, click Go then go to Folder then type: <strong>/Volumes</strong>, and click &ldquo;Go&rdquo;.
+You can now access your drive from here.</li>
+</ul>
+
+      </div></div>
+
+  
+    
+<div class="pagination">
+  <div class="pagination__title">
+    <span class="pagination__title-h">Read other posts</span>
+    <hr />
   </div>
-</div>
-
-
-
-
-
+  <div class="pagination__buttons">
+    
+      <a href="/posts/videoeditingproblem2/" class="button inline prev">
+        CFast cards not working in Windows
+      </a>
+    
+    
+      ::
+    
+    
+      <a href="/posts/spotify/" class="button inline next">
+        Spotify Premium Features for Free with Xmanager
+      </a>
     
   </div>
-</aside>
+</div>
 
+
+  
+
+  
+    
+
+  
+</article>
+
+  </div>
+
+  
+    <footer class="footer">
+  <div class="footer__inner">
+    
+      <div class="copyright">
+        <span>© 2024 Powered by <a href="https://gohugo.io">Hugo</a></span>
+    
       </div>
-    </main><footer class="footer mt-auto py-3 text-center container"><div class="offcanvas offcanvas-bottom h-auto" tabindex="-1" id="offcanvasActionsPanel"
-  aria-labelledby="offcanvasActionsPanelLabel">
-  <div class="offcanvas-header">
-    <div class="offcanvas-title h5" id="offcanvasActionsPanelLabel">
-      <i class="fas fa-fw fa-th-large me-1"></i>
-      Actions
-    </div>
-    <button type="button" class="btn-close ms-auto" data-bs-dismiss="offcanvas" data-bs-target="offcanvasActionsPanel" aria-label="Close"></button>
   </div>
-  <div class="offcanvas-body mt-2"><div class="social-share mb-4 d-flex overflow-auto">
-      <a class="btn-social-share d-flex flex-column align-items-center me-3" rel="noopener noreferrer" aria-label="Twitter Share Button"
-      target="_blank" href="https://twitter.com/intent/tweet?title=Offline&url=%2foffline%2f">
-        <i class="fab fa-2x fa-fw fa-twitter mb-2"></i> Twitter
-      </a>
-      <a class="btn-social-share d-flex flex-column align-items-center me-3" rel="noopener noreferrer" aria-label="Facebook Share Button"
-        target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=%2foffline%2f">
-        <i class="fab fa-2x fa-fw fa-facebook-f mb-2"></i> Facebook
-      </a>
-    </div>
-    <hr class="mb-4"><div class="actions d-flex overflow-auto align-items-center">
-      <a role="button" class="action action-go-back d-flex flex-column align-items-center me-3" href="javascript: window.history.back();">
-        <span class="action-icon mb-2"><i class="fas fa-2x fa-chevron-circle-down" data-fa-transform="rotate-90"></i></span> Go back
-      </a>
-      <a role="button" class="action action-reload-page d-flex flex-column align-items-center me-3">
-        <span class="action-icon mb-2"><i class="fas fa-2x fa-redo-alt"></i></span> Reload
-      </a>
-      <a role="button" class="action action-copy-url d-flex flex-column align-items-center me-3">
-        <span class="action-icon mb-2"><i class="fas fa-2x fa-link"></i></span> Copy URL
-      </a>
-    </div>
-  </div>
-</div><div class="row text-center">
-  <div class="col-12 mt-2">
-    <p class="mb-2">Maybeparsa | Tech Content</p>
-    <p class="text-secondary mb-2"><small>Tech Content</small></p><div class="copyright mb-2 text-secondary">
-  <small>
-</small>
-</div>
-
-
-
-<nav class="social-links nav justify-content-center mb-2 mt-3">
-    <a class="nav-link social-link p-0 me-1 mb-2" href="mailto:iknowarch@proton.me" title="Email">
-      <i class="fas fa-fw fa-2x fa-envelope" style="color: #0963ac;"></i>
-    </a>
-      <a class="nav-link social-link p-0 me-1 mb-2" target="_blank" href="https://github.com/github.com/parsamrrelax" title="GitHub" rel="me">
-        <i class="fa-fw fa-2x fab fa-github"
-          ></i>
-      </a>
-      <a class="nav-link social-link p-0 me-1 mb-2" target="_blank" href="https://mastodon.social/@mrrelax" title="Mastodon" rel="me">
-        <i class="fa-fw fa-2x fab fa-mastodon"
-           style="color: #5c4ce2;"></i>
-      </a>
-      <a class="nav-link social-link p-0 me-1 mb-2" target="_blank" href="https://t.me/mrrelax" title="Telegram" rel="me">
-        <i class="fa-fw fa-2x fab fa-telegram-plane"
-           style="color: #2481cc;"></i>
-      </a>
-      <a class="nav-link social-link p-0 me-1 mb-2" target="_blank" href="https://twitter.com/maybeparsa" title="Twitter" rel="me">
-        <i class="fa-fw fa-2x fab fa-twitter"
-           style="color: #1d9bf0;"></i>
-      </a>
-  <a class="nav-link social-link p-0 me-1 mb-2" target="_blank" href="/index.xml" title="RSS" rel="me">
-    <i class="fas fa-fw fa-2x fa-rss" style="color: #ea6221;"></i>
-  </a>
-</nav>
-</div>
-  <div class="col-12 col-lg-8 offset-0 offset-lg-1"></div>
-</div>
 </footer>
-<script data-precache src="/assets/main/bundle.min.1632b9adb26dcf3a88af033e1db3dd5629e780244e25975e7dbec29f4d8757da.js" integrity="sha256-FjK5rbJtzzqIrwM&#43;HbPdVinngCROJZdefb7Cn02HV9o=" crossorigin="anonymous" async></script><script data-precache src="/assets/icons/bundle.min.4f30d5267a9f2f9d45ed93969d45ec626100a969a8b91f71f753315a261e9034.js" integrity="sha256-TzDVJnqfL51F7ZOWnUXsYmEAqWmouR9x91MxWiYekDQ=" crossorigin="anonymous" defer></script>
-<script data-precache src="/assets/viewer/bundle.min.06371891cfe6d10d36cba465c61c4d7cb17591a3be2fd9af4a38444d2074e709.js" integrity="sha256-BjcYkc/m0Q02y6RlxhxNfLF1kaO&#43;L9mvSjhETSB05wk=" crossorigin="anonymous" defer></script>
-<script src="/js/sw-register.js" defer></script>
 
-  </body>
+
+
+
+
+
+<script type="text/javascript" src="/bundle.min.js"></script>
+
+
+
+
+
+  
+</div>
+
+</body>
 </html>

@@ -1,14 +1,81 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on Maybeparsa | Tech Content</title>
+    <title>Categories on Parsa | Tech Content</title>
     <link>/categories/</link>
-    <description>Recent content in Categories on Maybeparsa | Tech Content</description>
+    <description>Recent content in Categories on Parsa | Tech Content</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <copyright>
-</copyright>
-    <lastBuildDate>Sat, 10 Feb 2024 12:08:41 +0330</lastBuildDate><atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 25 Jun 2024 14:08:33 +0330</lastBuildDate><atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Apks</title>
+      <link>/categories/apks/</link>
+      <pubDate>Tue, 25 Jun 2024 14:08:33 +0330</pubDate>
+      
+      <guid>/categories/apks/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+    <item>
+      <title>Revanced</title>
+      <link>/categories/revanced/</link>
+      <pubDate>Tue, 25 Jun 2024 14:08:33 +0330</pubDate>
+      
+      <guid>/categories/revanced/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+    <item>
+      <title>Linux</title>
+      <link>/categories/linux/</link>
+      <pubDate>Sat, 20 Jan 2024 01:58:21 +0330</pubDate>
+      
+      <guid>/categories/linux/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+    <item>
+      <title>Mac</title>
+      <link>/categories/mac/</link>
+      <pubDate>Tue, 31 Oct 2023 22:44:26 +0330</pubDate>
+      
+      <guid>/categories/mac/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+    <item>
+      <title>Problems</title>
+      <link>/categories/problems/</link>
+      <pubDate>Tue, 31 Oct 2023 22:44:26 +0330</pubDate>
+      
+      <guid>/categories/problems/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+    <item>
+      <title>Video Editors</title>
+      <link>/categories/video-editors/</link>
+      <pubDate>Tue, 31 Oct 2023 22:44:26 +0330</pubDate>
+      
+      <guid>/categories/video-editors/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+    <item>
+      <title>Windows</title>
+      <link>/categories/windows/</link>
+      <pubDate>Tue, 31 Oct 2023 22:44:26 +0330</pubDate>
+      
+      <guid>/categories/windows/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
   </channel>
 </rss>
-

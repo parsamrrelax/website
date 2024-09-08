@@ -1,24 +1,171 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Mod on Maybeparsa | Tech Content</title>
+    <title>Mod on Parsa | Tech Content</title>
     <link>/tags/mod/</link>
-    <description>Recent content in Mod on Maybeparsa | Tech Content</description>
+    <description>Recent content in Mod on Parsa | Tech Content</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <copyright>
-</copyright>
-    <lastBuildDate>Mon, 23 Oct 2023 20:28:30 +0330</lastBuildDate><atom:link href="/tags/mod/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 25 Jun 2024 14:08:33 +0330</lastBuildDate><atom:link href="/tags/mod/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Revanced Apks (Youtube, X(Twitter), Youtube Music) 25 Jun 2024</title>
+      <link>/posts/revancedfiles4/</link>
+      <pubDate>Tue, 25 Jun 2024 14:08:33 +0330</pubDate>
+      
+      <guid>/posts/revancedfiles4/</guid>
+      <description>Revanced Apks for Youtube, Reddit and X(Twitter) I have explained what Revanced apps are in this post. For better understanding first checkout that post.
+X(Twitter) Download link : github
+Apk version: 10.46.1
+Youtube Download link : github
+Apk version: 19.16.39
+Revanced YouTube Music Download link : github
+Apk version : 7.03.52
+It is highly advisable to create your own version of revanced apps and don&amp;rsquo;t trust sources of apks in the internet</description>
+      <content>&lt;h1 id=&#34;revanced-apks-for-youtube-reddit-and-xtwitter&#34;&gt;Revanced Apks for Youtube, Reddit and X(Twitter)&lt;/h1&gt;
+&lt;p&gt;I have explained what Revanced apps are in &lt;a href=&#34;https://maybeparsa.top/posts/revanced/&#34;&gt;this&lt;/a&gt; post. For better understanding first checkout that post.&lt;/p&gt;
+&lt;h2 id=&#34;xtwitter&#34;&gt;X(Twitter)&lt;/h2&gt;
+&lt;p&gt;Download link : &lt;a href=&#34;https://github.com/parsamrrelax/revancedapks/releases/download/twitter10.46.1/x-revanced_v10.46.1-release.0-patches_v4.10.0.apk&#34;&gt;github&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Apk version: 10.46.1&lt;/p&gt;
+&lt;h2 id=&#34;youtube&#34;&gt;Youtube&lt;/h2&gt;
+&lt;p&gt;Download link : &lt;a href=&#34;https://github.com/parsamrrelax/revancedapks/releases/download/youtube19.16.39/youtube-revanced_v19.16.39-patches_v4.10.0.apk&#34;&gt;github&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Apk version: 19.16.39&lt;/p&gt;
+&lt;h2 id=&#34;revanced-youtube-music&#34;&gt;Revanced YouTube Music&lt;/h2&gt;
+&lt;p&gt;Download link : &lt;a href=&#34;https://github.com/parsamrrelax/revancedapks/releases/download/youtubemusic7.03.52/youtube-music-revanced_v7.03.52-patches_v4.10.0.apk&#34;&gt;github&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Apk version : 7.03.52&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;It is highly advisable to create your own version of revanced apps and don&amp;rsquo;t trust sources of apks in the internet&lt;/strong&gt;&lt;/p&gt;
+</content>
+    </item>
+    
+    <item>
+      <title>Revanced Apks (Youtube, X(Twitter), Youtube Music) 28 Mar 2024</title>
+      <link>/posts/revancedfiles3/</link>
+      <pubDate>Thu, 28 Mar 2024 13:10:53 +0330</pubDate>
+      
+      <guid>/posts/revancedfiles3/</guid>
+      <description>Revanced Apks for Youtube, Reddit and X(Twitter) I have explained what Revanced apps are in this post. For better understanding first checkout that post.
+X(Twitter) Download link : github
+Apk version: 10.34.0
+Revanced features:
+Dynamic color Hide ads Hide recommended users Youtube Download link : github
+Notes: In order to sign in to your google account you must download Vanced MicroG. This an opensource apk alternative to google services. Download it from here .</description>
+      <content>&lt;h1 id=&#34;revanced-apks-for-youtube-reddit-and-xtwitter&#34;&gt;Revanced Apks for Youtube, Reddit and X(Twitter)&lt;/h1&gt;
+&lt;p&gt;I have explained what Revanced apps are in &lt;a href=&#34;https://maybeparsa.top/posts/revanced/&#34;&gt;this&lt;/a&gt; post. For better understanding first checkout that post.&lt;/p&gt;
+&lt;h2 id=&#34;xtwitter&#34;&gt;X(Twitter)&lt;/h2&gt;
+&lt;p&gt;Download link : &lt;a href=&#34;https://github.com/parsamrrelax/revancedapks/releases/download/twitter10.34.0/x-revanced_v10.34.0-release.0-patches_v4.4.0.apk&#34;&gt;github&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Apk version: 10.34.0&lt;/p&gt;
+&lt;p&gt;Revanced features:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Dynamic color&lt;/li&gt;
+&lt;li&gt;Hide ads&lt;/li&gt;
+&lt;li&gt;Hide recommended users&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;youtube&#34;&gt;Youtube&lt;/h2&gt;
+&lt;p&gt;Download link : &lt;a href=&#34;https://github.com/parsamrrelax/revancedapks/releases/download/youtube19.09.37/auto-translate-revanced_v19.09.37-patches_v4.4.0.apk&#34;&gt;github&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Notes: In order to sign in to your google account you must download Vanced MicroG. This an opensource apk alternative to google services. Download it from &lt;a href=&#34;https://github.com/ReVanced/GmsCore/releases/download/v0.3.1.3.240913/app.revanced.android.gms-240913006-signed.apk&#34;&gt;here&lt;/a&gt; .
+Apk version: 19.09.37&lt;/p&gt;
+&lt;p&gt;Revanced features:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Alternative thumbnails&lt;/li&gt;
+&lt;li&gt;Always autorepeat&lt;/li&gt;
+&lt;li&gt;Announcements&lt;/li&gt;
+&lt;li&gt;Bypass URL redirects&lt;/li&gt;
+&lt;li&gt;Client spoof&lt;/li&gt;
+&lt;li&gt;Comments&lt;/li&gt;
+&lt;li&gt;Copy video URL&lt;/li&gt;
+&lt;li&gt;Custom player overlay opacity&lt;/li&gt;
+&lt;li&gt;Disable shorts on startup&lt;/li&gt;
+&lt;li&gt;Disable auto captions&lt;/li&gt;
+&lt;li&gt;Disable fine scrubbing gesture&lt;/li&gt;
+&lt;li&gt;Disable player popup panels&lt;/li&gt;
+&lt;li&gt;Disable zoom haptics&lt;/li&gt;
+&lt;li&gt;Enable debugging&lt;/li&gt;
+&lt;li&gt;Enable tablet layout&lt;/li&gt;
+&lt;li&gt;External downloads&lt;/li&gt;
+&lt;li&gt;HDR auto brightness&lt;/li&gt;
+&lt;li&gt;Hide &amp;lsquo;Load more&amp;rsquo; button&lt;/li&gt;
+&lt;li&gt;Hide shorts components&lt;/li&gt;
+&lt;li&gt;Hide ads&lt;/li&gt;
+&lt;li&gt;Hide album cards&lt;/li&gt;
+&lt;li&gt;Hide autoplay button&lt;/li&gt;
+&lt;li&gt;Hide breaking news shelf&lt;/li&gt;
+&lt;li&gt;Hide captions button&lt;/li&gt;
+&lt;li&gt;Hide cast button&lt;/li&gt;
+&lt;li&gt;Hide crowdfunding box&lt;/li&gt;
+&lt;li&gt;Hide email address&lt;/li&gt;
+&lt;li&gt;Hide endscreen cards&lt;/li&gt;
+&lt;li&gt;Hide filter bar&lt;/li&gt;
+&lt;li&gt;Hide floating microphone button&lt;/li&gt;
+&lt;li&gt;Hide info cards&lt;/li&gt;
+&lt;li&gt;Hide layout components&lt;/li&gt;
+&lt;li&gt;Hide player buttons&lt;/li&gt;
+&lt;li&gt;Hide seekbar&lt;/li&gt;
+&lt;li&gt;Hide timestamp&lt;/li&gt;
+&lt;li&gt;Hide video action buttons&lt;/li&gt;
+&lt;li&gt;Minimized playback&lt;/li&gt;
+&lt;li&gt;Navigation buttons&lt;/li&gt;
+&lt;li&gt;Old video quality menu&lt;/li&gt;
+&lt;li&gt;Open links externally&lt;/li&gt;
+&lt;li&gt;Playback speed&lt;/li&gt;
+&lt;li&gt;Player flyout menu&lt;/li&gt;
+&lt;li&gt;Remember video quality&lt;/li&gt;
+&lt;li&gt;Return Youtube Dislike&lt;/li&gt;
+&lt;li&gt;Seekbar tapping&lt;/li&gt;
+&lt;li&gt;SponserBlock&lt;/li&gt;
+&lt;li&gt;Spoof app version&lt;/li&gt;
+&lt;li&gt;Spoof device demnsions&lt;/li&gt;
+&lt;li&gt;Swipe controls&lt;/li&gt;
+&lt;li&gt;Tablet mini player&lt;/li&gt;
+&lt;li&gt;Theme&lt;/li&gt;
+&lt;li&gt;Video ads&lt;/li&gt;
+&lt;li&gt;Wide searchbar&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;revanced-youtube-music&#34;&gt;Revanced YouTube Music&lt;/h2&gt;
+&lt;p&gt;Download link : &lt;a href=&#34;https://github.com/parsamrrelax/revancedapks/releases/download/youtubemusic6.45.54/youtube-music-revanced_v6.45.54-patches_v4.3.0.apk&#34;&gt;github&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Apk version : 6.45.54&lt;/p&gt;
+&lt;p&gt;Revanced features:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Background play&lt;/li&gt;
+&lt;li&gt;Bypass certificate checks&lt;/li&gt;
+&lt;li&gt;Codecs unlock&lt;/li&gt;
+&lt;li&gt;Exclusive audio playback&lt;/li&gt;
+&lt;li&gt;Hide get premium&lt;/li&gt;
+&lt;li&gt;Minimized playback music&lt;/li&gt;
+&lt;li&gt;Music video ads&lt;/li&gt;
+&lt;li&gt;Remove upgrade button&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;It is highly advisable to create your own version of revanced apps and don&amp;rsquo;t trust sources of apks in the internet&lt;/strong&gt;&lt;/p&gt;
+</content>
+    </item>
+    
     <item>
       <title>Spotify Premium Features for Free with Xmanager</title>
       <link>/posts/spotify/</link>
       <pubDate>Mon, 23 Oct 2023 20:28:30 +0330</pubDate>
       
       <guid>/posts/spotify/</guid>
-      <description><![CDATA[Getting Spotify premium features with help of xmanager What is the difference between Spotify premium and Spotify free? As with most streaming platforms you get more features when you purchase the premium version of the app. These features include an ad-free expreience, higher quality listening, selecting music, not shuffling , downloading the music for offline listening and more&hellip;
-What do you get with X-manager version of Spotify? Xmanager is an app that let&rsquo;s you download modded and patched Spotify apks.]]></description>
+      <description>Getting Spotify premium features with help of xmanager What is the difference between Spotify premium and Spotify free? As with most streaming platforms you get more features when you purchase the premium version of the app. These features include an ad-free expreience, higher quality listening, selecting music, not shuffling , downloading the music for offline listening and more&amp;hellip;
+What do you get with X-manager version of Spotify? Xmanager is an app that let&amp;rsquo;s you download modded and patched Spotify apks.</description>
+      <content>&lt;h1 id=&#34;getting-spotify-premium-features-with-help-of-xmanager&#34;&gt;Getting Spotify premium features with help of xmanager&lt;/h1&gt;
+&lt;h2 id=&#34;what-is-the-difference-between-spotify-premium-and-spotify-free&#34;&gt;What is the difference between Spotify premium and Spotify free?&lt;/h2&gt;
+&lt;p&gt;As with most streaming platforms you get more features when you purchase the premium version of the app. These features include an ad-free expreience, higher quality listening, selecting music, not shuffling , downloading the music for offline listening and more&amp;hellip;&lt;/p&gt;
+&lt;h2 id=&#34;what-do-you-get-with-x-manager-version-of-spotify&#34;&gt;What do you get with X-manager version of Spotify?&lt;/h2&gt;
+&lt;p&gt;Xmanager is an app that let&amp;rsquo;s you download modded and patched Spotify apks. So with the Spotify apks that are downloaded with Xmanager:
+Well you certainly don&amp;rsquo;t get ads. You can choose your music as well. But no downloading or higher quality listening.&lt;/p&gt;
+&lt;h2 id=&#34;is-this-safe&#34;&gt;Is this safe?&lt;/h2&gt;
+&lt;p&gt;Yes it&amp;rsquo;s perfectly fine. It&amp;rsquo;s open source on &lt;a href=&#34;https://github.com/Team-xManager/xManager&#34;&gt;github&lt;/a&gt;. This is their &lt;a href=&#34;https://www.xmanagerapp.com&#34;&gt;website&lt;/a&gt;. Don&amp;rsquo;t trust me, go check it out yourself.&lt;/p&gt;
+&lt;h2 id=&#34;easier-route&#34;&gt;Easier route&lt;/h2&gt;
+&lt;p&gt;In case you don&amp;rsquo;t want to downlaod Xmanager and then the spotify apk. Here&amp;rsquo;s their &lt;a href=&#34;https://t.me/xManagerSupport&#34;&gt;telegram&lt;/a&gt;. They provide pre-patched apks for every type of android device. If you want to install this next to the original Spotify app, install one of the cloned ones. They have proven to me that they&amp;rsquo;re safe to use. Of course you shouldn&amp;rsquo;t trust me or them and check the apk files with &lt;a href=&#34;https://www.virustotal.com/gui/home/upload&#34;&gt;virustotal&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Here&amp;rsquo;s how the patched app looks:&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;Resize&#34; src=&#34;/posts/spotify/1.webp??width=600px&amp;height=600px&#34;&gt; &lt;img alt=&#34;Resize&#34; src=&#34;/posts/spotify/2.webp??width=600px&amp;height=600px&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;where-to-download&#34;&gt;Where to download?&lt;/h2&gt;
+&lt;p&gt;Here&amp;rsquo;s the download link to the latest version of Xmanager from their &lt;a href=&#34;https://github.com/xManager-App/xManager/releases/latest/download/xManager.apk&#34;&gt;github&lt;/a&gt;.
+You can directly check their github or their website and download from there.&lt;/p&gt;
+&lt;h2 id=&#34;what-next&#34;&gt;What next?&lt;/h2&gt;
+&lt;p&gt;From any of the above routes, either via the xmanager app or their telegram channel, the process is now simple. Install the Spotify apk for your cpu architecture.
+If you still have any questions, read their &lt;a href=&#34;https://www.xmanagerapp.com/faq&#34;&gt;FAQ&lt;/a&gt;. Some versions can have notes to do after installing, some not. Be sure to check for that as well.&lt;/p&gt;
+&lt;p&gt;Enjoy your ad-free experience now for free&lt;/p&gt;
+</content>
     </item>
     
   </channel>
 </rss>
-
