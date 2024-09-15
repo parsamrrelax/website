@@ -2,19 +2,37 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>/tags/android/</loc>
+    <lastmod>2024-09-15T18:22:24+03:30</lastmod>
+  </url><url>
+    <loc>/tags/mod/</loc>
+    <lastmod>2024-09-15T18:22:24+03:30</lastmod>
+  </url><url>
+    <loc>/</loc>
+    <lastmod>2024-09-15T18:22:24+03:30</lastmod>
+  </url><url>
+    <loc>/tags/photos/</loc>
+    <lastmod>2024-09-15T18:22:24+03:30</lastmod>
+  </url><url>
+    <loc>/posts/</loc>
+    <lastmod>2024-09-15T18:22:24+03:30</lastmod>
+  </url><url>
+    <loc>/tags/revanced/</loc>
+    <lastmod>2024-09-15T18:22:24+03:30</lastmod>
+  </url><url>
+    <loc>/posts/revancedfiles5/</loc>
+    <lastmod>2024-09-15T18:22:24+03:30</lastmod>
+  </url><url>
+    <loc>/tags/soundcloud/</loc>
+    <lastmod>2024-09-15T18:22:24+03:30</lastmod>
+  </url><url>
+    <loc>/tags/</loc>
+    <lastmod>2024-09-15T18:22:24+03:30</lastmod>
+  </url><url>
     <loc>/tags/blog/</loc>
     <lastmod>2024-09-08T23:28:14+03:30</lastmod>
   </url><url>
     <loc>/tags/hugo/</loc>
-    <lastmod>2024-09-08T23:28:14+03:30</lastmod>
-  </url><url>
-    <loc>/</loc>
-    <lastmod>2024-09-08T23:28:14+03:30</lastmod>
-  </url><url>
-    <loc>/posts/</loc>
-    <lastmod>2024-09-08T23:28:14+03:30</lastmod>
-  </url><url>
-    <loc>/tags/</loc>
     <lastmod>2024-09-08T23:28:14+03:30</lastmod>
   </url><url>
     <loc>/posts/terminal-theme-blog/</loc>
@@ -23,19 +41,10 @@
     <loc>/tags/website/</loc>
     <lastmod>2024-09-08T23:28:14+03:30</lastmod>
   </url><url>
-    <loc>/tags/android/</loc>
-    <lastmod>2024-06-25T14:08:33+03:30</lastmod>
-  </url><url>
     <loc>/categories/apks/</loc>
     <lastmod>2024-06-25T14:08:33+03:30</lastmod>
   </url><url>
     <loc>/categories/</loc>
-    <lastmod>2024-06-25T14:08:33+03:30</lastmod>
-  </url><url>
-    <loc>/tags/mod/</loc>
-    <lastmod>2024-06-25T14:08:33+03:30</lastmod>
-  </url><url>
-    <loc>/tags/revanced/</loc>
     <lastmod>2024-06-25T14:08:33+03:30</lastmod>
   </url><url>
     <loc>/categories/revanced/</loc>
@@ -106,6 +115,9 @@
   </url><url>
     <loc>/posts/videoeditingproblem/</loc>
     <lastmod>2023-10-31T20:49:09+03:30</lastmod>
+  </url><url>
+    <loc>/posts/revancedytmusic/</loc>
+    <lastmod>2023-10-24T15:05:25+03:30</lastmod>
   </url><url>
     <loc>/tags/spotify/</loc>
     <lastmod>2023-10-23T20:28:30+03:30</lastmod>

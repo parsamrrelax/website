@@ -730,9 +730,7 @@ We are done.
 
 #### Kudos to
 Hugo
-
 Panr
-
 Github
 
 
