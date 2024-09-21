@@ -13,10 +13,6 @@ hideComments = false
 +++
 
 
-Notes:
-- setup for a remote device with docker
-- symbolic link errors
-- password for the remote one
 
 # Backing up Obsidian
 
