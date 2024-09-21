@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>YoutubeMusic on Parsa | Tech Content</title>
-    <link>/tags/youtubemusic/</link>
+    <link>//localhost:1313/tags/youtubemusic/</link>
     <description>Recent content in YoutubeMusic on Parsa | Tech Content</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 25 Jun 2024 14:08:33 +0330</lastBuildDate><atom:link href="/tags/youtubemusic/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 25 Jun 2024 14:08:33 +0330</lastBuildDate><atom:link href="//localhost:1313/tags/youtubemusic/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Revanced Apks (Youtube, X(Twitter), Youtube Music) 25 Jun 2024</title>
-      <link>/posts/revancedfiles4/</link>
+      <link>//localhost:1313/posts/revancedfiles4/</link>
       <pubDate>Tue, 25 Jun 2024 14:08:33 +0330</pubDate>
       
-      <guid>/posts/revancedfiles4/</guid>
+      <guid>//localhost:1313/posts/revancedfiles4/</guid>
       <description>Revanced Apks for Youtube, Reddit and X(Twitter) I have explained what Revanced apps are in this post. For better understanding first checkout that post.
 X(Twitter) Download link : github
 Apk version: 10.46.1
@@ -38,10 +38,10 @@ It is highly advisable to create your own version of revanced apps and don&amp;r
     
     <item>
       <title>Revanced Apks (Youtube, X(Twitter), Youtube Music) 28 Mar 2024</title>
-      <link>/posts/revancedfiles3/</link>
+      <link>//localhost:1313/posts/revancedfiles3/</link>
       <pubDate>Thu, 28 Mar 2024 13:10:53 +0330</pubDate>
       
-      <guid>/posts/revancedfiles3/</guid>
+      <guid>//localhost:1313/posts/revancedfiles3/</guid>
       <description>Revanced Apks for Youtube, Reddit and X(Twitter) I have explained what Revanced apps are in this post. For better understanding first checkout that post.
 X(Twitter) Download link : github
 Apk version: 10.34.0
@@ -139,10 +139,10 @@ Apk version: 19.09.37&lt;/p&gt;
     
     <item>
       <title>Revanced Apks (Youtube, X(Twitter), Reddit, Youtube Music) 10 Feb 2024</title>
-      <link>/posts/revancedfiles2/</link>
+      <link>//localhost:1313/posts/revancedfiles2/</link>
       <pubDate>Sat, 10 Feb 2024 12:08:41 +0330</pubDate>
       
-      <guid>/posts/revancedfiles2/</guid>
+      <guid>//localhost:1313/posts/revancedfiles2/</guid>
       <description>Revanced Apks for Youtube, Reddit and X(Twitter) I have explained what Revanced apps are in this post. For better understanding first checkout that post.
 Reddit Download link : github
 Apk version: 2024.06.0

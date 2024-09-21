@@ -2,197 +2,227 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Parsa | Tech Content</title>
-    <link>/tags/</link>
+    <link>//localhost:1313/tags/</link>
     <description>Recent content in Tags on Parsa | Tech Content</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 15 Sep 2024 18:22:24 +0330</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 21 Sep 2024 18:33:13 +0330</lastBuildDate><atom:link href="//localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Obsidian</title>
+      <link>//localhost:1313/tags/obsidian/</link>
+      <pubDate>Sat, 21 Sep 2024 18:33:13 +0330</pubDate>
+      
+      <guid>//localhost:1313/tags/obsidian/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+    <item>
+      <title>Selfhost</title>
+      <link>//localhost:1313/tags/selfhost/</link>
+      <pubDate>Sat, 21 Sep 2024 18:33:13 +0330</pubDate>
+      
+      <guid>//localhost:1313/tags/selfhost/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+    <item>
+      <title>Syncthing</title>
+      <link>//localhost:1313/tags/syncthing/</link>
+      <pubDate>Sat, 21 Sep 2024 18:33:13 +0330</pubDate>
+      
+      <guid>//localhost:1313/tags/syncthing/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
     <item>
       <title>Android</title>
-      <link>/tags/android/</link>
+      <link>//localhost:1313/tags/android/</link>
       <pubDate>Sun, 15 Sep 2024 18:22:24 +0330</pubDate>
       
-      <guid>/tags/android/</guid>
+      <guid>//localhost:1313/tags/android/</guid>
       <description></description>
       <content></content>
     </item>
     
     <item>
       <title>Mod</title>
-      <link>/tags/mod/</link>
+      <link>//localhost:1313/tags/mod/</link>
       <pubDate>Sun, 15 Sep 2024 18:22:24 +0330</pubDate>
       
-      <guid>/tags/mod/</guid>
+      <guid>//localhost:1313/tags/mod/</guid>
       <description></description>
       <content></content>
     </item>
     
     <item>
       <title>Photos</title>
-      <link>/tags/photos/</link>
+      <link>//localhost:1313/tags/photos/</link>
       <pubDate>Sun, 15 Sep 2024 18:22:24 +0330</pubDate>
       
-      <guid>/tags/photos/</guid>
+      <guid>//localhost:1313/tags/photos/</guid>
       <description></description>
       <content></content>
     </item>
     
     <item>
       <title>Revanced</title>
-      <link>/tags/revanced/</link>
+      <link>//localhost:1313/tags/revanced/</link>
       <pubDate>Sun, 15 Sep 2024 18:22:24 +0330</pubDate>
       
-      <guid>/tags/revanced/</guid>
+      <guid>//localhost:1313/tags/revanced/</guid>
       <description></description>
       <content></content>
     </item>
     
     <item>
       <title>Soundcloud</title>
-      <link>/tags/soundcloud/</link>
+      <link>//localhost:1313/tags/soundcloud/</link>
       <pubDate>Sun, 15 Sep 2024 18:22:24 +0330</pubDate>
       
-      <guid>/tags/soundcloud/</guid>
+      <guid>//localhost:1313/tags/soundcloud/</guid>
       <description></description>
       <content></content>
     </item>
     
     <item>
       <title>Blog</title>
-      <link>/tags/blog/</link>
+      <link>//localhost:1313/tags/blog/</link>
       <pubDate>Sun, 08 Sep 2024 23:28:14 +0330</pubDate>
       
-      <guid>/tags/blog/</guid>
+      <guid>//localhost:1313/tags/blog/</guid>
       <description></description>
       <content></content>
     </item>
     
     <item>
       <title>Hugo</title>
-      <link>/tags/hugo/</link>
+      <link>//localhost:1313/tags/hugo/</link>
       <pubDate>Sun, 08 Sep 2024 23:28:14 +0330</pubDate>
       
-      <guid>/tags/hugo/</guid>
+      <guid>//localhost:1313/tags/hugo/</guid>
       <description></description>
       <content></content>
     </item>
     
     <item>
       <title>Website</title>
-      <link>/tags/website/</link>
+      <link>//localhost:1313/tags/website/</link>
       <pubDate>Sun, 08 Sep 2024 23:28:14 +0330</pubDate>
       
-      <guid>/tags/website/</guid>
+      <guid>//localhost:1313/tags/website/</guid>
       <description></description>
       <content></content>
     </item>
     
     <item>
       <title>Twitter</title>
-      <link>/tags/twitter/</link>
+      <link>//localhost:1313/tags/twitter/</link>
       <pubDate>Tue, 25 Jun 2024 14:08:33 +0330</pubDate>
       
-      <guid>/tags/twitter/</guid>
+      <guid>//localhost:1313/tags/twitter/</guid>
       <description></description>
       <content></content>
     </item>
     
     <item>
       <title>Youtube</title>
-      <link>/tags/youtube/</link>
+      <link>//localhost:1313/tags/youtube/</link>
       <pubDate>Tue, 25 Jun 2024 14:08:33 +0330</pubDate>
       
-      <guid>/tags/youtube/</guid>
+      <guid>//localhost:1313/tags/youtube/</guid>
       <description></description>
       <content></content>
     </item>
     
     <item>
       <title>YoutubeMusic</title>
-      <link>/tags/youtubemusic/</link>
+      <link>//localhost:1313/tags/youtubemusic/</link>
       <pubDate>Tue, 25 Jun 2024 14:08:33 +0330</pubDate>
       
-      <guid>/tags/youtubemusic/</guid>
+      <guid>//localhost:1313/tags/youtubemusic/</guid>
       <description></description>
       <content></content>
     </item>
     
     <item>
       <title>Reddit</title>
-      <link>/tags/reddit/</link>
+      <link>//localhost:1313/tags/reddit/</link>
       <pubDate>Sat, 10 Feb 2024 12:08:41 +0330</pubDate>
       
-      <guid>/tags/reddit/</guid>
+      <guid>//localhost:1313/tags/reddit/</guid>
       <description></description>
       <content></content>
     </item>
     
     <item>
       <title>X(Twitter)</title>
-      <link>/tags/xtwitter/</link>
+      <link>//localhost:1313/tags/xtwitter/</link>
       <pubDate>Sat, 10 Feb 2024 12:08:41 +0330</pubDate>
       
-      <guid>/tags/xtwitter/</guid>
+      <guid>//localhost:1313/tags/xtwitter/</guid>
       <description></description>
       <content></content>
     </item>
     
     <item>
       <title>Linux</title>
-      <link>/tags/linux/</link>
+      <link>//localhost:1313/tags/linux/</link>
       <pubDate>Sat, 20 Jan 2024 01:58:21 +0330</pubDate>
       
-      <guid>/tags/linux/</guid>
+      <guid>//localhost:1313/tags/linux/</guid>
       <description></description>
       <content></content>
     </item>
     
     <item>
       <title>Problems</title>
-      <link>/tags/problems/</link>
+      <link>//localhost:1313/tags/problems/</link>
       <pubDate>Sat, 20 Jan 2024 01:58:21 +0330</pubDate>
       
-      <guid>/tags/problems/</guid>
+      <guid>//localhost:1313/tags/problems/</guid>
       <description></description>
       <content></content>
     </item>
     
     <item>
       <title>Mac</title>
-      <link>/tags/mac/</link>
+      <link>//localhost:1313/tags/mac/</link>
       <pubDate>Tue, 31 Oct 2023 22:44:26 +0330</pubDate>
       
-      <guid>/tags/mac/</guid>
+      <guid>//localhost:1313/tags/mac/</guid>
       <description></description>
       <content></content>
     </item>
     
     <item>
       <title>Video Editors</title>
-      <link>/tags/video-editors/</link>
+      <link>//localhost:1313/tags/video-editors/</link>
       <pubDate>Tue, 31 Oct 2023 22:44:26 +0330</pubDate>
       
-      <guid>/tags/video-editors/</guid>
+      <guid>//localhost:1313/tags/video-editors/</guid>
       <description></description>
       <content></content>
     </item>
     
     <item>
       <title>Windows</title>
-      <link>/tags/windows/</link>
+      <link>//localhost:1313/tags/windows/</link>
       <pubDate>Tue, 31 Oct 2023 22:44:26 +0330</pubDate>
       
-      <guid>/tags/windows/</guid>
+      <guid>//localhost:1313/tags/windows/</guid>
       <description></description>
       <content></content>
     </item>
     
     <item>
       <title>Spotify</title>
-      <link>/tags/spotify/</link>
+      <link>//localhost:1313/tags/spotify/</link>
       <pubDate>Mon, 23 Oct 2023 20:28:30 +0330</pubDate>
       
-      <guid>/tags/spotify/</guid>
+      <guid>//localhost:1313/tags/spotify/</guid>
       <description></description>
       <content></content>
     </item>
