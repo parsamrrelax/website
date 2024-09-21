@@ -2,77 +2,77 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Parsa | Tech Content</title>
-    <link>//localhost:1313/categories/</link>
+    <link>/categories/</link>
     <description>Recent content in Categories on Parsa | Tech Content</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 25 Jun 2024 14:08:33 +0330</lastBuildDate><atom:link href="//localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 25 Jun 2024 14:08:33 +0330</lastBuildDate><atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Apks</title>
-      <link>//localhost:1313/categories/apks/</link>
+      <link>/categories/apks/</link>
       <pubDate>Tue, 25 Jun 2024 14:08:33 +0330</pubDate>
       
-      <guid>//localhost:1313/categories/apks/</guid>
+      <guid>/categories/apks/</guid>
       <description></description>
       <content></content>
     </item>
     
     <item>
       <title>Revanced</title>
-      <link>//localhost:1313/categories/revanced/</link>
+      <link>/categories/revanced/</link>
       <pubDate>Tue, 25 Jun 2024 14:08:33 +0330</pubDate>
       
-      <guid>//localhost:1313/categories/revanced/</guid>
+      <guid>/categories/revanced/</guid>
       <description></description>
       <content></content>
     </item>
     
     <item>
       <title>Linux</title>
-      <link>//localhost:1313/categories/linux/</link>
+      <link>/categories/linux/</link>
       <pubDate>Sat, 20 Jan 2024 01:58:21 +0330</pubDate>
       
-      <guid>//localhost:1313/categories/linux/</guid>
+      <guid>/categories/linux/</guid>
       <description></description>
       <content></content>
     </item>
     
     <item>
       <title>Mac</title>
-      <link>//localhost:1313/categories/mac/</link>
+      <link>/categories/mac/</link>
       <pubDate>Tue, 31 Oct 2023 22:44:26 +0330</pubDate>
       
-      <guid>//localhost:1313/categories/mac/</guid>
+      <guid>/categories/mac/</guid>
       <description></description>
       <content></content>
     </item>
     
     <item>
       <title>Problems</title>
-      <link>//localhost:1313/categories/problems/</link>
+      <link>/categories/problems/</link>
       <pubDate>Tue, 31 Oct 2023 22:44:26 +0330</pubDate>
       
-      <guid>//localhost:1313/categories/problems/</guid>
+      <guid>/categories/problems/</guid>
       <description></description>
       <content></content>
     </item>
     
     <item>
       <title>Video Editors</title>
-      <link>//localhost:1313/categories/video-editors/</link>
+      <link>/categories/video-editors/</link>
       <pubDate>Tue, 31 Oct 2023 22:44:26 +0330</pubDate>
       
-      <guid>//localhost:1313/categories/video-editors/</guid>
+      <guid>/categories/video-editors/</guid>
       <description></description>
       <content></content>
     </item>
     
     <item>
       <title>Windows</title>
-      <link>//localhost:1313/categories/windows/</link>
+      <link>/categories/windows/</link>
       <pubDate>Tue, 31 Oct 2023 22:44:26 +0330</pubDate>
       
-      <guid>//localhost:1313/categories/windows/</guid>
+      <guid>/categories/windows/</guid>
       <description></description>
       <content></content>
     </item>

@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Windows on Parsa | Tech Content</title>
-    <link>//localhost:1313/tags/windows/</link>
+    <link>/tags/windows/</link>
     <description>Recent content in Windows on Parsa | Tech Content</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 31 Oct 2023 22:44:26 +0330</lastBuildDate><atom:link href="//localhost:1313/tags/windows/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 31 Oct 2023 22:44:26 +0330</lastBuildDate><atom:link href="/tags/windows/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>CFast cards not working in Windows</title>
-      <link>//localhost:1313/posts/videoeditingproblem2/</link>
+      <link>/posts/videoeditingproblem2/</link>
       <pubDate>Tue, 31 Oct 2023 22:44:26 +0330</pubDate>
       
-      <guid>//localhost:1313/posts/videoeditingproblem2/</guid>
+      <guid>/posts/videoeditingproblem2/</guid>
       <description>CF cards only working on MacOS If you&amp;rsquo;re a video editor working with footage from Alexa Minis or Alexa LFs, you have probably heard this sentence before. CF cards only work on Mac. This is simply not true and we&amp;rsquo;ll go through what is the problem here.
 Connection Ports These CF drives are extremely fast drives and therefore require require fast ports to be connected to. Arri suggest using Thunderbolt 3 at least for CFast 2.</description>
       <content>&lt;h1 id=&#34;cf-cards-only-working-on-macos&#34;&gt;CF cards only working on MacOS&lt;/h1&gt;
@@ -44,10 +44,10 @@ However rolling back updates means rolling back security updates as well, Which 
     
     <item>
       <title>Video edtiors problems with footages on external hard drives</title>
-      <link>//localhost:1313/posts/videoeditingproblem/</link>
+      <link>/posts/videoeditingproblem/</link>
       <pubDate>Tue, 31 Oct 2023 20:49:09 +0330</pubDate>
       
-      <guid>//localhost:1313/posts/videoeditingproblem/</guid>
+      <guid>/posts/videoeditingproblem/</guid>
       <description>External drives are not recogonized either on Windows or MacOS To better understand why this problem happens we must first understand some basic terms.
 File systems: File systems are methods that data is stored and retrieved on operating systems. Now this is not a clear explanation if you&amp;rsquo;re not familiar with computing and not tech savvy in general. So let&amp;rsquo;s explain it better. Basically every operating system (Windows, MacOS, Linux, &amp;hellip;) chooses a variety of file systems to support.</description>
       <content>&lt;h1 id=&#34;external-drives-are-not-recogonized-either-on-windows-or-macos&#34;&gt;External drives are not recogonized either on Windows or MacOS&lt;/h1&gt;
