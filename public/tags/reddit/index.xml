@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Reddit on Parsa | Tech Content</title>
-    <link>/tags/reddit/</link>
+    <link>//localhost:1313/tags/reddit/</link>
     <description>Recent content in Reddit on Parsa | Tech Content</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 10 Feb 2024 12:08:41 +0330</lastBuildDate><atom:link href="/tags/reddit/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 10 Feb 2024 12:08:41 +0330</lastBuildDate><atom:link href="//localhost:1313/tags/reddit/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Revanced Apks (Youtube, X(Twitter), Reddit, Youtube Music) 10 Feb 2024</title>
-      <link>/posts/revancedfiles2/</link>
+      <link>//localhost:1313/posts/revancedfiles2/</link>
       <pubDate>Sat, 10 Feb 2024 12:08:41 +0330</pubDate>
       
-      <guid>/posts/revancedfiles2/</guid>
+      <guid>//localhost:1313/posts/revancedfiles2/</guid>
       <description>Revanced Apks for Youtube, Reddit and X(Twitter) I have explained what Revanced apps are in this post. For better understanding first checkout that post.
 Reddit Download link : github
 Apk version: 2024.06.0
@@ -123,10 +123,10 @@ Notes: In order to sign in to your google account you must download Vanced Micro
     
     <item>
       <title>Revanced Apks (Youtube, X(Twitter), Reddit) 19 December 2023</title>
-      <link>/posts/revancedfiles1/</link>
+      <link>//localhost:1313/posts/revancedfiles1/</link>
       <pubDate>Tue, 19 Dec 2023 11:49:41 +0330</pubDate>
       
-      <guid>/posts/revancedfiles1/</guid>
+      <guid>//localhost:1313/posts/revancedfiles1/</guid>
       <description>Revanced Apks for Youtube, Reddit and X(Twitter) I have explained what Revanced apps are in this post. For better understanding first checkout that post.
 Reddit Download link : github
 Apk version: 2023.50.1
@@ -225,10 +225,10 @@ Notes: In order to sign in to your google account you must download Vanced Micro
     
     <item>
       <title>Revanced Apks (Youtube, X(Twitter), Reddit) 21 October 2023</title>
-      <link>/posts/revancedfiles/</link>
+      <link>//localhost:1313/posts/revancedfiles/</link>
       <pubDate>Sat, 21 Oct 2023 18:25:10 +0330</pubDate>
       
-      <guid>/posts/revancedfiles/</guid>
+      <guid>//localhost:1313/posts/revancedfiles/</guid>
       <description>Revanced Apks for Youtube, Reddit and X(Twitter) I have explained what Revanced apps are in this post. For better understanding first checkout that post.
 Reddit Download link : github
 Apk version: 2023.41.1

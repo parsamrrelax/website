@@ -13,7 +13,7 @@ contentTypeName = "posts"
 showMenuItems = 2
 
 # show selector to switch language
-showLanguageSelector = false
+showLanguageSelector = true
 
 # set theme to full screen width
 fullWidthTheme = false
@@ -78,6 +78,40 @@ logoHomeLink = "/"
 
 [languages.en.menu]
 [[languages.en.menu.main]]
+identifier = "about"
+name = "About"
+url = "/about"
+
+[languages.fa]
+languageName = "Persian"
+title = "Parsa | Tech Content"
+contentDir = "content/fa"
+languageCode = "fa"
+disabled = false
+languageDirection = "rtl"
+
+[languages.fa.params]
+subtitle = "Parsa | Tech Content"
+owner = "Parsa"
+keywords = ""
+copyright = ""
+menuMore = "Show more"
+readMore = "Read more"
+readOtherPosts = "Read other posts"
+newerPosts = "Newer posts"
+olderPosts = "Older posts"
+missingContentMessage = "Page not found..."
+missingBackButtonLabel = "Back to home page"
+minuteReadingTime = "min read"
+words = "words"
+
+[languages.fa.params.logo]
+logoText = "Parsa | Tech Content"
+logoHomeLink = "/fa"
+
+
+[languages.fa.menu]
+[[languages.fa.menu.main]]
 identifier = "about"
 name = "About"
 url = "/about"
