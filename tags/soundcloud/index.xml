@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Soundcloud on Parsa | Tech Content</title>
+    <link>/tags/soundcloud/</link>
+    <description>Recent content in Soundcloud on Parsa | Tech Content</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 15 Sep 2024 18:22:24 +0330</lastBuildDate><atom:link href="/tags/soundcloud/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Revanced Apks (Soundcloud, Google Photos) 15 Sep 2024</title>
+      <link>/posts/revancedfiles5/</link>
+      <pubDate>Sun, 15 Sep 2024 18:22:24 +0330</pubDate>
+      
+      <guid>/posts/revancedfiles5/</guid>
+      <description>Revanced Apks for Soundcloud, Google Photos I have explained what Revanced apps are in this post. For better understanding first checkout that post.
+Soundcloud Download link: github
+Apk version: 2024.06.25
+Google Photos Download link: github
+Apk version: 6.97.0
+Google Photos mod enables unlimited backups for google photos on any device by spoofing to be the original Pixel. It uses GmsCore package.
+It is highly advisable to create your own version of revanced apps and don&amp;rsquo;t trust sources of apks in the internet</description>
+      <content>&lt;h1 id=&#34;revanced-apks-for-soundcloud-google-photos&#34;&gt;Revanced Apks for Soundcloud, Google Photos&lt;/h1&gt;
+&lt;p&gt;I have explained what Revanced apps are in &lt;a href=&#34;https://maybeparsa.top/posts/revanced/&#34;&gt;this&lt;/a&gt; post. For better understanding first checkout that post.&lt;/p&gt;
+&lt;h2 id=&#34;soundcloud&#34;&gt;Soundcloud&lt;/h2&gt;
+&lt;p&gt;Download link: &lt;a href=&#34;https://github.com/parsamrrelax/revancedapks/releases/download/soundcloud2024.06.25/soundcloud-revanced_v2024.06.25-release-patches_v4.13.3.apk&#34;&gt;github&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Apk version: 2024.06.25&lt;/p&gt;
+&lt;h2 id=&#34;google-photos&#34;&gt;Google Photos&lt;/h2&gt;
+&lt;p&gt;Download link: &lt;a href=&#34;https://github.com/parsamrrelax/revancedapks/releases/download/googlephotos6.97.0/out.apk&#34;&gt;github&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Apk version: 6.97.0&lt;/p&gt;
+&lt;p&gt;Google Photos mod enables unlimited backups for google photos on any device by spoofing to be the original Pixel. It uses GmsCore package.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;It is highly advisable to create your own version of revanced apps and don&amp;rsquo;t trust sources of apks in the internet&lt;/strong&gt;&lt;/p&gt;
+</content>
+    </item>
+    
+  </channel>
+</rss>

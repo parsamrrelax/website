@@ -1,0 +1,923 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <title>Terminal Blog Theme with Hugo on Github Pages :: Parsa | Tech Content</title>
+  
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Semi tutorial showing how to create a hugo website and host it on github pages for personal blogs with the terminal theme of hugo" />
+<meta name="keywords" content="Hugo, website, blog, setup hugo, hugo github, github pages hugo" />
+
+  <meta name="robots" content="noodp" />
+
+<link rel="canonical" href="/posts/terminal-theme-blog/" />
+
+
+  
+
+
+
+
+
+  
+  <link rel="stylesheet" href="/css/buttons.min.2bc533403a27dfe0e93105a92502b42ce4587e2e4a87d9f7d349e51e16e09478.css">
+
+  
+  <link rel="stylesheet" href="/css/code.min.00125962708925857e7b66dbc58391d55be1191a3d0ce2034de8c9cd2c481c36.css">
+
+  
+  <link rel="stylesheet" href="/css/fonts.min.23057e40db67c96fd98b1bd73002e3c7c370bacb18f4a48eee12a4f3075a93d2.css">
+
+  
+  <link rel="stylesheet" href="/css/footer.min.2e3eb191baee58dd05a9f0104ac1fab0827bca7c64dafe0b2579f934c33a1d69.css">
+
+  
+  <link rel="stylesheet" href="/css/gist.min.a751e8b0abe1ba8bc53ced52a38b19d8950fe78ca29454ea8c2595cf26aad5c0.css">
+
+  
+  <link rel="stylesheet" href="/css/header.min.b6fb4423cf82a9f9d7abc9cd010223fa3d70a6526a3f28f8e17d814c06e18f9e.css">
+
+  
+  <link rel="stylesheet" href="/css/main.min.25ab35b4ef392af8f0aa6590b50283f72549f4b2df6de27e93db60b961b85324.css">
+
+  
+  <link rel="stylesheet" href="/css/menu.min.83637a90d903026bc280d3f82f96ceb06c5fc72b7c1a8d686afb5bbf818a29f7.css">
+
+  
+  <link rel="stylesheet" href="/css/pagination.min.82f6400eae7c7c6dc3c866733c2ec0579e4089608fea69400ff85b3880aa0d3c.css">
+
+  
+  <link rel="stylesheet" href="/css/post.min.fc74ca360273c1d828da3c02b8174eba435607b369d98418ccc6f2243cd4e75d.css">
+
+  
+  <link rel="stylesheet" href="/css/prism.min.9023bbc24533d09e97a51a0a42a5a7bfe4c591ae167c5551fb1d2191d11977c0.css">
+
+  
+  <link rel="stylesheet" href="/css/syntax.min.cc789ed9377260d7949ea4c18781fc58959a89287210fe4edbff44ebfc1511b6.css">
+
+  
+  <link rel="stylesheet" href="/css/terminal.min.0b8fe9f359484565f9dd26651a363a59d99595a1af2f1eb6e8db9e6940500d6b.css">
+
+  
+  <link rel="stylesheet" href="/css/terms.min.b81791663c3790e738e571cdbf802312390d30e4b1d8dc9d814a5b5454d0ac11.css">
+
+
+<link rel="stylesheet" href="/terminal.css">
+
+
+
+
+<link rel="shortcut icon" href="/favicon.png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
+
+<meta name="twitter:card" content="summary" />
+
+  
+    <meta name="twitter:site" content="" />
+  
+    <meta name="twitter:creator" content="" />
+
+
+
+<meta property="og:locale" content="en" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Terminal Blog Theme with Hugo on Github Pages">
+<meta property="og:description" content="Semi tutorial showing how to create a hugo website and host it on github pages for personal blogs with the terminal theme of hugo" />
+<meta property="og:url" content="/posts/terminal-theme-blog/" />
+<meta property="og:site_name" content="Parsa | Tech Content" />
+
+  
+  
+  <meta property="og:image" content="/">
+
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="627">
+
+
+  <meta property="article:published_time" content="2024-09-08 23:28:14 &#43;0330 &#43;0330" />
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+<body>
+
+
+<div class="container center">
+
+  <header class="header">
+  <div class="header__inner">
+    <div class="header__logo">
+      <a href="/">
+  <div class="logo">
+    Parsa | Tech Content
+  </div>
+</a>
+
+    </div>
+    
+      <ul class="menu menu--mobile">
+  <li class="menu__trigger">Menu&nbsp;▾</li>
+  <li>
+    <ul class="menu__dropdown">
+      
+        
+          <li><a href="/about">About</a></li>
+        
+      
+      
+        <hr />
+        
+          <li>
+            <a href="/">English</a>
+          </li>
+        
+          <li>
+            <a href="/fa/">Persian</a>
+          </li>
+        
+      
+    </ul>
+  </li>
+</ul>
+
+    
+    
+      <ul class="menu menu--desktop menu--language-selector">
+  <li class="menu__trigger">English&nbsp;▾</li>
+  <li>
+    <ul class="menu__dropdown">
+      
+        <li><a href="/">English</a></li>
+      
+        <li><a href="/fa/">Persian</a></li>
+      
+    </ul>
+  </li>
+</ul>
+
+    
+  </div>
+  
+    <nav class="navigation-menu">
+  <ul class="navigation-menu__inner menu--desktop">
+    
+      
+        
+          <li><a href="/about" >About</a></li>
+        
+      
+      
+    
+  </ul>
+</nav>
+
+  
+</header>
+
+
+  <div class="content">
+    
+<article class="post">
+  <h1 class="post-title">
+    <a href="/posts/terminal-theme-blog/">Terminal Blog Theme with Hugo on Github Pages</a>
+  </h1>
+  <div class="post-meta"><time class="post-date">2024-09-08</time></div>
+
+  
+    <span class="post-tags">
+      
+      #<a href="/tags/hugo/">Hugo</a>&nbsp;
+      
+      #<a href="/tags/blog/">Blog</a>&nbsp;
+      
+      #<a href="/tags/website/">Website</a>&nbsp;
+      
+    </span>
+  
+  
+
+
+  
+
+  <div class="post-content"><div>
+        <h1 id="getting-started">Getting Started<a href="#getting-started" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+<p>I assume you have Hugo installed. If not check their <a href="https://gohugo.io/installation/">docs</a> to see how to install it. It&rsquo;s pretty straight forward. Once you have it installed you&rsquo;ll probably want to install a theme. Hugo has a lot of <a href="https://themes.gohugo.io/">themes</a> available.</p>
+<p>But I prefer the <a href="https://themes.gohugo.io/themes/hugo-theme-terminal/">Terminal theme</a>. However this was challenging for me to to do based on the documentation the developer provided. So after trying a lot of stuff and getting lots of errors I finally figured out how to make it work. So I&rsquo;m writing it here.</p>
+<h2 id="create-a-website-with-hugo">Create a website with Hugo<a href="#create-a-website-with-hugo" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<p>In your terminal type:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>hugo new site <span style="color:#f92672">(</span>name of your website<span style="color:#f92672">)</span>
+</span></span></code></pre></div><p>This creates a directory based on your website name <code>cd</code> into it. You&rsquo;ll see a bunch of files created for you. Don&rsquo;t worry about them. We&rsquo;re gonna get rid of most of them.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>rm -rf data i18n themes assets archetypes static layouts
+</span></span></code></pre></div><p>We&rsquo;re gonna get this stuff from out theme.</p>
+<h2 id="getting-the-terminal-theme">Getting the Terminal theme<a href="#getting-the-terminal-theme" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<p>This is the part where the theme&rsquo;s documentation has a different route which I didn&rsquo;t fully understand so I&rsquo;m gonna explain my way of doing it.</p>
+<p><code>cd</code> in to your home. clone the theme&rsquo;s project.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git clone https://github.com/panr/hugo-theme-terminal.git themes/terminal
+</span></span></code></pre></div><p>this clones the repo in themes/terminal directory.</p>
+<h2 id="modifying-the-theme">Modifying the theme<a href="#modifying-the-theme" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<p><code>cd themes/terminal</code></p>
+<p>First delete the .git directory <code>rm -rf .git</code></p>
+<p>You can remove the exampleSite directory as well. <code>rm -rf exampleSite</code></p>
+<p>You also don&rsquo;t need the default images. <code>rm -rf images/*</code></p>
+<p>You don&rsquo;t need the markdown files as well <code>rm *.md</code></p>
+<p>Now copy everything from this directory to your website directory. <code>cp -r * ../../yourwebsite</code></p>
+<p>If you run <code>hugo serve -D</code> in your website directory. You must see your website localhost link probably on port 1313.</p>
+<p>Congrats&hellip;</p>
+<p>Let&rsquo;s create the main config files so we can customize more stuff.</p>
+<p>From now on everything happens in the website directory so I won&rsquo;t mention it anymore</p>
+<p>Create a hugo.toml file in root of your website directory and paste this config into it.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-toml" data-lang="toml"><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">baseurl</span> = <span style="color:#e6db74">&#34;/&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">languageCode</span> = <span style="color:#e6db74">&#34;en-us&#34;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">paginate</span> = <span style="color:#ae81ff">5</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>[<span style="color:#a6e22e">params</span>]
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># dir name of your main content (default is `content/posts`).</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># the list of set content will show up on your index page (baseurl).</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">contentTypeName</span> = <span style="color:#e6db74">&#34;posts&#34;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># if you set this to 0, only submenu trigger will be visible</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">showMenuItems</span> = <span style="color:#ae81ff">2</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># show selector to switch language</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">showLanguageSelector</span> = <span style="color:#66d9ef">false</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># set theme to full screen width</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">fullWidthTheme</span> = <span style="color:#66d9ef">false</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># center theme with default width</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">centerTheme</span> = <span style="color:#66d9ef">true</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># if your resource directory contains an image called `cover.(jpg|png|webp)`,</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># then the file will be used as a cover automatically.</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># With this option you don&#39;t have to put the `cover` param in a front-matter.</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">autoCover</span> = <span style="color:#66d9ef">true</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># set post to show the last updated</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># If you use git, you can set `enableGitInfo` to `true` and then post will automatically get the last updated</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">showLastUpdated</span> = <span style="color:#66d9ef">false</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Provide a string as a prefix for the last update date. By default, it looks like this: 2020-xx-xx [Updated: 2020-xx-xx] :: Author</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># updatedDatePrefix = &#34;Updated&#34;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># whether to show a page&#39;s estimated reading time</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">readingTime</span> = <span style="color:#66d9ef">false</span> <span style="color:#75715e"># default</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># whether to show a table of contents</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># can be overridden in a page&#39;s front-matter</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Toc = false # default</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># set title for the table of contents</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># can be overridden in a page&#39;s front-matter</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># TocTitle = &#34;Table of Contents&#34; # default</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>[<span style="color:#a6e22e">params</span>.<span style="color:#a6e22e">twitter</span>]
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># set Twitter handles for Twitter cards</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># see https://developer.twitter.com/en/docs/tweets/optimize-with-cards/guides/getting-started#card-and-content-attribution</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># do not include @</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">creator</span> = <span style="color:#e6db74">&#34;&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">site</span> = <span style="color:#e6db74">&#34;&#34;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>[<span style="color:#a6e22e">languages</span>]
+</span></span><span style="display:flex;"><span>[<span style="color:#a6e22e">languages</span>.<span style="color:#a6e22e">en</span>]
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">languageName</span> = <span style="color:#e6db74">&#34;English&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">title</span> = <span style="color:#e6db74">&#34;Parsa | Tech Content&#34;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>[<span style="color:#a6e22e">languages</span>.<span style="color:#a6e22e">en</span>.<span style="color:#a6e22e">params</span>]
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">subtitle</span> = <span style="color:#e6db74">&#34;Parsa | Tech Content&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">owner</span> = <span style="color:#e6db74">&#34;Parsa&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">keywords</span> = <span style="color:#e6db74">&#34;&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">copyright</span> = <span style="color:#e6db74">&#34;&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">menuMore</span> = <span style="color:#e6db74">&#34;Show more&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">readMore</span> = <span style="color:#e6db74">&#34;Read more&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">readOtherPosts</span> = <span style="color:#e6db74">&#34;Read other posts&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">newerPosts</span> = <span style="color:#e6db74">&#34;Newer posts&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">olderPosts</span> = <span style="color:#e6db74">&#34;Older posts&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">missingContentMessage</span> = <span style="color:#e6db74">&#34;Page not found...&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">missingBackButtonLabel</span> = <span style="color:#e6db74">&#34;Back to home page&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">minuteReadingTime</span> = <span style="color:#e6db74">&#34;min read&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">words</span> = <span style="color:#e6db74">&#34;words&#34;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>[<span style="color:#a6e22e">languages</span>.<span style="color:#a6e22e">en</span>.<span style="color:#a6e22e">params</span>.<span style="color:#a6e22e">logo</span>]
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">logoText</span> = <span style="color:#e6db74">&#34;Parsa | Tech Content&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">logoHomeLink</span> = <span style="color:#e6db74">&#34;/&#34;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>[<span style="color:#a6e22e">languages</span>.<span style="color:#a6e22e">en</span>.<span style="color:#a6e22e">menu</span>]
+</span></span><span style="display:flex;"><span>[[<span style="color:#a6e22e">languages</span>.<span style="color:#a6e22e">en</span>.<span style="color:#a6e22e">menu</span>.<span style="color:#a6e22e">main</span>]]
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">identifier</span> = <span style="color:#e6db74">&#34;about&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">name</span> = <span style="color:#e6db74">&#34;About&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">url</span> = <span style="color:#e6db74">&#34;/about&#34;</span>
+</span></span></code></pre></div><p>Of course you can see this config file has my information in it. So customize the options as you like. There are pretty self explanatory.
+After you&rsquo;re sure everything is the way you like it be copy the config file like this.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>mkdir -p config/_default
+</span></span><span style="display:flex;"><span>cp hugo.toml config/_default
+</span></span></code></pre></div><p>If you have the server running you must see your changes otherwise start it again with <code>hugo serve -D</code> so you can make sure everything is fine.</p>
+<h2 id="customizing-the-theme">Customizing the theme<a href="#customizing-the-theme" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<p>Now that we have the website running on our localhost we can start to customize it even more.</p>
+<p>Everything that you want to customize are inside <code>layouts/partials</code></p>
+<p>For example if you don&rsquo;t like the powered by stuff in the footer open footer.html and take that part out. You&rsquo;ll see the changes happen.</p>
+<h2 id="customizing-with-css">Customizing with CSS<a href="#customizing-with-css" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<p>The developer was a genius for this part and provided a color generation website for this theme. So let&rsquo;s use it.</p>
+<p>Head over to the <a href="https://panr.github.io/terminal-css/">website</a>.</p>
+
+<img src="terminal-css-website.png"  alt="terminal css website screenshot"  class="center"  style="border-radius: 8px;"    />
+
+
+<p>The website looks like this. Choose the colors you like and for the type choose Terminal theme. Click on Download terminal.css. And you&rsquo;ll get a terminal.css file. copy it in your static folder.</p>
+<p>For me it&rsquo;s <code>cp ~/Downloads/terminal.css static</code></p>
+<p>Now you can see your colors applied to your website. Great.</p>
+<blockquote>
+<p>What&rsquo;s even better than this you might ask</p>
+</blockquote>
+<p>This is a css file so it can be customized however you like it. For example here&rsquo;s mine. it makes boxes around posts and applies a different font. With my tailwind like colors.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-css" data-lang="css"><span style="display:flex;"><span>@<span style="color:#66d9ef">import</span> <span style="color:#f92672">url</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#39;https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&amp;family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&amp;display=swap&#39;</span><span style="color:#f92672">)</span>;
+</span></span><span style="display:flex;"><span>:<span style="color:#a6e22e">root</span> {
+</span></span><span style="display:flex;"><span>  --background: <span style="color:#ae81ff">#121c22</span>;
+</span></span><span style="display:flex;"><span>  --foreground: <span style="color:#ae81ff">#eceae5</span>;
+</span></span><span style="display:flex;"><span>  --accent: <span style="color:#ae81ff">#a079e0</span>;
+</span></span><span style="display:flex;"><span>  --font-size: <span style="color:#ae81ff">1</span><span style="color:#66d9ef">rem</span>;
+</span></span><span style="display:flex;"><span>  --line-height: <span style="color:#ae81ff">1.6</span><span style="color:#66d9ef">rem</span>;
+</span></span><span style="display:flex;"><span>  --radius: <span style="color:#ae81ff">5</span><span style="color:#66d9ef">px</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">html</span> {
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">box-sizing</span>: <span style="color:#66d9ef">border-box</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">*,</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">*</span>:<span style="color:#a6e22e">before</span><span style="color:#f92672">,</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">*</span>:<span style="color:#a6e22e">after</span> {
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">box-sizing</span>: <span style="color:#66d9ef">inherit</span>;
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">margin</span>: <span style="color:#ae81ff">0</span>;
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">padding</span>: <span style="color:#ae81ff">0</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">body</span> {
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">margin</span>: <span style="color:#ae81ff">0</span>;
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">padding</span>: <span style="color:#ae81ff">0</span>;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">font-family</span>: ui-sans-serif,system-ui,<span style="color:#66d9ef">sans-serif</span>,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">font-size</span>: <span style="color:#ae81ff">1</span><span style="color:#66d9ef">rem</span>;
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">font-weight</span>: <span style="color:#ae81ff">800</span>;
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">line-height</span>: <span style="color:#a6e22e">var</span>(<span style="color:#f92672">--</span>line<span style="color:#f92672">-</span>height);
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">letter-spacing</span>: <span style="color:#ae81ff">0.04</span><span style="color:#66d9ef">em</span>;
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">background</span>: radial-gradient(<span style="color:#66d9ef">circle</span> at <span style="color:#66d9ef">center</span>, <span style="color:#ae81ff">#221e23</span> <span style="color:#ae81ff">20</span><span style="color:#66d9ef">%</span>, <span style="color:#ae81ff">#121c22</span> <span style="color:#ae81ff">90</span><span style="color:#66d9ef">%</span>);
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">background-repeat</span>: <span style="color:#66d9ef">no-repeat</span>;
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">background-attachment</span>: <span style="color:#66d9ef">fixed</span>;
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">color</span>: <span style="color:#a6e22e">var</span>(<span style="color:#f92672">--</span>foreground);
+</span></span><span style="display:flex;"><span>  text-rendering: <span style="color:#66d9ef">optimizeLegibility</span>;
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">-webkit-</span>font-smoothing: antialiased;
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">font-feature-settings</span>: <span style="color:#e6db74">&#34;liga&#34;</span>, <span style="color:#e6db74">&#34;tnum&#34;</span>, <span style="color:#e6db74">&#34;zero&#34;</span>, <span style="color:#e6db74">&#34;ss01&#34;</span>, <span style="color:#e6db74">&#34;locl&#34;</span>;
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">font-variant-ligatures</span>: contextual;
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">-webkit-</span>overflow-scrolling: touch;
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">-webkit-</span>text-size-adjust: <span style="color:#ae81ff">100</span><span style="color:#66d9ef">%</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>::<span style="color:#a6e22e">placeholder</span> {
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">color</span>: <span style="color:#a6e22e">color-mix</span>(in srgb <span style="color:#a6e22e">var</span>(<span style="color:#f92672">--</span>foreground) <span style="color:#ae81ff">50</span><span style="color:#66d9ef">%</span>, <span style="color:#66d9ef">black</span>);
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">h1</span><span style="color:#f92672">,</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">h2</span> {
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">font-size</span>: calc(<span style="color:#a6e22e">var</span>(<span style="color:#f92672">--</span>font<span style="color:#f92672">-</span>size) <span style="color:#f92672">*</span> <span style="color:#ae81ff">1.1</span>);
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">letter-spacing</span>: <span style="color:#ae81ff">0.06</span><span style="color:#66d9ef">em</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">h1</span> {
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">text-decoration</span>: <span style="color:#66d9ef">underline</span>;
+</span></span><span style="display:flex;"><span>  text-decoration-thickness: <span style="color:#ae81ff">2</span><span style="color:#66d9ef">px</span>;
+</span></span><span style="display:flex;"><span>  text-underline-offset: calc(<span style="color:#a6e22e">var</span>(<span style="color:#f92672">--</span>font<span style="color:#f92672">-</span>size) <span style="color:#f92672">*</span> <span style="color:#ae81ff">0.2</span>);
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">h3</span><span style="color:#f92672">,</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">h4</span><span style="color:#f92672">,</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">h5</span><span style="color:#f92672">,</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">h6</span> {
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">font-size</span>: calc(<span style="color:#a6e22e">var</span>(<span style="color:#f92672">--</span>font<span style="color:#f92672">-</span>size) <span style="color:#f92672">*</span> <span style="color:#ae81ff">1.1</span>);
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">letter-spacing</span>: <span style="color:#ae81ff">0.04</span><span style="color:#66d9ef">em</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">h1</span><span style="color:#f92672">,</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">h2</span><span style="color:#f92672">,</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">h3</span><span style="color:#f92672">,</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">h4</span><span style="color:#f92672">,</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">h5</span><span style="color:#f92672">,</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">h6</span><span style="color:#f92672">,</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">p</span><span style="color:#f92672">,</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">ul</span><span style="color:#f92672">,</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">ol</span><span style="color:#f92672">,</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">img</span><span style="color:#f92672">,</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">figure</span><span style="color:#f92672">,</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">video</span><span style="color:#f92672">,</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">table</span> {
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">margin</span>: calc(<span style="color:#a6e22e">var</span>(<span style="color:#f92672">--</span>line<span style="color:#f92672">-</span>height) <span style="color:#f92672">*</span> <span style="color:#ae81ff">1.2</span>) <span style="color:#ae81ff">0</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">a</span> {
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">color</span>: <span style="color:#a6e22e">var</span>(<span style="color:#f92672">--</span>accent);
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">button</span> {
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">position</span>: <span style="color:#66d9ef">relative</span>;
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">font</span>: <span style="color:#66d9ef">inherit</span>;
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">font-weight</span>: <span style="color:#66d9ef">bold</span>;
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">text-decoration</span>: <span style="color:#66d9ef">none</span>;
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">text-align</span>: <span style="color:#66d9ef">center</span>;
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">background</span>: <span style="color:#66d9ef">transparent</span>;
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">color</span>: <span style="color:#a6e22e">var</span>(<span style="color:#f92672">--</span>accent);
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">padding</span>: <span style="color:#ae81ff">5</span><span style="color:#66d9ef">px</span> <span style="color:#ae81ff">18</span><span style="color:#66d9ef">px</span>;
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">border</span>: <span style="color:#ae81ff">4</span><span style="color:#66d9ef">px</span> <span style="color:#66d9ef">solid</span> <span style="color:#a6e22e">var</span>(<span style="color:#f92672">--</span>accent);
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">border-radius</span>: <span style="color:#a6e22e">var</span>(<span style="color:#f92672">--</span>radius);
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">transition</span>: <span style="color:#66d9ef">background</span> <span style="color:#ae81ff">0.15</span><span style="color:#66d9ef">s</span> <span style="color:#66d9ef">linear</span>;
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">appearance</span>: <span style="color:#66d9ef">none</span>;
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">cursor</span>: <span style="color:#66d9ef">pointer</span>;
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">outline</span>: <span style="color:#66d9ef">none</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">button</span>:<span style="color:#a6e22e">hover</span> {
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">background</span>: <span style="color:#a6e22e">color-mix</span>(in srgb, <span style="color:#a6e22e">var</span>(<span style="color:#f92672">--</span>accent) <span style="color:#ae81ff">15</span><span style="color:#66d9ef">%</span>, <span style="color:#66d9ef">transparent</span>);
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">button</span>:<span style="color:#a6e22e">focus-visible</span><span style="color:#f92672">,</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">a</span>:<span style="color:#a6e22e">focus-visible</span> {
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">outline</span>: <span style="color:#ae81ff">1</span><span style="color:#66d9ef">px</span> <span style="color:#66d9ef">solid</span> <span style="color:#a6e22e">var</span>(<span style="color:#f92672">--</span>accent);
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">outline-offset</span>: <span style="color:#ae81ff">2</span><span style="color:#66d9ef">px</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">fieldset</span> {
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">display</span>: <span style="color:#66d9ef">inline-block</span>;
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">border</span>: <span style="color:#ae81ff">2</span><span style="color:#66d9ef">px</span> <span style="color:#66d9ef">solid</span> <span style="color:#a6e22e">var</span>(<span style="color:#f92672">--</span>foreground);
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">border-radius</span>: calc(<span style="color:#a6e22e">var</span>(<span style="color:#f92672">--</span>radius) <span style="color:#f92672">*</span> <span style="color:#ae81ff">1.6</span>);
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">padding</span>: <span style="color:#ae81ff">10</span><span style="color:#66d9ef">px</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">fieldset</span> <span style="color:#f92672">*</span>:<span style="color:#a6e22e">first-child</span> {
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">margin-top</span>: <span style="color:#ae81ff">0</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">fieldset</span> <span style="color:#f92672">input</span><span style="color:#f92672">,</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">fieldset</span> <span style="color:#f92672">select</span><span style="color:#f92672">,</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">fieldset</span> <span style="color:#f92672">textarea</span><span style="color:#f92672">,</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">fieldset</span> <span style="color:#f92672">label</span><span style="color:#f92672">,</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">fieldset</span> <span style="color:#f92672">button</span> {
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">margin-top</span>: calc(<span style="color:#a6e22e">var</span>(<span style="color:#f92672">--</span>line<span style="color:#f92672">-</span>height) <span style="color:#f92672">*</span> <span style="color:#ae81ff">0.5</span>);
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">width</span>: <span style="color:#ae81ff">100</span><span style="color:#66d9ef">%</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">label</span> {
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">display</span>: <span style="color:#66d9ef">inline-block</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">label</span> <span style="color:#f92672">input</span> {
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">margin-top</span>: <span style="color:#ae81ff">0</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">input</span><span style="color:#f92672">,</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">textarea</span><span style="color:#f92672">,</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">select</span> {
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">background</span>: <span style="color:#66d9ef">transparent</span>;
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">color</span>: <span style="color:#a6e22e">var</span>(<span style="color:#f92672">--</span>foreground);
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">border</span>: <span style="color:#ae81ff">1</span><span style="color:#66d9ef">px</span> <span style="color:#66d9ef">solid</span> <span style="color:#a6e22e">var</span>(<span style="color:#f92672">--</span>foreground);
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">border-radius</span>: <span style="color:#a6e22e">var</span>(<span style="color:#f92672">--</span>radius);
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">padding</span>: <span style="color:#ae81ff">10</span><span style="color:#66d9ef">px</span>;
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">font</span>: <span style="color:#66d9ef">inherit</span>;
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">appearance</span>: <span style="color:#66d9ef">none</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">input</span><span style="color:#f92672">[</span><span style="color:#f92672">type</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;checkbox&#34;</span><span style="color:#f92672">]</span> {
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">width</span>: <span style="color:#66d9ef">auto</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">input</span>:<span style="color:#a6e22e">focus-visible</span><span style="color:#f92672">,</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">input</span>:<span style="color:#a6e22e">active</span><span style="color:#f92672">,</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">textarea</span>:<span style="color:#a6e22e">focus-visible</span><span style="color:#f92672">,</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">textarea</span>:<span style="color:#a6e22e">active</span><span style="color:#f92672">,</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">select</span>:<span style="color:#a6e22e">focus-visible</span><span style="color:#f92672">,</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">select</span>:<span style="color:#a6e22e">active</span> {
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">border-color</span>: <span style="color:#a6e22e">var</span>(<span style="color:#f92672">--</span>accent);
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">outline</span>: <span style="color:#ae81ff">1</span><span style="color:#66d9ef">px</span> <span style="color:#66d9ef">solid</span> <span style="color:#a6e22e">var</span>(<span style="color:#f92672">--</span>accent);
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">outline-offset</span>: <span style="color:#ae81ff">2</span><span style="color:#66d9ef">px</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">input</span>:<span style="color:#a6e22e">active</span><span style="color:#f92672">,</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">textarea</span>:<span style="color:#a6e22e">active</span><span style="color:#f92672">,</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">select</span>:<span style="color:#a6e22e">active</span> {
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">box-shadow</span>: <span style="color:#66d9ef">none</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">select</span> {
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">background-image</span>: linear-gradient(
+</span></span><span style="display:flex;"><span>      <span style="color:#ae81ff">45</span><span style="color:#66d9ef">deg</span>,
+</span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">transparent</span> <span style="color:#ae81ff">50</span><span style="color:#66d9ef">%</span>,
+</span></span><span style="display:flex;"><span>      <span style="color:#a6e22e">var</span>(<span style="color:#f92672">--</span>foreground) <span style="color:#ae81ff">50</span><span style="color:#66d9ef">%</span>
+</span></span><span style="display:flex;"><span>    ),
+</span></span><span style="display:flex;"><span>    linear-gradient(<span style="color:#ae81ff">135</span><span style="color:#66d9ef">deg</span>, <span style="color:#a6e22e">var</span>(<span style="color:#f92672">--</span>foreground) <span style="color:#ae81ff">50</span><span style="color:#66d9ef">%</span>, <span style="color:#66d9ef">transparent</span> <span style="color:#ae81ff">50</span><span style="color:#66d9ef">%</span>);
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">background-position</span>: calc(<span style="color:#ae81ff">100</span><span style="color:#66d9ef">%</span> <span style="color:#f92672">-</span> <span style="color:#ae81ff">20</span><span style="color:#66d9ef">px</span>), calc(<span style="color:#ae81ff">100</span><span style="color:#66d9ef">%</span> <span style="color:#f92672">-</span> <span style="color:#ae81ff">1</span><span style="color:#66d9ef">em</span>);
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">background-size</span>:
+</span></span><span style="display:flex;"><span>    <span style="color:#ae81ff">5</span><span style="color:#66d9ef">px</span> <span style="color:#ae81ff">5</span><span style="color:#66d9ef">px</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#ae81ff">5</span><span style="color:#66d9ef">px</span> <span style="color:#ae81ff">5</span><span style="color:#66d9ef">px</span>;
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">background-repeat</span>: <span style="color:#66d9ef">no-repeat</span>;
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">padding-right</span>: <span style="color:#ae81ff">40</span><span style="color:#66d9ef">px</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">select</span> <span style="color:#f92672">option</span> {
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">background</span>: <span style="color:#a6e22e">var</span>(<span style="color:#f92672">--</span>background);
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">input</span><span style="color:#f92672">[</span><span style="color:#f92672">type</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;checkbox&#34;</span><span style="color:#f92672">]</span> {
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">vertical-align</span>: <span style="color:#66d9ef">middle</span>;
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">padding</span>: <span style="color:#ae81ff">10</span><span style="color:#66d9ef">px</span>;
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">box-shadow</span>: <span style="color:#66d9ef">inset</span> <span style="color:#ae81ff">0</span> <span style="color:#ae81ff">0</span> <span style="color:#ae81ff">0</span> <span style="color:#ae81ff">3</span><span style="color:#66d9ef">px</span> <span style="color:#a6e22e">var</span>(<span style="color:#f92672">--</span>background);
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">input</span><span style="color:#f92672">[</span><span style="color:#f92672">type</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;checkbox&#34;</span><span style="color:#f92672">]</span>:<span style="color:#a6e22e">checked</span> {
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">background</span>: <span style="color:#a6e22e">var</span>(<span style="color:#f92672">--</span>accent);
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">img</span> {
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">display</span>: <span style="color:#66d9ef">block</span>;
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">max-width</span>: <span style="color:#ae81ff">100</span><span style="color:#66d9ef">%</span>;
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">border</span>: <span style="color:#ae81ff">8</span><span style="color:#66d9ef">px</span> <span style="color:#66d9ef">solid</span> <span style="color:#a6e22e">var</span>(<span style="color:#f92672">--</span>accent);
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">border-radius</span>: <span style="color:#a6e22e">var</span>(<span style="color:#f92672">--</span>radius);
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">padding</span>: <span style="color:#ae81ff">8</span><span style="color:#66d9ef">px</span>;
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">overflow</span>: <span style="color:#66d9ef">hidden</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">figure</span> <span style="color:#f92672">img</span><span style="color:#f92672">,</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">figure</span> <span style="color:#f92672">video</span> {
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">margin-bottom</span>: <span style="color:#ae81ff">0</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">figure</span> <span style="color:#f92672">figcaption</span> {
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">background</span>: <span style="color:#a6e22e">var</span>(<span style="color:#f92672">--</span>accent);
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">color</span>: <span style="color:#a6e22e">var</span>(<span style="color:#f92672">--</span>background);
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">text-align</span>: <span style="color:#66d9ef">center</span>;
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">font-size</span>: <span style="color:#ae81ff">1</span><span style="color:#66d9ef">rem</span>;
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">font-weight</span>: <span style="color:#66d9ef">normal</span>;
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">margin-top</span>: <span style="color:#ae81ff">-8</span><span style="color:#66d9ef">px</span>;
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">border-radius</span>: <span style="color:#ae81ff">0</span> <span style="color:#ae81ff">0</span> <span style="color:#a6e22e">var</span>(<span style="color:#f92672">--</span>radius) <span style="color:#a6e22e">var</span>(<span style="color:#f92672">--</span>radius);
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">ul</span><span style="color:#f92672">,</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">ol</span> {
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">margin-left</span>: <span style="color:#ae81ff">4</span><span style="color:#66d9ef">ch</span>;
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">padding</span>: <span style="color:#ae81ff">0</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">ul</span> <span style="color:#f92672">ul</span><span style="color:#f92672">,</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">ul</span> <span style="color:#f92672">ol</span><span style="color:#f92672">,</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">ol</span> <span style="color:#f92672">ul</span><span style="color:#f92672">,</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">ol</span> <span style="color:#f92672">ol</span> {
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">margin-top</span>: <span style="color:#ae81ff">0</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">li</span>::<span style="color:#a6e22e">marker</span> {
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">color</span>: <span style="color:#a6e22e">var</span>(<span style="color:#f92672">--</span>accent);
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">ul</span> <span style="color:#f92672">li</span><span style="color:#f92672">,</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">ol</span> <span style="color:#f92672">li</span> {
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">position</span>: <span style="color:#66d9ef">relative</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">code</span><span style="color:#f92672">,</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">kbd</span> {
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">font-family</span>:
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;Courier Prime&#34;</span>,
+</span></span><span style="display:flex;"><span>    Monaco,
+</span></span><span style="display:flex;"><span>    Consolas,
+</span></span><span style="display:flex;"><span>    Ubuntu Mono,
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">monospace</span> <span style="color:#75715e">!important</span>;
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">font-feature-settings</span>: <span style="color:#66d9ef">normal</span>;
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">background</span>: <span style="color:#a6e22e">color-mix</span>(in srgb, <span style="color:#a6e22e">var</span>(<span style="color:#f92672">--</span>foreground) <span style="color:#ae81ff">5</span><span style="color:#66d9ef">%</span>, <span style="color:#66d9ef">transparent</span>);
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">color</span>: <span style="color:#a6e22e">var</span>(<span style="color:#f92672">--</span>accent);
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">padding</span>: <span style="color:#ae81ff">1</span><span style="color:#66d9ef">px</span> <span style="color:#ae81ff">6</span><span style="color:#66d9ef">px</span>;
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">margin</span>: <span style="color:#ae81ff">0</span> <span style="color:#ae81ff">2</span><span style="color:#66d9ef">px</span>;
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">font-size</span>: <span style="color:#ae81ff">0.95</span><span style="color:#66d9ef">rem</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">kbd</span> {
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">border-top</span>: <span style="color:#ae81ff">1</span><span style="color:#66d9ef">px</span> <span style="color:#66d9ef">solid</span> <span style="color:#a6e22e">color-mix</span>(in srgb, <span style="color:#a6e22e">var</span>(<span style="color:#f92672">--</span>accent) <span style="color:#ae81ff">25</span><span style="color:#66d9ef">%</span>, <span style="color:#66d9ef">transparent</span>);
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">border-left</span>: <span style="color:#ae81ff">1</span><span style="color:#66d9ef">px</span> <span style="color:#66d9ef">solid</span> <span style="color:#a6e22e">var</span>(<span style="color:#f92672">--</span>accent);
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">border-right</span>: <span style="color:#ae81ff">1</span><span style="color:#66d9ef">px</span> <span style="color:#66d9ef">solid</span> <span style="color:#a6e22e">var</span>(<span style="color:#f92672">--</span>accent);
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">border-bottom</span>: <span style="color:#ae81ff">4</span><span style="color:#66d9ef">px</span> <span style="color:#66d9ef">solid</span> <span style="color:#a6e22e">var</span>(<span style="color:#f92672">--</span>accent);
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">border-radius</span>: <span style="color:#ae81ff">4</span><span style="color:#66d9ef">px</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">code</span> <span style="color:#f92672">code</span> {
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">background</span>: <span style="color:#66d9ef">transparent</span>;
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">padding</span>: <span style="color:#ae81ff">0</span>;
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">margin</span>: <span style="color:#ae81ff">0</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">pre</span> {
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">tab-size</span>: <span style="color:#ae81ff">4</span>;
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">background</span>: <span style="color:#a6e22e">color-mix</span>(in srgb, <span style="color:#a6e22e">var</span>(<span style="color:#f92672">--</span>foreground) <span style="color:#ae81ff">5</span><span style="color:#66d9ef">%</span>, <span style="color:#66d9ef">transparent</span>) <span style="color:#75715e">!important</span>;
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">color</span>: <span style="color:#a6e22e">var</span>(<span style="color:#f92672">--</span>foreground);
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">padding</span>: <span style="color:#ae81ff">20</span><span style="color:#66d9ef">px</span> <span style="color:#ae81ff">10</span><span style="color:#66d9ef">px</span>;
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">font-size</span>: <span style="color:#ae81ff">0.95</span><span style="color:#66d9ef">rem</span> <span style="color:#75715e">!important</span>;
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">overflow</span>: <span style="color:#66d9ef">auto</span>;
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">border-radius</span>: <span style="color:#a6e22e">var</span>(<span style="color:#f92672">--</span>radius);
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">border</span>: <span style="color:#ae81ff">1</span><span style="color:#66d9ef">px</span> <span style="color:#66d9ef">solid</span> <span style="color:#a6e22e">color-mix</span>(in srgb, <span style="color:#a6e22e">var</span>(<span style="color:#f92672">--</span>foreground) <span style="color:#ae81ff">10</span><span style="color:#66d9ef">%</span>, <span style="color:#66d9ef">transparent</span>);
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">pre</span> <span style="color:#f92672">code</span> {
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">background</span>: <span style="color:#66d9ef">none</span> <span style="color:#75715e">!important</span>;
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">margin</span>: <span style="color:#ae81ff">0</span>;
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">padding</span>: <span style="color:#ae81ff">0</span>;
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">font-size</span>: <span style="color:#66d9ef">inherit</span>;
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">border</span>: <span style="color:#66d9ef">none</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">sup</span> {
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">line-height</span>: <span style="color:#ae81ff">0</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">abbr</span> {
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">position</span>: <span style="color:#66d9ef">relative</span>;
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">text-decoration-style</span>: <span style="color:#66d9ef">wavy</span>;
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">text-decoration-color</span>: <span style="color:#a6e22e">var</span>(<span style="color:#f92672">--</span>accent);
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">cursor</span>: <span style="color:#66d9ef">help</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">sub</span> {
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">bottom</span>: <span style="color:#ae81ff">-0.25</span><span style="color:#66d9ef">em</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">sup</span> {
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">top</span>: <span style="color:#ae81ff">-0.25</span><span style="color:#66d9ef">em</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">mark</span> {
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">background</span>: <span style="color:#a6e22e">color-mix</span>(in srgb, <span style="color:#a6e22e">var</span>(<span style="color:#f92672">--</span>accent) <span style="color:#ae81ff">45</span><span style="color:#66d9ef">%</span>, <span style="color:#66d9ef">transparent</span>);
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">color</span>: <span style="color:#a6e22e">var</span>(<span style="color:#f92672">--</span>foreground);
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">blockquote</span> {
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">position</span>: <span style="color:#66d9ef">relative</span>;
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">border-top</span>: <span style="color:#ae81ff">1</span><span style="color:#66d9ef">px</span> <span style="color:#66d9ef">solid</span> <span style="color:#a6e22e">var</span>(<span style="color:#f92672">--</span>accent);
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">border-bottom</span>: <span style="color:#ae81ff">1</span><span style="color:#66d9ef">px</span> <span style="color:#66d9ef">solid</span> <span style="color:#a6e22e">var</span>(<span style="color:#f92672">--</span>accent);
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">margin</span>: <span style="color:#ae81ff">0</span>;
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">padding</span>: <span style="color:#ae81ff">25</span><span style="color:#66d9ef">px</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">blockquote</span>:<span style="color:#a6e22e">before</span> {
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">content</span>: <span style="color:#e6db74">&#34;&gt;&#34;</span>;
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">display</span>: <span style="color:#66d9ef">block</span>;
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">position</span>: <span style="color:#66d9ef">absolute</span>;
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">left</span>: <span style="color:#ae81ff">0</span>;
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">color</span>: <span style="color:#a6e22e">var</span>(<span style="color:#f92672">--</span>accent);
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">blockquote</span> <span style="color:#f92672">p</span>:<span style="color:#a6e22e">first-child</span> {
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">margin-top</span>: <span style="color:#ae81ff">0</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">blockquote</span> <span style="color:#f92672">p</span>:<span style="color:#a6e22e">last-child</span> {
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">margin-bottom</span>: <span style="color:#ae81ff">0</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">table</span> {
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">table-layout</span>: <span style="color:#66d9ef">auto</span>;
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">border-collapse</span>: <span style="color:#66d9ef">collapse</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">table</span><span style="color:#f92672">,</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">th</span><span style="color:#f92672">,</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">td</span> {
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">border</span>: <span style="color:#ae81ff">2</span><span style="color:#66d9ef">px</span> <span style="color:#66d9ef">solid</span> <span style="color:#a6e22e">var</span>(<span style="color:#f92672">--</span>foreground);
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">padding</span>: <span style="color:#ae81ff">10</span><span style="color:#66d9ef">px</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">th</span> {
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">border-style</span>: <span style="color:#66d9ef">solid</span>;
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">color</span>: <span style="color:#a6e22e">var</span>(<span style="color:#f92672">--</span>foreground);
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">text-align</span>: <span style="color:#66d9ef">left</span>;
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">letter-spacing</span>: <span style="color:#ae81ff">0.04</span><span style="color:#66d9ef">em</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">hr</span> {
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">width</span>: <span style="color:#ae81ff">100</span><span style="color:#66d9ef">%</span>;
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">border</span>: <span style="color:#66d9ef">none</span>;
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">background</span>: <span style="color:#a6e22e">var</span>(<span style="color:#f92672">--</span>accent);
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">height</span>: <span style="color:#ae81ff">2</span><span style="color:#66d9ef">px</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>.<span style="color:#a6e22e">post</span> {
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">border-style</span>: <span style="color:#66d9ef">solid</span>;
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">border-width</span>: <span style="color:#ae81ff">1</span><span style="color:#66d9ef">px</span>;
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">border-color</span>: <span style="color:#ae81ff">#a079e0</span>;
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">padding</span>: <span style="color:#ae81ff">1</span><span style="color:#66d9ef">rem</span>;
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">margin-top</span>:<span style="color:#ae81ff">1</span><span style="color:#66d9ef">rem</span>;
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">margin-bottom</span>:<span style="color:#ae81ff">1</span><span style="color:#66d9ef">rem</span>;
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">border-radius</span>:<span style="color:#ae81ff">20</span><span style="color:#66d9ef">px</span>;
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">background</span>: <span style="color:#ae81ff">#121c22</span>;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">color</span>: <span style="color:#ae81ff">#9fb9d0</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>.<span style="color:#a6e22e">post-tags</span> {
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">font-size</span>: <span style="color:#ae81ff">0.9</span><span style="color:#66d9ef">rem</span>;
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">font-family</span>: <span style="color:#e6db74">&#34;Fira Code&#34;</span>, <span style="color:#66d9ef">monospace</span>;
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">color</span>: <span style="color:#66d9ef">grey</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>.<span style="color:#a6e22e">post-tags</span> <span style="color:#f92672">a</span> {
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">color</span>: <span style="color:#66d9ef">grey</span>; 
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>.<span style="color:#a6e22e">post-title</span> {
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">font-weight</span>: <span style="color:#66d9ef">bold</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>.<span style="color:#a6e22e">read-more</span> {
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">padding-top</span>: <span style="color:#ae81ff">0.9</span><span style="color:#66d9ef">rem</span> <span style="color:#75715e">!important</span>;
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">font-size</span>: <span style="color:#ae81ff">0.9</span><span style="color:#66d9ef">rem</span> <span style="color:#75715e">!important</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>Great. Now the customizing part is out of the way. Let&rsquo;s get to deploying it.</p>
+<h2 id="deploying-to-github-pages">Deploying to Github Pages<a href="#deploying-to-github-pages" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<h3 id="creating-a-repo-with-the-correct-settings">Creating a repo with the correct settings<a href="#creating-a-repo-with-the-correct-settings" class="hanchor" ariaLabel="Anchor">#</a> </h3>
+<p>First create a repo in github. Check create a readme.md and create it.</p>
+<p>In your repo settings go to pages and on deploy with check Github Actions and save it.</p>
+<p>Then clone it on your machine.
+Copy all the contents of your website directory into it.</p>
+<p>Now we need a github actions file so we can deploy it the website and update everytime we write a new article.</p>
+<p>In your cloned project directory</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>mkdir -p .github/workflows
+</span></span></code></pre></div><p>Create a hugo.yaml file inside it and copy this code in it.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-yaml" data-lang="yaml"><span style="display:flex;"><span><span style="color:#75715e"># Sample workflow for building and deploying a Hugo site to GitHub Pages</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">name</span>: <span style="color:#ae81ff">Deploy Hugo site to Pages</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">on</span>:
+</span></span><span style="display:flex;"><span>  <span style="color:#75715e"># Runs on pushes targeting the default branch</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">push</span>:
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">branches</span>:
+</span></span><span style="display:flex;"><span>      - <span style="color:#ae81ff">main</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#75715e"># Allows you to run this workflow manually from the Actions tab</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">workflow_dispatch</span>:
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">permissions</span>:
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">contents</span>: <span style="color:#ae81ff">read</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">pages</span>: <span style="color:#ae81ff">write</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">id-token</span>: <span style="color:#ae81ff">write</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">concurrency</span>:
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">group</span>: <span style="color:#e6db74">&#34;pages&#34;</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">cancel-in-progress</span>: <span style="color:#66d9ef">false</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Default to bash</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">defaults</span>:
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">run</span>:
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">shell</span>: <span style="color:#ae81ff">bash</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">jobs</span>:
+</span></span><span style="display:flex;"><span>  <span style="color:#75715e"># Build job</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">build</span>:
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">runs-on</span>: <span style="color:#ae81ff">ubuntu-latest</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">env</span>:
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">HUGO_VERSION</span>: <span style="color:#ae81ff">0.128.0</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">steps</span>:
+</span></span><span style="display:flex;"><span>      - <span style="color:#f92672">name</span>: <span style="color:#ae81ff">Install Hugo CLI</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#f92672">run</span>: |<span style="color:#e6db74">
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">          wget -O ${{ runner.temp }}/hugo.deb https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.deb \
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">          &amp;&amp; sudo dpkg -i ${{ runner.temp }}/hugo.deb</span>          
+</span></span><span style="display:flex;"><span>      - <span style="color:#f92672">name</span>: <span style="color:#ae81ff">Install Dart Sass</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#f92672">run</span>: <span style="color:#ae81ff">sudo snap install dart-sass</span>
+</span></span><span style="display:flex;"><span>      - <span style="color:#f92672">name</span>: <span style="color:#ae81ff">Checkout</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#f92672">uses</span>: <span style="color:#ae81ff">actions/checkout@v4</span>
+</span></span><span style="display:flex;"><span>      - <span style="color:#f92672">name</span>: <span style="color:#ae81ff">Setup Pages</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#f92672">id</span>: <span style="color:#ae81ff">pages</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#f92672">uses</span>: <span style="color:#ae81ff">actions/configure-pages@v5</span>
+</span></span><span style="display:flex;"><span>      - <span style="color:#f92672">name</span>: <span style="color:#ae81ff">Install Node.js dependencies</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#f92672">run</span>: <span style="color:#e6db74">&#34;[[ -f package-lock.json || -f npm-shrinkwrap.json ]] &amp;&amp; npm ci || true&#34;</span>
+</span></span><span style="display:flex;"><span>      - <span style="color:#f92672">name</span>: <span style="color:#ae81ff">Build with Hugo</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#f92672">env</span>:
+</span></span><span style="display:flex;"><span>          <span style="color:#f92672">HUGO_CACHEDIR</span>: <span style="color:#ae81ff">${{ runner.temp }}/hugo_cache</span>
+</span></span><span style="display:flex;"><span>          <span style="color:#f92672">HUGO_ENVIRONMENT</span>: <span style="color:#ae81ff">production</span>
+</span></span><span style="display:flex;"><span>          <span style="color:#f92672">TZ</span>: <span style="color:#ae81ff">America/Los_Angeles</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#f92672">run</span>: |<span style="color:#e6db74">
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">          hugo \
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">            --gc \
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">            --minify \
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">            --baseURL &#34;${{ steps.pages.outputs.base_url }}/&#34;</span>          
+</span></span><span style="display:flex;"><span>      - <span style="color:#f92672">name</span>: <span style="color:#ae81ff">Upload artifact</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#f92672">uses</span>: <span style="color:#ae81ff">actions/upload-pages-artifact@v3</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#f92672">with</span>:
+</span></span><span style="display:flex;"><span>          <span style="color:#f92672">path</span>: <span style="color:#ae81ff">./public</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#75715e"># Deployment job</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">deploy</span>:
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">environment</span>:
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">name</span>: <span style="color:#ae81ff">github-pages</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">url</span>: <span style="color:#ae81ff">${{ steps.deployment.outputs.page_url }}</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">runs-on</span>: <span style="color:#ae81ff">ubuntu-latest</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">needs</span>: <span style="color:#ae81ff">build</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">steps</span>:
+</span></span><span style="display:flex;"><span>      - <span style="color:#f92672">name</span>: <span style="color:#ae81ff">Deploy to GitHub Pages</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#f92672">id</span>: <span style="color:#ae81ff">deployment</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#f92672">uses</span>: <span style="color:#ae81ff">actions/deploy-pages@v4</span>
+</span></span></code></pre></div><p>Ok then.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>hugo
+</span></span><span style="display:flex;"><span>git add .
+</span></span><span style="display:flex;"><span>git commit -m <span style="color:#e6db74">&#34;Hello World&#34;</span>
+</span></span><span style="display:flex;"><span>git push
+</span></span></code></pre></div><p>Wait a minute then head over to the pages again. You&rsquo;ll see the link to your website.</p>
+<blockquote>
+<p>Now how to add posts?</p>
+</blockquote>
+<p>In your repo directory run <code>hugo new posts/post-link/index.md</code></p>
+<p>The file <code>content/posts/post-link/index.md</code> will be your first post. Write anything in markdown format inside it. Save the file. Commit and push to the repo and your website will get updated.</p>
+<p>We are done.</p>
+<h4 id="tips">Tips<a href="#tips" class="hanchor" ariaLabel="Anchor">#</a> </h4>
+<ul>
+<li>If github action doesn&rsquo;t build the website automatically check if your branch is named main or master and update the file accordingly.</li>
+<li>For the about page in the menu create an about.md in contents directory.</li>
+</ul>
+<h4 id="kudos-to">Kudos to<a href="#kudos-to" class="hanchor" ariaLabel="Anchor">#</a> </h4>
+<p>Hugo
+Panr
+Github</p>
+
+      </div></div>
+
+  
+    
+<div class="pagination">
+  <div class="pagination__title">
+    <span class="pagination__title-h">Read other posts</span>
+    <hr />
+  </div>
+  <div class="pagination__buttons">
+    
+      <a href="/posts/revancedfiles5/" class="button inline prev">
+        Revanced Apks (Soundcloud, Google Photos) 15 Sep 2024
+      </a>
+    
+    
+      ::
+    
+    
+      <a href="/posts/revancedfiles4/" class="button inline next">
+        Revanced Apks (Youtube, X(Twitter), Youtube Music) 25 Jun 2024
+      </a>
+    
+  </div>
+</div>
+
+
+  
+
+  
+    
+
+  
+</article>
+
+  </div>
+
+  
+    <footer class="footer">
+  <div class="footer__inner">
+    
+      <div class="copyright">
+        <span>© 2024 Powered by <a href="https://gohugo.io">Hugo</a></span>
+    
+      </div>
+  </div>
+</footer>
+
+
+
+
+
+
+<script type="text/javascript" src="/bundle.min.js"></script>
+
+
+
+
+
+  
+</div>
+
+</body>
+</html>

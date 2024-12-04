@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Obsidian on Parsa | Tech Content</title>
+    <link>/tags/obsidian/</link>
+    <description>Recent content in Obsidian on Parsa | Tech Content</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 21 Sep 2024 18:33:13 +0330</lastBuildDate><atom:link href="/tags/obsidian/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>SyncThing for Obsidian</title>
+      <link>/posts/syncthing-for-obsidian/</link>
+      <pubDate>Sat, 21 Sep 2024 18:33:13 +0330</pubDate>
+      
+      <guid>/posts/syncthing-for-obsidian/</guid>
+      <description>Backing up Obsidian There are many ways to backup and sync Obsidian Vault. But there are downsides to each one. Plus if I&amp;rsquo;m using Obsidian instead of Notion I like to keep it a little more private than using their own sync. And also I would like to not pay for it.
+Using remotely save plugin This was my way to go for a while. It provided encryption and would sync on my own cloud accounts.</description>
+      <content>&lt;h1 id=&#34;backing-up-obsidian&#34;&gt;Backing up Obsidian&lt;/h1&gt;
+&lt;p&gt;There are many ways to backup and sync Obsidian Vault. But there are downsides to each one. Plus if I&amp;rsquo;m using Obsidian instead of Notion I like to keep it a little more private than using their own sync. And also I would like to not pay for it.&lt;/p&gt;
+&lt;h2 id=&#34;using-remotely-save-plugin&#34;&gt;Using remotely save plugin&lt;/h2&gt;
+&lt;p&gt;This was my way to go for a while. It provided encryption and would sync on my own cloud accounts. However I liked it to be more instant than tapping a button waiting for it to sync then continue using it on my other device. I always enjoyed google keep level of syncing.
+However If you&amp;rsquo;re just getting started this is a good option until you start typing a lot and switch between a lot of devices.&lt;/p&gt;
+&lt;h2 id=&#34;get-started-with-syncthing&#34;&gt;Get started with SyncThing&lt;/h2&gt;
+&lt;p&gt;On my main device I&amp;rsquo;m using arch(btw). So I installed syncthing from AUR. &lt;code&gt;yay -S syncthing-bin&lt;/code&gt;. However SyncThing is available on almost every device. Here you can find &lt;a href=&#34;https://syncthing.net/downloads/&#34;&gt;download links&lt;/a&gt; for almost every device.&lt;/p&gt;
+&lt;p&gt;After installing it will by default run on your &lt;em&gt;localhost:8384&lt;/em&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;setting-it-up&#34;&gt;Setting it up&lt;/h2&gt;
+&lt;p&gt;Go to localhost:8384 on your browser. On the left side you&amp;rsquo;ll see the folders that are syncing. On the right bottom, the devices that you want to sync between.
+From the left side you can go ahead and remove the default folder.&lt;/p&gt;
+&lt;h3 id=&#34;setting-up-local-devices&#34;&gt;Setting up local devices&lt;/h3&gt;
+&lt;p&gt;I&amp;rsquo;m syncing a desktop with my android phone however the process is basically the same on all devices.&lt;/p&gt;
+&lt;h4 id=&#34;add-your-android-device&#34;&gt;Add your Android device&lt;/h4&gt;
+&lt;p&gt;I&amp;rsquo;m using this &lt;a href=&#34;https://play.google.com/store/apps/details?id=com.github.catfriend1.syncthingandroid&amp;hl=en_US&#34;&gt;client&lt;/a&gt;. However the process is the same on other clients as well.
+On your browser click on add a remote device. On your android device click show device ID.&lt;/p&gt;
+
+&lt;img src=&#34;syncthing-android.jpg&#34;  alt=&#34;syncthing android screenshot&#34;  class=&#34;center&#34;  style=&#34;border-radius: 8px; height:800px;&#34;    /&gt;
+
+
+&lt;p&gt;Add it as your Device ID in the browser. Give it a name. and since it&amp;rsquo;s my phone on the sharing tab I check auto accept. Save it.&lt;/p&gt;
+&lt;h4 id=&#34;add-your-desktop&#34;&gt;Add your desktop&lt;/h4&gt;
+&lt;p&gt;Now we want to make sure the sync also happens in reverse so we must do the opposite way as well. On your android phone tap on the add a device icon on the top right of the screen. In your browser from actions click on show ID.&lt;/p&gt;
+
+&lt;img src=&#34;syncthing-browser.png&#34;  alt=&#34;syncthing android screenshot&#34;  class=&#34;center&#34;  style=&#34;border-radius: 8px;&#34;    /&gt;
+
+
+&lt;p&gt;Either scan it or add it manually on the first box. Again since this is my desktop I also check auto accept. And save it.&lt;/p&gt;
+&lt;h3 id=&#34;setting-up-folders&#34;&gt;Setting up folders&lt;/h3&gt;
+&lt;p&gt;In your browser click on add folder. Give the folder path to your vault. Give it a label. In the sharing tab you should see your other remote device. Choose it and add the folder. Syncing should auto start between these devices.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;If the syncing didn&amp;rsquo;t start automatically on your android in the status tab, tap on &amp;ldquo;Force Start Ignore Run Conditions&amp;rdquo;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;img src=&#34;syncthing-autostart.jpg&#34;  alt=&#34;syncthing android screenshot&#34;  class=&#34;center&#34;  style=&#34;border-radius: 8px; height:800px;&#34;    /&gt;
+
+
+&lt;h3 id=&#34;use-a-remote-vps-for-backing-up&#34;&gt;Use a remote VPS for backing up.&lt;/h3&gt;
+&lt;p&gt;So now that the folders are syncing between our desktop and Android. We want to have a backup of them on our VPS so our notes are secure.&lt;/p&gt;
+&lt;h4 id=&#34;setting-up-syncthing-on-our-vps-with-docker&#34;&gt;Setting up Syncthing on our VPS with Docker&lt;/h4&gt;
+&lt;p&gt;I&amp;rsquo;m using Ubuntu on my VPS. Make sure you have installed docker and docker-compose on your VPS.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;sudo apt install docker docker-compose&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;create a directory. Inside the directory create a docker-compose.yml file, and put this config inside it.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-yml&#34; data-lang=&#34;yml&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;services&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#f92672&#34;&gt;syncthing&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#f92672&#34;&gt;image&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;lscr.io/linuxserver/syncthing:latest&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#f92672&#34;&gt;container_name&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;syncthing&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#f92672&#34;&gt;hostname&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;syncthing&lt;/span&gt; &lt;span style=&#34;color:#75715e&#34;&gt;#optional&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#f92672&#34;&gt;environment&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      - &lt;span style=&#34;color:#ae81ff&#34;&gt;PUID=1000&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      - &lt;span style=&#34;color:#ae81ff&#34;&gt;PGID=1000&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      - &lt;span style=&#34;color:#ae81ff&#34;&gt;TZ=Etc/UTC&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#f92672&#34;&gt;volumes&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      - &lt;span style=&#34;color:#ae81ff&#34;&gt;/path/to/config:/config&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      - &lt;span style=&#34;color:#ae81ff&#34;&gt;/path/to/data:/data1&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#f92672&#34;&gt;ports&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      - &lt;span style=&#34;color:#ae81ff&#34;&gt;8384&lt;/span&gt;:&lt;span style=&#34;color:#ae81ff&#34;&gt;8384&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      - &lt;span style=&#34;color:#ae81ff&#34;&gt;22000&lt;/span&gt;:&lt;span style=&#34;color:#ae81ff&#34;&gt;22000&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;/tcp&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      - &lt;span style=&#34;color:#ae81ff&#34;&gt;22000&lt;/span&gt;:&lt;span style=&#34;color:#ae81ff&#34;&gt;22000&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;/udp&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      - &lt;span style=&#34;color:#ae81ff&#34;&gt;21027&lt;/span&gt;:&lt;span style=&#34;color:#ae81ff&#34;&gt;21027&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;/udp&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#f92672&#34;&gt;restart&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;unless-stopped&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Start the container&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;sudo docker-compose up -d&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;You can access your gui from your IP:8384. Go to it set a password for login when prompted.
+This will make this process more secure. Inside your browser on your local machine add the VPS with it&amp;rsquo;s remote ID and vice versa (Same instructions as two local devices).&lt;/p&gt;
+&lt;p&gt;==TIP== : Since I don&amp;rsquo;t trust the security of my VPS. I check the lock key for my VPS and give it a password so the notes will sync encrypted only. So even if my VPS is compromised our notes will be safe.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Note: Symbolic Notes don&amp;rsquo;t and probably never will work with Syncthing.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Everything is done now. So now the notes will sync between your local devices as well as a encrypted sync on your VPS. You can also sync between your phone and VPS by adding both devices together on your android as well. Just make sure to encrypt it on your Android as well.&lt;/p&gt;
+</content>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Parsa | Tech Content</title>
+    <link>/fa/posts/</link>
+    <description>Recent content in Posts on Parsa | Tech Content</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fa</language>
+    <lastBuildDate>Sun, 06 Oct 2024 23:52:36 +0330</lastBuildDate><atom:link href="/fa/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Jellyfin in Iran</title>
+      <link>/fa/posts/jellyfin-iran/</link>
+      <pubDate>Sun, 06 Oct 2024 23:52:36 +0330</pubDate>
+      
+      <guid>/fa/posts/jellyfin-iran/</guid>
+      <description>تست اول</description>
+      <content>&lt;p&gt;تست اول&lt;/p&gt;
+</content>
+    </item>
+    
+  </channel>
+</rss>
