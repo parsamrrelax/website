@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Spotify on Parsa | Tech Content</title>
-    <link>//localhost:1313/tags/spotify/</link>
+    <link>/tags/spotify/</link>
     <description>Recent content in Spotify on Parsa | Tech Content</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 23 Oct 2023 20:28:30 +0330</lastBuildDate><atom:link href="//localhost:1313/tags/spotify/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 23 Oct 2023 20:28:30 +0330</lastBuildDate><atom:link href="/tags/spotify/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Spotify Premium Features for Free with Xmanager</title>
-      <link>//localhost:1313/posts/spotify/</link>
+      <link>/posts/spotify/</link>
       <pubDate>Mon, 23 Oct 2023 20:28:30 +0330</pubDate>
       
-      <guid>//localhost:1313/posts/spotify/</guid>
+      <guid>/posts/spotify/</guid>
       <description>Getting Spotify premium features with help of xmanager What is the difference between Spotify premium and Spotify free? As with most streaming platforms you get more features when you purchase the premium version of the app. These features include an ad-free expreience, higher quality listening, selecting music, not shuffling , downloading the music for offline listening and more&amp;hellip;
 What do you get with X-manager version of Spotify? Xmanager is an app that let&amp;rsquo;s you download modded and patched Spotify apks.</description>
       <content>&lt;h1 id=&#34;getting-spotify-premium-features-with-help-of-xmanager&#34;&gt;Getting Spotify premium features with help of xmanager&lt;/h1&gt;
@@ -26,7 +26,7 @@ Well you certainly don&amp;rsquo;t get ads. You can choose your music as well. B
 &lt;h2 id=&#34;easier-route&#34;&gt;Easier route&lt;/h2&gt;
 &lt;p&gt;In case you don&amp;rsquo;t want to downlaod Xmanager and then the spotify apk. Here&amp;rsquo;s their &lt;a href=&#34;https://t.me/xManagerSupport&#34;&gt;telegram&lt;/a&gt;. They provide pre-patched apks for every type of android device. If you want to install this next to the original Spotify app, install one of the cloned ones. They have proven to me that they&amp;rsquo;re safe to use. Of course you shouldn&amp;rsquo;t trust me or them and check the apk files with &lt;a href=&#34;https://www.virustotal.com/gui/home/upload&#34;&gt;virustotal&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Here&amp;rsquo;s how the patched app looks:&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&#34;Resize&#34; src=&#34;//localhost:1313/posts/spotify/1.webp??width=600px&amp;height=600px&#34;&gt; &lt;img alt=&#34;Resize&#34; src=&#34;//localhost:1313/posts/spotify/2.webp??width=600px&amp;height=600px&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;Resize&#34; src=&#34;/posts/spotify/1.webp??width=600px&amp;height=600px&#34;&gt; &lt;img alt=&#34;Resize&#34; src=&#34;/posts/spotify/2.webp??width=600px&amp;height=600px&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;where-to-download&#34;&gt;Where to download?&lt;/h2&gt;
 &lt;p&gt;Here&amp;rsquo;s the download link to the latest version of Xmanager from their &lt;a href=&#34;https://github.com/xManager-App/xManager/releases/latest/download/xManager.apk&#34;&gt;github&lt;/a&gt;.
 You can directly check their github or their website and download from there.&lt;/p&gt;
