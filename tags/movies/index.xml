@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Movies on Parsa | Tech Content</title>
-    <link>//localhost:1313/tags/movies/</link>
+    <link>/tags/movies/</link>
     <description>Recent content in Movies on Parsa | Tech Content</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 06 Oct 2024 23:52:36 +0330</lastBuildDate><atom:link href="//localhost:1313/tags/movies/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 06 Oct 2024 23:52:36 +0330</lastBuildDate><atom:link href="/tags/movies/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Jellyfin in Iran</title>
-      <link>//localhost:1313/fa/posts/jellyfin-iran/</link>
+      <link>/fa/posts/jellyfin-iran/</link>
       <pubDate>Sun, 06 Oct 2024 23:52:36 +0330</pubDate>
       
-      <guid>//localhost:1313/fa/posts/jellyfin-iran/</guid>
+      <guid>/fa/posts/jellyfin-iran/</guid>
       <description>تست اول</description>
       <content>&lt;p&gt;تست اول&lt;/p&gt;
 </content>

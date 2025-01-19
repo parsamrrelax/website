@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Problems on Parsa | Tech Content</title>
-    <link>//localhost:1313/tags/problems/</link>
+    <link>/tags/problems/</link>
     <description>Recent content in Problems on Parsa | Tech Content</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 20 Jan 2024 01:58:21 +0330</lastBuildDate><atom:link href="//localhost:1313/tags/problems/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 20 Jan 2024 01:58:21 +0330</lastBuildDate><atom:link href="/tags/problems/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Huawei Laptops not playing sound from speakers on Linux</title>
-      <link>//localhost:1313/posts/fix_huawei_speaker_linux/</link>
+      <link>/posts/fix_huawei_speaker_linux/</link>
       <pubDate>Sat, 20 Jan 2024 01:58:21 +0330</pubDate>
       
-      <guid>//localhost:1313/posts/fix_huawei_speaker_linux/</guid>
+      <guid>/posts/fix_huawei_speaker_linux/</guid>
       <description>No audio from device when switching to Linux on Huawei laptops Huawei laptops actually have many problems with linux. From fingerprint of the device not working to MANY audio problems. Fortunately this one has a fix.
 Solution:
 Note : This fix is tested on hauwei b3-520 laptop but will probably work on all huawei laptops. The solution is to completely switch from Pipewire to Pulseaudio. So my distro is arch-based so I did yay -R &amp;quot;anything related to pipewire and after I removed all those packages, I installed pulseaudio alternative to everything I removed.</description>
@@ -30,10 +30,10 @@ And based on all the research I did, this problem has been here for a while, and
     
     <item>
       <title>CFast cards not working in Windows</title>
-      <link>//localhost:1313/posts/videoeditingproblem2/</link>
+      <link>/posts/videoeditingproblem2/</link>
       <pubDate>Tue, 31 Oct 2023 22:44:26 +0330</pubDate>
       
-      <guid>//localhost:1313/posts/videoeditingproblem2/</guid>
+      <guid>/posts/videoeditingproblem2/</guid>
       <description>CF cards only working on MacOS If you&amp;rsquo;re a video editor working with footage from Alexa Minis or Alexa LFs, you have probably heard this sentence before. CF cards only work on Mac. This is simply not true and we&amp;rsquo;ll go through what is the problem here.
 Connection Ports These CF drives are extremely fast drives and therefore require require fast ports to be connected to. Arri suggest using Thunderbolt 3 at least for CFast 2.</description>
       <content>&lt;h1 id=&#34;cf-cards-only-working-on-macos&#34;&gt;CF cards only working on MacOS&lt;/h1&gt;
@@ -65,10 +65,10 @@ However rolling back updates means rolling back security updates as well, Which 
     
     <item>
       <title>Video edtiors problems with footages on external hard drives</title>
-      <link>//localhost:1313/posts/videoeditingproblem/</link>
+      <link>/posts/videoeditingproblem/</link>
       <pubDate>Tue, 31 Oct 2023 20:49:09 +0330</pubDate>
       
-      <guid>//localhost:1313/posts/videoeditingproblem/</guid>
+      <guid>/posts/videoeditingproblem/</guid>
       <description>External drives are not recogonized either on Windows or MacOS To better understand why this problem happens we must first understand some basic terms.
 File systems: File systems are methods that data is stored and retrieved on operating systems. Now this is not a clear explanation if you&amp;rsquo;re not familiar with computing and not tech savvy in general. So let&amp;rsquo;s explain it better. Basically every operating system (Windows, MacOS, Linux, &amp;hellip;) chooses a variety of file systems to support.</description>
       <content>&lt;h1 id=&#34;external-drives-are-not-recogonized-either-on-windows-or-macos&#34;&gt;External drives are not recogonized either on Windows or MacOS&lt;/h1&gt;

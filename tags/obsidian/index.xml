@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Obsidian on Parsa | Tech Content</title>
-    <link>//localhost:1313/tags/obsidian/</link>
+    <link>/tags/obsidian/</link>
     <description>Recent content in Obsidian on Parsa | Tech Content</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 21 Sep 2024 18:33:13 +0330</lastBuildDate><atom:link href="//localhost:1313/tags/obsidian/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 21 Sep 2024 18:33:13 +0330</lastBuildDate><atom:link href="/tags/obsidian/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>SyncThing for Obsidian</title>
-      <link>//localhost:1313/posts/syncthing-for-obsidian/</link>
+      <link>/posts/syncthing-for-obsidian/</link>
       <pubDate>Sat, 21 Sep 2024 18:33:13 +0330</pubDate>
       
-      <guid>//localhost:1313/posts/syncthing-for-obsidian/</guid>
+      <guid>/posts/syncthing-for-obsidian/</guid>
       <description>Backing up Obsidian There are many ways to backup and sync Obsidian Vault. But there are downsides to each one. Plus if I&amp;rsquo;m using Obsidian instead of Notion I like to keep it a little more private than using their own sync. And also I would like to not pay for it.
 Using remotely save plugin This was my way to go for a while. It provided encryption and would sync on my own cloud accounts.</description>
       <content>&lt;h1 id=&#34;backing-up-obsidian&#34;&gt;Backing up Obsidian&lt;/h1&gt;

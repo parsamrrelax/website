@@ -2,126 +2,126 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>//localhost:1313/fa/tags/astra/</loc>
+    <loc>/fa/tags/astra/</loc>
     <lastmod>2025-01-19T17:08:24+03:30</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="//localhost:1313/tags/astra/"
+                href="/tags/astra/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fa"
-                href="//localhost:1313/fa/tags/astra/"
+                href="/fa/tags/astra/"
                 />
   </url><url>
-    <loc>//localhost:1313/fa/</loc>
+    <loc>/fa/</loc>
     <lastmod>2025-01-19T17:08:24+03:30</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="//localhost:1313/"
+                href="/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fa"
-                href="//localhost:1313/fa/"
+                href="/fa/"
                 />
   </url><url>
-    <loc>//localhost:1313/fa/posts/</loc>
+    <loc>/fa/posts/</loc>
     <lastmod>2025-01-19T17:08:24+03:30</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="//localhost:1313/posts/"
+                href="/posts/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fa"
-                href="//localhost:1313/fa/posts/"
+                href="/fa/posts/"
                 />
   </url><url>
-    <loc>//localhost:1313/fa/tags/</loc>
+    <loc>/fa/tags/</loc>
     <lastmod>2025-01-19T17:08:24+03:30</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="//localhost:1313/tags/"
+                href="/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fa"
-                href="//localhost:1313/fa/tags/"
+                href="/fa/tags/"
                 />
   </url><url>
-    <loc>//localhost:1313/fa/tags/wordpress/</loc>
+    <loc>/fa/tags/wordpress/</loc>
     <lastmod>2025-01-19T17:08:24+03:30</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="//localhost:1313/tags/wordpress/"
+                href="/tags/wordpress/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fa"
-                href="//localhost:1313/fa/tags/wordpress/"
+                href="/fa/tags/wordpress/"
                 />
   </url><url>
-    <loc>//localhost:1313/fa/posts/astra-submenu-rtl/</loc>
+    <loc>/fa/posts/astra-submenu-rtl/</loc>
     <lastmod>2025-01-19T17:08:24+03:30</lastmod>
   </url><url>
-    <loc>//localhost:1313/fa/tags/jellyfin/</loc>
+    <loc>/fa/tags/jellyfin/</loc>
     <lastmod>2024-10-06T23:52:36+03:30</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="//localhost:1313/tags/jellyfin/"
+                href="/tags/jellyfin/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fa"
-                href="//localhost:1313/fa/tags/jellyfin/"
+                href="/fa/tags/jellyfin/"
                 />
   </url><url>
-    <loc>//localhost:1313/fa/posts/jellyfin-iran/</loc>
+    <loc>/fa/posts/jellyfin-iran/</loc>
     <lastmod>2024-10-06T23:52:36+03:30</lastmod>
   </url><url>
-    <loc>//localhost:1313/fa/tags/movies/</loc>
-    <lastmod>2024-10-06T23:52:36+03:30</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="//localhost:1313/tags/movies/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fa"
-                href="//localhost:1313/fa/tags/movies/"
-                />
-  </url><url>
-    <loc>//localhost:1313/fa/tags/selfhost/</loc>
+    <loc>/fa/tags/movies/</loc>
     <lastmod>2024-10-06T23:52:36+03:30</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="//localhost:1313/tags/selfhost/"
+                href="/tags/movies/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fa"
-                href="//localhost:1313/fa/tags/selfhost/"
+                href="/fa/tags/movies/"
                 />
   </url><url>
-    <loc>//localhost:1313/fa/categories/</loc>
+    <loc>/fa/tags/selfhost/</loc>
+    <lastmod>2024-10-06T23:52:36+03:30</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="//localhost:1313/categories/"
+                href="/tags/selfhost/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fa"
-                href="//localhost:1313/fa/categories/"
+                href="/fa/tags/selfhost/"
+                />
+  </url><url>
+    <loc>/fa/categories/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fa"
+                href="/fa/categories/"
                 />
   </url>
 </urlset>

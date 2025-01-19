@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Apks on Parsa | Tech Content</title>
-    <link>//localhost:1313/categories/apks/</link>
+    <link>/categories/apks/</link>
     <description>Recent content in Apks on Parsa | Tech Content</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 25 Jun 2024 14:08:33 +0330</lastBuildDate><atom:link href="//localhost:1313/categories/apks/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 25 Jun 2024 14:08:33 +0330</lastBuildDate><atom:link href="/categories/apks/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Revanced Apks (Youtube, X(Twitter), Youtube Music) 25 Jun 2024</title>
-      <link>//localhost:1313/posts/revancedfiles4/</link>
+      <link>/posts/revancedfiles4/</link>
       <pubDate>Tue, 25 Jun 2024 14:08:33 +0330</pubDate>
       
-      <guid>//localhost:1313/posts/revancedfiles4/</guid>
+      <guid>/posts/revancedfiles4/</guid>
       <description>Revanced Apks for Youtube, Reddit and X(Twitter) I have explained what Revanced apps are in this post. For better understanding first checkout that post.
 X(Twitter) Download link : github
 Apk version: 10.46.1
@@ -38,10 +38,10 @@ It is highly advisable to create your own version of revanced apps and don&amp;r
     
     <item>
       <title>Revanced Apks (Youtube, X(Twitter), Youtube Music) 28 Mar 2024</title>
-      <link>//localhost:1313/posts/revancedfiles3/</link>
+      <link>/posts/revancedfiles3/</link>
       <pubDate>Thu, 28 Mar 2024 13:10:53 +0330</pubDate>
       
-      <guid>//localhost:1313/posts/revancedfiles3/</guid>
+      <guid>/posts/revancedfiles3/</guid>
       <description>Revanced Apks for Youtube, Reddit and X(Twitter) I have explained what Revanced apps are in this post. For better understanding first checkout that post.
 X(Twitter) Download link : github
 Apk version: 10.34.0
@@ -139,10 +139,10 @@ Apk version: 19.09.37&lt;/p&gt;
     
     <item>
       <title>Revanced Apks (Youtube, X(Twitter), Reddit, Youtube Music) 10 Feb 2024</title>
-      <link>//localhost:1313/posts/revancedfiles2/</link>
+      <link>/posts/revancedfiles2/</link>
       <pubDate>Sat, 10 Feb 2024 12:08:41 +0330</pubDate>
       
-      <guid>//localhost:1313/posts/revancedfiles2/</guid>
+      <guid>/posts/revancedfiles2/</guid>
       <description>Revanced Apks for Youtube, Reddit and X(Twitter) I have explained what Revanced apps are in this post. For better understanding first checkout that post.
 Reddit Download link : github
 Apk version: 2024.06.0
@@ -253,10 +253,10 @@ Notes: In order to sign in to your google account you must download Vanced Micro
     
     <item>
       <title>Revanced Apks (Youtube, X(Twitter), Reddit) 19 December 2023</title>
-      <link>//localhost:1313/posts/revancedfiles1/</link>
+      <link>/posts/revancedfiles1/</link>
       <pubDate>Tue, 19 Dec 2023 11:49:41 +0330</pubDate>
       
-      <guid>//localhost:1313/posts/revancedfiles1/</guid>
+      <guid>/posts/revancedfiles1/</guid>
       <description>Revanced Apks for Youtube, Reddit and X(Twitter) I have explained what Revanced apps are in this post. For better understanding first checkout that post.
 Reddit Download link : github
 Apk version: 2023.50.1
@@ -355,14 +355,14 @@ Notes: In order to sign in to your google account you must download Vanced Micro
     
     <item>
       <title>Revanced Youtube Music, 24 October 2023</title>
-      <link>//localhost:1313/posts/revancedytmusic/</link>
+      <link>/posts/revancedytmusic/</link>
       <pubDate>Tue, 24 Oct 2023 15:05:25 +0330</pubDate>
       
-      <guid>//localhost:1313/posts/revancedytmusic/</guid>
+      <guid>/posts/revancedytmusic/</guid>
       <description>Revanced Version of Youtube Music I have explained what Revanced apps are in this post. For better understanding first checkout that post.
 Mainly due to google killing google podcasts app, I&amp;rsquo;ll be switching to YouTube Music for podcast listening. Plus with revanced version of YT music, this is another platform for listening to songs for free. Note that like Youtube Revanced this supports VancedMicroG. I&amp;rsquo;ll link a trusted version of that as well.</description>
       <content>&lt;h1 id=&#34;revanced-version-of-youtube-music&#34;&gt;Revanced Version of Youtube Music&lt;/h1&gt;
-&lt;p&gt;&lt;img alt=&#34;Resize&#34; src=&#34;//localhost:1313/posts/revancedytmusic/1.webp??width=600px&amp;height=600px&#34;&gt; &lt;img alt=&#34;Resize&#34; src=&#34;//localhost:1313/posts/revancedytmusic/2.webp??width=600px&amp;height=600px&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;Resize&#34; src=&#34;/posts/revancedytmusic/1.webp??width=600px&amp;height=600px&#34;&gt; &lt;img alt=&#34;Resize&#34; src=&#34;/posts/revancedytmusic/2.webp??width=600px&amp;height=600px&#34;&gt;&lt;/p&gt;
 &lt;p&gt;I have explained what Revanced apps are in this &lt;a href=&#34;https://maybeparsa.top/posts/revanced/&#34;&gt;post&lt;/a&gt;. For better understanding first checkout that post.&lt;/p&gt;
 &lt;p&gt;Mainly due to google killing google podcasts app, I&amp;rsquo;ll be switching to YouTube Music for podcast listening. Plus with revanced version of YT music, this is another platform for listening to songs for free.
 Note that like Youtube Revanced this supports VancedMicroG. I&amp;rsquo;ll link a trusted version of that as well.&lt;/p&gt;
@@ -388,10 +388,10 @@ Note that like Youtube Revanced this supports VancedMicroG. I&amp;rsquo;ll link 
     
     <item>
       <title>Revanced Apks (Youtube, X(Twitter), Reddit) 21 October 2023</title>
-      <link>//localhost:1313/posts/revancedfiles/</link>
+      <link>/posts/revancedfiles/</link>
       <pubDate>Sat, 21 Oct 2023 18:25:10 +0330</pubDate>
       
-      <guid>//localhost:1313/posts/revancedfiles/</guid>
+      <guid>/posts/revancedfiles/</guid>
       <description>Revanced Apks for Youtube, Reddit and X(Twitter) I have explained what Revanced apps are in this post. For better understanding first checkout that post.
 Reddit Download link : github
 Apk version: 2023.41.1

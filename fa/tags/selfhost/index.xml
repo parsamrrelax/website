@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Selfhost on Parsa | Tech Content</title>
-    <link>//localhost:1313/fa/tags/selfhost/</link>
+    <link>/fa/tags/selfhost/</link>
     <description>Recent content in Selfhost on Parsa | Tech Content</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fa</language>
-    <lastBuildDate>Sun, 06 Oct 2024 23:52:36 +0330</lastBuildDate><atom:link href="//localhost:1313/fa/tags/selfhost/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 06 Oct 2024 23:52:36 +0330</lastBuildDate><atom:link href="/fa/tags/selfhost/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Jellyfin in Iran</title>
-      <link>//localhost:1313/fa/posts/jellyfin-iran/</link>
+      <link>/fa/posts/jellyfin-iran/</link>
       <pubDate>Sun, 06 Oct 2024 23:52:36 +0330</pubDate>
       
-      <guid>//localhost:1313/fa/posts/jellyfin-iran/</guid>
+      <guid>/fa/posts/jellyfin-iran/</guid>
       <description>تست اول</description>
       <content>&lt;p&gt;تست اول&lt;/p&gt;
 </content>

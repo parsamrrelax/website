@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blog on Parsa | Tech Content</title>
-    <link>//localhost:1313/tags/blog/</link>
+    <link>/tags/blog/</link>
     <description>Recent content in Blog on Parsa | Tech Content</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 08 Sep 2024 23:28:14 +0330</lastBuildDate><atom:link href="//localhost:1313/tags/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 08 Sep 2024 23:28:14 +0330</lastBuildDate><atom:link href="/tags/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Terminal Blog Theme with Hugo on Github Pages</title>
-      <link>//localhost:1313/posts/terminal-theme-blog/</link>
+      <link>/posts/terminal-theme-blog/</link>
       <pubDate>Sun, 08 Sep 2024 23:28:14 +0330</pubDate>
       
-      <guid>//localhost:1313/posts/terminal-theme-blog/</guid>
+      <guid>/posts/terminal-theme-blog/</guid>
       <description>Getting Started I assume you have Hugo installed. If not check their docs to see how to install it. It&amp;rsquo;s pretty straight forward. Once you have it installed you&amp;rsquo;ll probably want to install a theme. Hugo has a lot of themes available.
 But I prefer the Terminal theme. However this was challenging for me to to do based on the documentation the developer provided. So after trying a lot of stuff and getting lots of errors I finally figured out how to make it work.</description>
       <content>&lt;h1 id=&#34;getting-started&#34;&gt;Getting Started&lt;/h1&gt;
