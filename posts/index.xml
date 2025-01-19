@@ -6,7 +6,75 @@
     <description>Recent content in Posts on Parsa | Tech Content</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 30 Nov 2024 18:22:24 +0330</lastBuildDate><atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 19 Jan 2025 20:04:00 +0330</lastBuildDate><atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Setup Amazon Cloudfront as cdn domain for V2ray</title>
+      <link>/posts/cloudfront-v2ray/</link>
+      <pubDate>Sun, 19 Jan 2025 20:04:00 +0330</pubDate>
+      
+      <guid>/posts/cloudfront-v2ray/</guid>
+      <description>How to setup an Amazon Cloudfront cdn for v2ray specifically in X-UI Requirements Of course you need to have an amazon account setup and verified. It needs your credit card information to verify your account. However there will be no charges and the free tier is 1TB a month for CDN plus there are other free services you can use as well. You need a VPS running some form of X-UI.</description>
+      <content>&lt;h1 id=&#34;how-to-setup-an-amazon-cloudfront-cdn-for-v2ray-specifically-in-x-ui&#34;&gt;How to setup an Amazon Cloudfront cdn for v2ray specifically in X-UI&lt;/h1&gt;
+&lt;h2 id=&#34;requirements&#34;&gt;Requirements&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Of course you need to have an amazon account setup and verified. It needs your credit card information to verify your account. However there will be no charges and the free tier is 1TB a month for CDN plus there are other free services you can use as well.&lt;/li&gt;
+&lt;li&gt;You need a VPS running some form of X-UI. I&amp;rsquo;ll be using &lt;a href=&#34;github.com/MHSanaei/3x-ui&#34;&gt;3X-UI&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;A domain name that is not the country code of a sanctioned country like ru or ir.&lt;/li&gt;
+&lt;li&gt;Basic knowledge of creating configurations with X-UI.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;getting-started&#34;&gt;Getting started&lt;/h2&gt;
+&lt;p&gt;I&amp;rsquo;m using Cloudflare to manage my domains and records. I suggest you do the same but the instructions are similar no matter the route you choose to take.&lt;/p&gt;
+&lt;p&gt;Create an A record from your domain to your vps IP address. Let&amp;rsquo;s call it &lt;code&gt;sub1.domain.com&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;If you&amp;rsquo;re using Cloudflare the proxy checkmark should be off&lt;/em&gt;&lt;/p&gt;
+&lt;h2 id=&#34;aws&#34;&gt;AWS&lt;/h2&gt;
+&lt;p&gt;In aws search for cloudfront and create a distribution.
+You&amp;rsquo;ll see a screen with a lot of fields to enter information. Must of it is fine as is but we&amp;rsquo;ll get to what you need to change.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;For origin name enter the subdomain pointing to your vps aka &lt;code&gt;sub1.domain.com&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Protocol select match viewer so you can create both tls and non tls configurations for your v2ray.&lt;/li&gt;
+&lt;li&gt;Compress objects automatically &lt;code&gt;no&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Tap on Cache Policy and choose &lt;code&gt;CachingDisabled&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Further down check &lt;code&gt;Do not enable security protections&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;That&amp;rsquo;s the changes for this part. Tap on create distribution.
+&lt;em&gt;If you get a message saying your account needs to be verified but your payment information is correct, search for ec2 in aws console and start a remote machine and play with it for a while. It should auto trigger the verification&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;You&amp;rsquo;ll see a page with a domain name inside it generally ending with cloudfront.net. It should be under &lt;code&gt;Distribution Domain Name&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Copy it.&lt;/p&gt;
+&lt;h2 id=&#34;back-to-cloudflare&#34;&gt;Back to Cloudflare&lt;/h2&gt;
+&lt;p&gt;In Cloudflare now we need to create another subdomain. Let&amp;rsquo;s call it &lt;code&gt;sub2.domain.com&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Create a CNAME record pointing &lt;code&gt;sub2.domain.com&lt;/code&gt; to the url you got that you copied in the previous step.
+&lt;em&gt;again make sure proxy is checked off&lt;/em&gt;&lt;/p&gt;
+&lt;h2 id=&#34;get-certificate-from-aws&#34;&gt;Get certificate from AWS&lt;/h2&gt;
+&lt;p&gt;Head back to your Cloudfront console. Under &lt;strong&gt;general&lt;/strong&gt; tab there&amp;rsquo;s a section called &lt;strong&gt;Settings&lt;/strong&gt; inside it tap on the &lt;strong&gt;edit&lt;/strong&gt; button.&lt;/p&gt;
+&lt;p&gt;In the new section choose &lt;code&gt;Alternate Domain Name (CNAME) - Optional&lt;/code&gt;. Click on add item and enter the second subdomain in this example &lt;code&gt;sub2.domain.com&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Head over to &lt;code&gt;Custom SSL Certificate - Optional&lt;/code&gt; and click &lt;strong&gt;request certificate&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;In the new page under domain name enter &lt;code&gt;sub2.domain.com&lt;/code&gt; and leave other values as is. And tap on &lt;strong&gt;request&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;You&amp;rsquo;ll see under certificate section that certificate is pending validation.&lt;/p&gt;
+&lt;p&gt;Tap on ID and in the new page under Domains you&amp;rsquo;ll see some information including &lt;code&gt;CNAME name&lt;/code&gt; and &lt;code&gt;CNAME value&lt;/code&gt;. Keep this tab open.&lt;/p&gt;
+&lt;h2 id=&#34;verifying-your-domain-on-cloudflare&#34;&gt;Verifying your domain on Cloudflare&lt;/h2&gt;
+&lt;p&gt;Back in Cloudflare create another CNAME subdomain. For name enter &lt;code&gt;CNAME name&lt;/code&gt; and for target enter &lt;code&gt;CNAME value&lt;/code&gt; that you got from the previous step.&lt;/p&gt;
+&lt;p&gt;Now if you check your Cloudfront tab and refresh it. You&amp;rsquo;ll see it now says issued instead of pending.&lt;/p&gt;
+&lt;p&gt;Now back to the distribution settings from where you were getting your certificate. Under &lt;strong&gt;Custom SSL&lt;/strong&gt; you can now choose the certificate that you just got for you domain. Choose it and don&amp;rsquo;t touch anything else. Tap &lt;strong&gt;Save Changes&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Now wait a bit until you the last modified section change from deploying to a date and time. It might take a couple of minutes so don&amp;rsquo;t worry and refresh the page once in a while.&lt;/p&gt;
+&lt;p&gt;After you see a date and time go to next section.&lt;/p&gt;
+&lt;h2 id=&#34;getting-a-certificate-for-your-domain-on-your-vps&#34;&gt;Getting a certificate for your domain on your VPS&lt;/h2&gt;
+&lt;p&gt;In your vps get a certificate for &lt;code&gt;sub2.domain.com&lt;/code&gt;. There are many tools and tutorials for this so I won&amp;rsquo;t go through it but you should in the end get a public key and a private key file for your sub domain.&lt;/p&gt;
+&lt;h2 id=&#34;x-ui-settings&#34;&gt;X-UI Settings&lt;/h2&gt;
+&lt;p&gt;Now you need to create a configuration in x-ui. We will be using TLS in this config so make sure port 443 is free on your VPS. If it&amp;rsquo;s not you can check what&amp;rsquo;s taking it with this command. &lt;code&gt;netstat -tulpn | grep 443&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Create a configuration like you see below.
+You can choose path name and name as you wish.&lt;/p&gt;
+&lt;p&gt;
+&lt;img src=&#34;v2ray1.jpg&#34;  alt=&#34;v2ray configuration&#34;  class=&#34;center&#34;  style=&#34;border-radius: 8px;&#34;    /&gt;
+
+
+
+&lt;img src=&#34;v2ray2.jpg&#34;  alt=&#34;v2ray configuration&#34;  class=&#34;center&#34;  style=&#34;border-radius: 8px;&#34;    /&gt;
+
+&lt;/p&gt;
+&lt;p&gt;That&amp;rsquo;s it. Export your configuration. And import it in your client. Edit the config. You can see in the address bar right now your VPS IP address is chosen by default. You can change this IP address to any website or IP that is also on Cloudfront. You can also use the domain that cloudfront gave you in a previous step. Paste it in and save the configuration.&lt;/p&gt;
+</content>
+    </item>
+    
     <item>
       <title>Revanced Apks (YouTube) 30 Nov 2024</title>
       <link>/posts/revancedfiles6/</link>

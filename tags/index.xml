@@ -6,7 +6,97 @@
     <description>Recent content in Tags on Parsa | Tech Content</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 19 Jan 2025 17:08:24 +0330</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 19 Jan 2025 20:04:00 +0330</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AWS Setup</title>
+      <link>/tags/aws-setup/</link>
+      <pubDate>Sun, 19 Jan 2025 20:04:00 +0330</pubDate>
+      
+      <guid>/tags/aws-setup/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+    <item>
+      <title>CDN</title>
+      <link>/tags/cdn/</link>
+      <pubDate>Sun, 19 Jan 2025 20:04:00 +0330</pubDate>
+      
+      <guid>/tags/cdn/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+    <item>
+      <title>Cloudflare</title>
+      <link>/tags/cloudflare/</link>
+      <pubDate>Sun, 19 Jan 2025 20:04:00 +0330</pubDate>
+      
+      <guid>/tags/cloudflare/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+    <item>
+      <title>CloudFront</title>
+      <link>/tags/cloudfront/</link>
+      <pubDate>Sun, 19 Jan 2025 20:04:00 +0330</pubDate>
+      
+      <guid>/tags/cloudfront/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+    <item>
+      <title>SSL Certificate</title>
+      <link>/tags/ssl-certificate/</link>
+      <pubDate>Sun, 19 Jan 2025 20:04:00 +0330</pubDate>
+      
+      <guid>/tags/ssl-certificate/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+    <item>
+      <title>TLS</title>
+      <link>/tags/tls/</link>
+      <pubDate>Sun, 19 Jan 2025 20:04:00 +0330</pubDate>
+      
+      <guid>/tags/tls/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+    <item>
+      <title>V2ray</title>
+      <link>/tags/v2ray/</link>
+      <pubDate>Sun, 19 Jan 2025 20:04:00 +0330</pubDate>
+      
+      <guid>/tags/v2ray/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+    <item>
+      <title>VPS Configuration</title>
+      <link>/tags/vps-configuration/</link>
+      <pubDate>Sun, 19 Jan 2025 20:04:00 +0330</pubDate>
+      
+      <guid>/tags/vps-configuration/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+    <item>
+      <title>X-UI</title>
+      <link>/tags/x-ui/</link>
+      <pubDate>Sun, 19 Jan 2025 20:04:00 +0330</pubDate>
+      
+      <guid>/tags/x-ui/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
     <item>
       <title>Astra</title>
       <link>/tags/astra/</link>

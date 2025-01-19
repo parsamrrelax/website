@@ -2,6 +2,75 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>/tags/aws-setup/</loc>
+    <lastmod>2025-01-19T20:04:00+03:30</lastmod>
+  </url><url>
+    <loc>/tags/cdn/</loc>
+    <lastmod>2025-01-19T20:04:00+03:30</lastmod>
+  </url><url>
+    <loc>/tags/cloudflare/</loc>
+    <lastmod>2025-01-19T20:04:00+03:30</lastmod>
+  </url><url>
+    <loc>/tags/cloudfront/</loc>
+    <lastmod>2025-01-19T20:04:00+03:30</lastmod>
+  </url><url>
+    <loc>/</loc>
+    <lastmod>2025-01-19T20:04:00+03:30</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fa"
+                href="/fa/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/"
+                />
+  </url><url>
+    <loc>/posts/</loc>
+    <lastmod>2025-01-19T20:04:00+03:30</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fa"
+                href="/fa/posts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/posts/"
+                />
+  </url><url>
+    <loc>/posts/cloudfront-v2ray/</loc>
+    <lastmod>2025-01-19T20:04:00+03:30</lastmod>
+  </url><url>
+    <loc>/tags/ssl-certificate/</loc>
+    <lastmod>2025-01-19T20:04:00+03:30</lastmod>
+  </url><url>
+    <loc>/tags/</loc>
+    <lastmod>2025-01-19T20:04:00+03:30</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fa"
+                href="/fa/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/tags/"
+                />
+  </url><url>
+    <loc>/tags/tls/</loc>
+    <lastmod>2025-01-19T20:04:00+03:30</lastmod>
+  </url><url>
+    <loc>/tags/v2ray/</loc>
+    <lastmod>2025-01-19T20:04:00+03:30</lastmod>
+  </url><url>
+    <loc>/tags/vps-configuration/</loc>
+    <lastmod>2025-01-19T20:04:00+03:30</lastmod>
+  </url><url>
+    <loc>/tags/x-ui/</loc>
+    <lastmod>2025-01-19T20:04:00+03:30</lastmod>
+  </url><url>
     <loc>/tags/astra/</loc>
     <lastmod>2025-01-19T17:08:24+03:30</lastmod>
     <xhtml:link
@@ -17,32 +86,6 @@
   </url><url>
     <loc>/fa/</loc>
     <lastmod>2025-01-19T17:08:24+03:30</lastmod>
-  </url><url>
-    <loc>/</loc>
-    <lastmod>2025-01-19T17:08:24+03:30</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fa"
-                href="/fa/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/"
-                />
-  </url><url>
-    <loc>/tags/</loc>
-    <lastmod>2025-01-19T17:08:24+03:30</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fa"
-                href="/fa/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/tags/"
-                />
   </url><url>
     <loc>/tags/wordpress/</loc>
     <lastmod>2025-01-19T17:08:24+03:30</lastmod>
@@ -65,19 +108,6 @@
   </url><url>
     <loc>/tags/mod/</loc>
     <lastmod>2024-11-30T18:22:24+03:30</lastmod>
-  </url><url>
-    <loc>/posts/</loc>
-    <lastmod>2024-11-30T18:22:24+03:30</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fa"
-                href="/fa/posts/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/posts/"
-                />
   </url><url>
     <loc>/tags/revanced/</loc>
     <lastmod>2024-11-30T18:22:24+03:30</lastmod>
