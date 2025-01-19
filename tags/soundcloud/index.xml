@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Soundcloud on Parsa | Tech Content</title>
-    <link>/tags/soundcloud/</link>
+    <link>//localhost:1313/tags/soundcloud/</link>
     <description>Recent content in Soundcloud on Parsa | Tech Content</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 15 Sep 2024 18:22:24 +0330</lastBuildDate><atom:link href="/tags/soundcloud/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 15 Sep 2024 18:22:24 +0330</lastBuildDate><atom:link href="//localhost:1313/tags/soundcloud/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Revanced Apks (Soundcloud, Google Photos) 15 Sep 2024</title>
-      <link>/posts/revancedfiles5/</link>
+      <link>//localhost:1313/posts/revancedfiles5/</link>
       <pubDate>Sun, 15 Sep 2024 18:22:24 +0330</pubDate>
       
-      <guid>/posts/revancedfiles5/</guid>
+      <guid>//localhost:1313/posts/revancedfiles5/</guid>
       <description>Revanced Apks for Soundcloud, Google Photos I have explained what Revanced apps are in this post. For better understanding first checkout that post.
 Soundcloud Download link: github
 Apk version: 2024.06.25

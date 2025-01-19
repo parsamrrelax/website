@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Wordpress on Parsa | Tech Content</title>
+    <link>//localhost:1313/tags/wordpress/</link>
+    <description>Recent content in Wordpress on Parsa | Tech Content</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 19 Jan 2025 17:08:24 +0330</lastBuildDate><atom:link href="//localhost:1313/tags/wordpress/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>راست‌چین کردن منو در تم Astra برای وردپرس</title>
+      <link>//localhost:1313/fa/posts/astra-submenu-rtl/</link>
+      <pubDate>Sun, 19 Jan 2025 17:08:24 +0330</pubDate>
+      
+      <guid>//localhost:1313/fa/posts/astra-submenu-rtl/</guid>
+      <description>راست‌چین کردن منو در تم Astra برای وردپرس پیش فرض تم Astra طوری تنظیم شده که باز کردن منو‌های پایینتر از سمت راسته یعنی در اصل چپ‌چینه. که برای زبان انگلیسی درسته ولی برای زبان‌های راست به چپ مثل فارسی کار اشتباهیه.
+استفاده از css جواب نمی‌دهد مشکل اینجاس که با یه direction:rtl جهت منوها درست نمیشه پس باید چیکار کرد؟
+راه حل برای راست‌چین کردن منو در Astra نیازه که اول از منوی Appearance &amp;gt; Menus از سمت راست بالا گزینه Screen Options و CSS Classes را فعال کنید.</description>
+      <content>&lt;h1 id=&#34;راستچین-کردن-منو-در-تم-astra-برای-وردپرس&#34;&gt;راست‌چین کردن منو در تم Astra برای وردپرس&lt;/h1&gt;
+&lt;p&gt;پیش فرض تم Astra طوری تنظیم شده که باز کردن منو‌های پایینتر  از سمت راسته یعنی در اصل چپ‌چینه. که برای زبان انگلیسی درسته ولی برای زبان‌های راست به چپ مثل فارسی کار اشتباهیه.&lt;/p&gt;
+&lt;h2 id=&#34;استفاده-از-css-جواب-نمیدهد&#34;&gt;استفاده از css جواب نمی‌دهد&lt;/h2&gt;
+&lt;p&gt;مشکل اینجاس که با یه &lt;code&gt;direction:rtl&lt;/code&gt; جهت منوها درست نمیشه پس باید چیکار کرد؟&lt;/p&gt;
+&lt;h2 id=&#34;راه-حل&#34;&gt;راه حل&lt;/h2&gt;
+&lt;p&gt;برای راست‌چین کردن منو در Astra نیازه که اول از منوی &lt;strong&gt;Appearance &amp;gt; Menus&lt;/strong&gt; از سمت راست بالا گزینه &lt;strong&gt;Screen Options&lt;/strong&gt; و &lt;strong&gt;CSS Classes&lt;/strong&gt; را فعال کنید.&lt;/p&gt;
+
+&lt;img src=&#34;cssclasses-option.jpg&#34;  alt=&#34;css classes option in screen options&#34;  class=&#34;center&#34;  style=&#34;border-radius: 8px;&#34;    /&gt;
+
+
+&lt;p&gt;بعد شاخه‌ای که میخواید منو براش از سمت چپ باز شه و در اصل راست‌چین شه رو انتخاب کنید. یعنی میتونید انتخاب کنید کدوم لایه از منو راست‌چین بشه. اگه میخواید تمام منوها راست‌چین بشه بالاترین منو رو انتخاب کنید و تو بخش CSS کلاس زیر رو بهش بدید.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-css&#34; data-lang=&#34;css&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;ast-left-align-sub-menu&lt;/span&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;img src=&#34;astra-submenus.png&#34;  alt=&#34;menus css classes&#34;  class=&#34;center&#34;  style=&#34;border-radius: 8px;&#34;    /&gt;
+
+
+&lt;p&gt;حالا منو ها از سمت چپ باز میشن.&lt;/p&gt;
+&lt;h2 id=&#34;فلش-همچنان-به-سمت-راست&#34;&gt;فلش همچنان به سمت راست&lt;/h2&gt;
+&lt;p&gt;بعد اینکه منو به سمت چپ شد مشکل دیگه اینه که فلش منو همچنان به سمت راست اشاره میکنه. برای حل این مسئله از هر جایی که Additional CSS اضافه می کنید مثلا از منوی &lt;strong&gt;Astra &amp;gt; Customize &amp;gt; Additional CSS&lt;/strong&gt;
+این CSS رو اضافه کنید :&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-css&#34; data-lang=&#34;css&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;#ast-desktop-header .&lt;span style=&#34;color:#a6e22e&#34;&gt;main-header-menu&lt;/span&gt; .&lt;span style=&#34;color:#a6e22e&#34;&gt;sub-menu&lt;/span&gt; .&lt;span style=&#34;color:#a6e22e&#34;&gt;menu-item&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;menu-item-has-children&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;menu-link&lt;/span&gt; .&lt;span style=&#34;color:#a6e22e&#34;&gt;ast-header-navigation-arrow&lt;/span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;position&lt;/span&gt;: &lt;span style=&#34;color:#66d9ef&#34;&gt;absolute&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;right&lt;/span&gt;: &lt;span style=&#34;color:#66d9ef&#34;&gt;unset&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;top&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;50&lt;/span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;%&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;transform&lt;/span&gt;: translate(&lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;, &lt;span style=&#34;color:#ae81ff&#34;&gt;-50&lt;/span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;%&lt;/span&gt;) rotate(&lt;span style=&#34;color:#ae81ff&#34;&gt;90&lt;/span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;deg&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;ast-desktop&lt;/span&gt; .&lt;span style=&#34;color:#a6e22e&#34;&gt;site-header&lt;/span&gt; .&lt;span style=&#34;color:#a6e22e&#34;&gt;sub-menu&lt;/span&gt; .&lt;span style=&#34;color:#a6e22e&#34;&gt;menu-text&lt;/span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;float&lt;/span&gt;: &lt;span style=&#34;color:#66d9ef&#34;&gt;right&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content>
+    </item>
+    
+  </channel>
+</rss>

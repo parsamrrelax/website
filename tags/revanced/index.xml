@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Revanced on Parsa | Tech Content</title>
-    <link>/tags/revanced/</link>
+    <link>//localhost:1313/tags/revanced/</link>
     <description>Recent content in Revanced on Parsa | Tech Content</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 30 Nov 2024 18:22:24 +0330</lastBuildDate><atom:link href="/tags/revanced/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 30 Nov 2024 18:22:24 +0330</lastBuildDate><atom:link href="//localhost:1313/tags/revanced/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Revanced Apks (YouTube) 30 Nov 2024</title>
-      <link>/posts/revancedfiles6/</link>
+      <link>//localhost:1313/posts/revancedfiles6/</link>
       <pubDate>Sat, 30 Nov 2024 18:22:24 +0330</pubDate>
       
-      <guid>/posts/revancedfiles6/</guid>
+      <guid>//localhost:1313/posts/revancedfiles6/</guid>
       <description>Revanced Apk for Youtube I have explained what Revanced apps are in this post. For better understanding first checkout that post.
 Youtube Download link: github
 Version: 19.45.3
@@ -28,10 +28,10 @@ It is highly advisable to create your own version of revanced apps and don&amp;r
     
     <item>
       <title>Revanced Apks (Soundcloud, Google Photos) 15 Sep 2024</title>
-      <link>/posts/revancedfiles5/</link>
+      <link>//localhost:1313/posts/revancedfiles5/</link>
       <pubDate>Sun, 15 Sep 2024 18:22:24 +0330</pubDate>
       
-      <guid>/posts/revancedfiles5/</guid>
+      <guid>//localhost:1313/posts/revancedfiles5/</guid>
       <description>Revanced Apks for Soundcloud, Google Photos I have explained what Revanced apps are in this post. For better understanding first checkout that post.
 Soundcloud Download link: github
 Apk version: 2024.06.25
@@ -54,10 +54,10 @@ It is highly advisable to create your own version of revanced apps and don&amp;r
     
     <item>
       <title>Revanced Apks (Youtube, X(Twitter), Youtube Music) 25 Jun 2024</title>
-      <link>/posts/revancedfiles4/</link>
+      <link>//localhost:1313/posts/revancedfiles4/</link>
       <pubDate>Tue, 25 Jun 2024 14:08:33 +0330</pubDate>
       
-      <guid>/posts/revancedfiles4/</guid>
+      <guid>//localhost:1313/posts/revancedfiles4/</guid>
       <description>Revanced Apks for Youtube, Reddit and X(Twitter) I have explained what Revanced apps are in this post. For better understanding first checkout that post.
 X(Twitter) Download link : github
 Apk version: 10.46.1
@@ -83,10 +83,10 @@ It is highly advisable to create your own version of revanced apps and don&amp;r
     
     <item>
       <title>Revanced Apks (Youtube, X(Twitter), Youtube Music) 28 Mar 2024</title>
-      <link>/posts/revancedfiles3/</link>
+      <link>//localhost:1313/posts/revancedfiles3/</link>
       <pubDate>Thu, 28 Mar 2024 13:10:53 +0330</pubDate>
       
-      <guid>/posts/revancedfiles3/</guid>
+      <guid>//localhost:1313/posts/revancedfiles3/</guid>
       <description>Revanced Apks for Youtube, Reddit and X(Twitter) I have explained what Revanced apps are in this post. For better understanding first checkout that post.
 X(Twitter) Download link : github
 Apk version: 10.34.0
@@ -184,10 +184,10 @@ Apk version: 19.09.37&lt;/p&gt;
     
     <item>
       <title>Revanced Apks (Youtube, X(Twitter), Reddit, Youtube Music) 10 Feb 2024</title>
-      <link>/posts/revancedfiles2/</link>
+      <link>//localhost:1313/posts/revancedfiles2/</link>
       <pubDate>Sat, 10 Feb 2024 12:08:41 +0330</pubDate>
       
-      <guid>/posts/revancedfiles2/</guid>
+      <guid>//localhost:1313/posts/revancedfiles2/</guid>
       <description>Revanced Apks for Youtube, Reddit and X(Twitter) I have explained what Revanced apps are in this post. For better understanding first checkout that post.
 Reddit Download link : github
 Apk version: 2024.06.0
@@ -298,10 +298,10 @@ Notes: In order to sign in to your google account you must download Vanced Micro
     
     <item>
       <title>Revanced Apks (Youtube, X(Twitter), Reddit) 19 December 2023</title>
-      <link>/posts/revancedfiles1/</link>
+      <link>//localhost:1313/posts/revancedfiles1/</link>
       <pubDate>Tue, 19 Dec 2023 11:49:41 +0330</pubDate>
       
-      <guid>/posts/revancedfiles1/</guid>
+      <guid>//localhost:1313/posts/revancedfiles1/</guid>
       <description>Revanced Apks for Youtube, Reddit and X(Twitter) I have explained what Revanced apps are in this post. For better understanding first checkout that post.
 Reddit Download link : github
 Apk version: 2023.50.1
@@ -400,14 +400,14 @@ Notes: In order to sign in to your google account you must download Vanced Micro
     
     <item>
       <title>Revanced Youtube Music, 24 October 2023</title>
-      <link>/posts/revancedytmusic/</link>
+      <link>//localhost:1313/posts/revancedytmusic/</link>
       <pubDate>Tue, 24 Oct 2023 15:05:25 +0330</pubDate>
       
-      <guid>/posts/revancedytmusic/</guid>
+      <guid>//localhost:1313/posts/revancedytmusic/</guid>
       <description>Revanced Version of Youtube Music I have explained what Revanced apps are in this post. For better understanding first checkout that post.
 Mainly due to google killing google podcasts app, I&amp;rsquo;ll be switching to YouTube Music for podcast listening. Plus with revanced version of YT music, this is another platform for listening to songs for free. Note that like Youtube Revanced this supports VancedMicroG. I&amp;rsquo;ll link a trusted version of that as well.</description>
       <content>&lt;h1 id=&#34;revanced-version-of-youtube-music&#34;&gt;Revanced Version of Youtube Music&lt;/h1&gt;
-&lt;p&gt;&lt;img alt=&#34;Resize&#34; src=&#34;/posts/revancedytmusic/1.webp??width=600px&amp;height=600px&#34;&gt; &lt;img alt=&#34;Resize&#34; src=&#34;/posts/revancedytmusic/2.webp??width=600px&amp;height=600px&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;Resize&#34; src=&#34;//localhost:1313/posts/revancedytmusic/1.webp??width=600px&amp;height=600px&#34;&gt; &lt;img alt=&#34;Resize&#34; src=&#34;//localhost:1313/posts/revancedytmusic/2.webp??width=600px&amp;height=600px&#34;&gt;&lt;/p&gt;
 &lt;p&gt;I have explained what Revanced apps are in this &lt;a href=&#34;https://maybeparsa.top/posts/revanced/&#34;&gt;post&lt;/a&gt;. For better understanding first checkout that post.&lt;/p&gt;
 &lt;p&gt;Mainly due to google killing google podcasts app, I&amp;rsquo;ll be switching to YouTube Music for podcast listening. Plus with revanced version of YT music, this is another platform for listening to songs for free.
 Note that like Youtube Revanced this supports VancedMicroG. I&amp;rsquo;ll link a trusted version of that as well.&lt;/p&gt;
@@ -433,10 +433,10 @@ Note that like Youtube Revanced this supports VancedMicroG. I&amp;rsquo;ll link 
     
     <item>
       <title>Revanced Apks (Youtube, X(Twitter), Reddit) 21 October 2023</title>
-      <link>/posts/revancedfiles/</link>
+      <link>//localhost:1313/posts/revancedfiles/</link>
       <pubDate>Sat, 21 Oct 2023 18:25:10 +0330</pubDate>
       
-      <guid>/posts/revancedfiles/</guid>
+      <guid>//localhost:1313/posts/revancedfiles/</guid>
       <description>Revanced Apks for Youtube, Reddit and X(Twitter) I have explained what Revanced apps are in this post. For better understanding first checkout that post.
 Reddit Download link : github
 Apk version: 2023.41.1
@@ -535,10 +535,10 @@ Notes: In order to sign in to your google account you must download Vanced Micro
     
     <item>
       <title>Revanced</title>
-      <link>/posts/revanced/</link>
+      <link>//localhost:1313/posts/revanced/</link>
       <pubDate>Thu, 19 Oct 2023 12:24:39 +0330</pubDate>
       
-      <guid>/posts/revanced/</guid>
+      <guid>//localhost:1313/posts/revanced/</guid>
       <description>Revanced Apps To be simple about it revanced apps are apps that have been modified in a way to add certain functionalities. For example, a revanced youtube, is a youtube app with most of the youtube premium features for free. Meaning no ads, content playing while not on the app, window in window playing and more features that the youtube premium offers. There are many apps that have revanced versions.</description>
       <content>&lt;h1 id=&#34;revanced-apps&#34;&gt;Revanced Apps&lt;/h1&gt;
 &lt;p&gt;To be simple about it revanced apps are apps that have been modified in a way to add certain functionalities. For example, a revanced youtube, is a youtube app with most of the youtube premium features for free. Meaning no ads, content playing while not on the app, window in window playing and more features that the youtube premium offers. There are many apps that have revanced versions.&lt;/p&gt;
@@ -549,7 +549,7 @@ Notes: In order to sign in to your google account you must download Vanced Micro
 &lt;h2 id=&#34;can-i-patch-the-apps-myself&#34;&gt;Can I patch the apps myself?&lt;/h2&gt;
 &lt;p&gt;Sure, you can but the simplest way is having a rooted device which I have. If you have a rooted device download revanced manager app from &lt;a href=&#34;https://revanced.app/download&#34;&gt;here&lt;/a&gt; , and from there the process is simple. Download the apk of the app you want to patch from apkmirror if you don&amp;rsquo;t have the suggested version of the app installed, select your patches and you&amp;rsquo;re done. If you have the suggested version just patch that and install it.&lt;/p&gt;
 &lt;h3 id=&#34;how-revanced-manager-looks&#34;&gt;How revanced manager looks&lt;/h3&gt;
-&lt;p&gt;&lt;img alt=&#34;Resize&#34; src=&#34;/posts/revanced/manager.avif??width=600px&amp;height=600px&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;Resize&#34; src=&#34;//localhost:1313/posts/revanced/manager.avif??width=600px&amp;height=600px&#34;&gt;&lt;/p&gt;
 </content>
     </item>
     
