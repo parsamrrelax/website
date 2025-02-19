@@ -2,20 +2,17 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/tags/aws-setup/</loc>
-    <lastmod>2025-01-19T20:04:00+03:30</lastmod>
+    <loc>/tags/api/</loc>
+    <lastmod>2025-02-19T22:16:05+03:30</lastmod>
   </url><url>
-    <loc>/tags/cdn/</loc>
-    <lastmod>2025-01-19T20:04:00+03:30</lastmod>
+    <loc>/tags/bot/</loc>
+    <lastmod>2025-02-19T22:16:05+03:30</lastmod>
   </url><url>
-    <loc>/tags/cloudflare/</loc>
-    <lastmod>2025-01-19T20:04:00+03:30</lastmod>
-  </url><url>
-    <loc>/tags/cloudfront/</loc>
-    <lastmod>2025-01-19T20:04:00+03:30</lastmod>
+    <loc>/posts/telegram-bot-api/</loc>
+    <lastmod>2025-02-19T22:16:05+03:30</lastmod>
   </url><url>
     <loc>/</loc>
-    <lastmod>2025-01-19T20:04:00+03:30</lastmod>
+    <lastmod>2025-02-19T22:16:05+03:30</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fa"
@@ -28,7 +25,7 @@
                 />
   </url><url>
     <loc>/posts/</loc>
-    <lastmod>2025-01-19T20:04:00+03:30</lastmod>
+    <lastmod>2025-02-19T22:16:05+03:30</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fa"
@@ -40,14 +37,8 @@
                 href="/posts/"
                 />
   </url><url>
-    <loc>/posts/cloudfront-v2ray/</loc>
-    <lastmod>2025-01-19T20:04:00+03:30</lastmod>
-  </url><url>
-    <loc>/tags/ssl-certificate/</loc>
-    <lastmod>2025-01-19T20:04:00+03:30</lastmod>
-  </url><url>
     <loc>/tags/</loc>
-    <lastmod>2025-01-19T20:04:00+03:30</lastmod>
+    <lastmod>2025-02-19T22:16:05+03:30</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fa"
@@ -58,6 +49,27 @@
                 hreflang="en"
                 href="/tags/"
                 />
+  </url><url>
+    <loc>/tags/telegram/</loc>
+    <lastmod>2025-02-19T22:16:05+03:30</lastmod>
+  </url><url>
+    <loc>/tags/aws-setup/</loc>
+    <lastmod>2025-01-19T20:04:00+03:30</lastmod>
+  </url><url>
+    <loc>/tags/cdn/</loc>
+    <lastmod>2025-01-19T20:04:00+03:30</lastmod>
+  </url><url>
+    <loc>/tags/cloudflare/</loc>
+    <lastmod>2025-01-19T20:04:00+03:30</lastmod>
+  </url><url>
+    <loc>/tags/cloudfront/</loc>
+    <lastmod>2025-01-19T20:04:00+03:30</lastmod>
+  </url><url>
+    <loc>/posts/cloudfront-v2ray/</loc>
+    <lastmod>2025-01-19T20:04:00+03:30</lastmod>
+  </url><url>
+    <loc>/tags/ssl-certificate/</loc>
+    <lastmod>2025-01-19T20:04:00+03:30</lastmod>
   </url><url>
     <loc>/tags/tls/</loc>
     <lastmod>2025-01-19T20:04:00+03:30</lastmod>

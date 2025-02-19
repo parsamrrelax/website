@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>API on Parsa | Tech Content</title>
+    <link>/tags/api/</link>
+    <description>Recent content in API on Parsa | Tech Content</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 19 Feb 2025 22:16:05 +0330</lastBuildDate><atom:link href="/tags/api/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hosting Telegram Bot API</title>
+      <link>/posts/telegram-bot-api/</link>
+      <pubDate>Wed, 19 Feb 2025 22:16:05 +0330</pubDate>
+      
+      <guid>/posts/telegram-bot-api/</guid>
+      <description>If you have wanted to build a telegram bot that uploads some files for the user, you have definitely experienced the 50MB cap for sending files to be a huge bottleneck in your process. You search for it and the results are not clear on what to do to bypass this. There are some GitHub issue results saying you can host your own bot API to bypass this but they&amp;rsquo;re not clear and the docs for them is not great.</description>
+      <content>&lt;p&gt;If you have wanted to build a telegram bot that uploads some files for the user, you have definitely experienced the 50MB cap for sending files to be a huge bottleneck in your process. You search for it and the results are not clear on what to do to bypass this.
+There are some GitHub issue results saying you can host your own bot API to bypass this but they&amp;rsquo;re not clear and the docs for them is not great.
+Like you go to their GitHub page but the instructions are not clear. How much ram does it need? How much cpu does it need? It doesn&amp;rsquo;t say anything.
+Look no more and let&amp;rsquo;s dive into it.&lt;/p&gt;
+&lt;h2 id=&#34;why-should-i-host-the-bot-api&#34;&gt;Why should I host the bot API?&lt;/h2&gt;
+&lt;p&gt;According to the bot API GitHub page these are the main reasons:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Download files without a size limit.&lt;/li&gt;
+&lt;li&gt;Upload files up to 2000 MB.&lt;/li&gt;
+&lt;li&gt;Upload files using their local path and the file URI scheme.&lt;/li&gt;
+&lt;li&gt;Use an HTTP URL for the webhook.&lt;/li&gt;
+&lt;li&gt;Use any local IP address for the webhook.&lt;/li&gt;
+&lt;li&gt;Use any port for the webhook.&lt;/li&gt;
+&lt;li&gt;Set max_webhook_connections up to 100000.&lt;/li&gt;
+&lt;li&gt;Receive the absolute local path as a value of the file_path field without the need to download the file after a getFile request.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I don&amp;rsquo;t know about you but my main problem was always the size limit.
+Say you want to create a YouTube downloader bot but can&amp;rsquo;t send a file larger than 50MBs? What year is this?&lt;/p&gt;
+&lt;h2 id=&#34;how-to-run-it&#34;&gt;How to run it?&lt;/h2&gt;
+&lt;p&gt;Let&amp;rsquo;s say you decided to run the Telegram bot API yourself, how is it done?&lt;/p&gt;
+&lt;p&gt;Their GitHub page has instructions to build it yourself but if you&amp;rsquo;re running your bot on a 5$ VPS like me building it can take half an hour. If not they have a setup page that gets you instructions for your platform.
+Check it out. It gives you commands to run.
+&lt;a href=&#34;https://tdlib.github.io/telegram-bot-api/build.html&#34;&gt;https://tdlib.github.io/telegram-bot-api/build.html&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;docker-to-the-rescue&#34;&gt;Docker to the rescue&lt;/h3&gt;
+&lt;p&gt;So your CPU can&amp;rsquo;t handle building like mine. Use docker then. Install docker and docker compose for your platform. You can find instructions on their website.&lt;/p&gt;
+&lt;p&gt;After installing docker and docker compose follow these instructions. I&amp;rsquo;m using Ubuntu on my VPS. But the distro doesn&amp;rsquo;t matter. If you&amp;rsquo;re using Windows or MacOS to run it on your machine instructions are similar. You can make sense of it&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;mkdir botapi
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;cd botapi
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;You need a docker compose file here&amp;rsquo;s the template you should replace your api_id and api_hash inside it.
+You need to get them from Telegram itself. Google it it&amp;rsquo;s simple&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-yml&#34; data-lang=&#34;yml&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;version&lt;/span&gt;: &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;3.8&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;services&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#f92672&#34;&gt;telegram-bot-api&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#f92672&#34;&gt;image&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;divideprojects/docker-telegram-bot-api:latest&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#f92672&#34;&gt;environment&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      &lt;span style=&#34;color:#f92672&#34;&gt;TELEGRAM_API_ID&lt;/span&gt;: &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;api_id&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      &lt;span style=&#34;color:#f92672&#34;&gt;TELEGRAM_API_HASH&lt;/span&gt;: &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;api_hash&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      &lt;span style=&#34;color:#75715e&#34;&gt;# you can also configure other env variables here&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#f92672&#34;&gt;volumes&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      - &lt;span style=&#34;color:#ae81ff&#34;&gt;telegram-bot-api-data:/var/lib/telegram-bot-api&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#f92672&#34;&gt;ports&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      - &lt;span style=&#34;color:#ae81ff&#34;&gt;8081&lt;/span&gt;:&lt;span style=&#34;color:#ae81ff&#34;&gt;8081&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;volumes&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#f92672&#34;&gt;telegram-bot-api-data&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;So after replacing your api id and api hash inside this file. Check if everything is running smoothly by running the container once.
+&lt;code&gt;docker compose up&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;If you see no errors then everything is find. Ctrl C out of it and detach from it so it runs by itself. &lt;code&gt;docker compose up -d&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Congrats the API should be working right now. In the example config it runs on port 8081.
+You can also set API keys to keep this safe but it&amp;rsquo;s your choice.&lt;/p&gt;
+&lt;h2 id=&#34;how-much-resources-does-it-need&#34;&gt;How much resources does it need?&lt;/h2&gt;
+&lt;p&gt;Honestly not that much. I&amp;rsquo;m using the absolute most basic kind of VPS. It has 1 shared cpu core and 4 gig of ram. when it&amp;rsquo;s doing things it doesn&amp;rsquo;t even hit 2 gigs of ram. So you can run it everywhere.
+&lt;strong&gt;BUT don&amp;rsquo;t build it yourself on such low end hardware and just use docker.&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&#34;how-to-use-it&#34;&gt;How to use it?&lt;/h2&gt;
+&lt;p&gt;It really depends on what language you&amp;rsquo;re trying to build your bots with. I&amp;rsquo;m using python-telegram-bot library in Python to build my bots. so for me was as simple as when calling &lt;code&gt;Application.builder()&lt;/code&gt; to send it my api key to just add the base url after that. so it became something like this:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;app &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; (
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Application&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;builder()
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;token(bot_token)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;base_url(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;http://localhost:8081/bot&amp;#34;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;build()
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Consult your library docs for it.&lt;/p&gt;
+&lt;p&gt;That&amp;rsquo;s it.&lt;/p&gt;
+</content>
+    </item>
+    
+  </channel>
+</rss>
